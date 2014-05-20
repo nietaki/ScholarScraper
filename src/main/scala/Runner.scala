@@ -5,10 +5,57 @@
 import com.github.tototoshi.csv.CSVWriter
 import java.io.File
 import org.jsoup._
+import org.jsoup.select.Elements
 import scala.collection.JavaConverters._
+import scala.util.matching.Regex
 object Runner {
   def main (args: Array[String]) = {
     //saveUniversities()
+    saveAAMAS()
+    Unit
+  }
+
+  def saveAAMAS() = {
+    val in = new File("AAMAS_2013.html")
+    val doc = Jsoup.parse(in, "windows-1252")
+    val papers: Elements = doc.getElementsByAttributeValue("style", "text-indent: 0; margin-left: 12; margin-right: 9; margin-top: 6; margin-bottom: 0")
+
+    def getResearcherElements(paper: nodes.Element): Elements = {
+      paper.getElementsByAttributeValue("color", "#222222")
+    }
+
+
+
+    //val regex = new Regex("^([^\\(\\)]*)\\((.*)\\)$", "researcher", "uni")
+    val regex = new Regex("^([^\\(\\)]*)\\((.*), ([^,]*)\\)$", "researcher", "uni", "country")
+    // .findFirstMatchIn("Stan Lee (University of Warsaw, Poland)")
+
+    val researcherLists = for(
+      paper <- papers.asScala.zipWithIndex;
+      researcherUniCombo <- getResearcherElements(paper._1).asScala;
+      resUniText = researcherUniCombo.text().trim();
+      mo = regex.findFirstMatchIn(resUniText);
+      if(!mo.isEmpty)
+    ) yield {
+      val paperIndex = paper._2
+      val m = mo.get
+      val researcher = m.group("researcher").trim()
+      val uni = m.group("uni").trim()
+      val country = m.group("country").trim()
+
+      println(researcher)
+      println(uni)
+      println(country)
+      //println((paperIndex, researcherUniCombo))
+      val researchUni = researcherUniCombo.text
+
+      //println()
+      List[String](paperIndex.toString(), researcher, uni, country)
+    }
+
+    saveCsv("AAMAS.csv", researcherLists)
+
+    Unit
   }
 
   def saveUniversities() = {
@@ -55,4 +102,11 @@ object Runner {
     //save()
 
   }
+
+  def saveCsv(fileName: String, items: Seq[Seq[Any]]) = {
+      val f = new File(fileName)
+      val writer = CSVWriter.open(f)
+      writer.writeAll(items)
+      writer.close()
+    }
 }
