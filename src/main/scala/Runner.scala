@@ -19,18 +19,25 @@ object Runner {
     val reader = CSVReader.open(new File("universities_12-13.csv"))
     val writer = CSVWriter.open(new File("similarities.csv"))
     val all: List[String] = reader.all().map{row => row(1)}
-    val used = all.take(100)
-    writer.writeRow("x" :: used)
-
+    val used = all.take(200)
+    writer.writeRow("x" :: used.map{u => Utils.stripUniversities(u)})
+    var counter = 0
     for (y <- used) yield {
+      val y2 = Utils.stripUniversities(y)
       val row = for(x <- used) yield {
-        Levenshtein.heuristicSimilarity2(x, y)
+        val x2 = Utils.stripUniversities(x)
+        if (Levenshtein.heuristicSimilarity2(x2, y2) > 0.81) {
+          counter += 1
+          "TRUE"
+        } else {
+          "0"
+        }
       }
-      writer.writeRow(y :: row)
+      writer.writeRow(y2 :: row)
     }
 
     writer.close()
-
+    println(counter)
   }
 
   def saveAAMAS() = {

@@ -3,7 +3,6 @@
  */
 import scala.math._
 
-
 object Levenshtein {
   def minimum(i1: Int, i2: Int, i3: Int)=min(min(i1, i2), i3)
 
