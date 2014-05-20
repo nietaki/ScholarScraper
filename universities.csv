@@ -1,0 +1,400 @@
+1,California Institute of Technology (Caltech),United States,94.9
+2,Harvard University,United States,93.9
+2,University of Oxford,United Kingdom,93.9
+4,Stanford University,United States,93.8
+5,Massachusetts Institute of Technology (MIT),United States,93.0
+6,Princeton University,United States,92.7
+7,University of Cambridge,United Kingdom,92.3
+8,"University of California, Berkeley",United States,89.8
+9,University of Chicago,United States,87.8
+10,Imperial College London,United Kingdom,87.5
+11,Yale University,United States,87.4
+12,"University of California, Los Angeles (UCLA)",United States,86.3
+13,Columbia University,United States,85.2
+14,ETH Zürich – Swiss Federal Institute of Technology Zürich,Switzerland,84.5
+15,Johns Hopkins University,United States,83.7
+16,University of Pennsylvania,United States,81.0
+17,Duke University,United States,79.3
+18,University of Michigan,United States,79.2
+19,Cornell University,United States,79.1
+20,University of Toronto,Canada,78.3
+21,University College London (UCL),United Kingdom,77.6
+22,Northwestern University,United States,77.1
+23,The University of Tokyo,Japan,76.4
+24,Carnegie Mellon University,United States,76.0
+25,University of Washington,United States,73.4
+26,National University of Singapore (NUS),Singapore,72.4
+27,University of Texas at Austin,United States,72.2
+28,Georgia Institute of Technology (Georgia Tech),United States,71.6
+29,University of Illinois at Urbana Champaign,United States,71.4
+30,University of Wisconsin-Madison,United States,71.1
+31,University of British Columbia,Canada,70.8
+32,London School of Economics and Political Science (LSE),United Kingdom,69.8
+33,"University of California, Santa Barbara",United States,68.4
+34,University of Melbourne,Australia,68.2
+35,McGill University,Canada,68.1
+36,Karolinska Institute,Sweden,67.8
+37,École Polytechnique Fédérale de Lausanne,Switzerland,67.7
+38,King's College London,United Kingdom,67.6
+39,University of Edinburgh,United Kingdom,67.5
+40,New York University (NYU),United States,67.4
+40,"University of California, San Diego",United States,67.4
+42,Washington University in St Louis,United States,67.2
+43,The University of Hong Kong,Hong Kong,65.3
+44,Seoul National University,Republic of Korea,65.2
+45,Peking University,China,65.0
+46,University of Minnesota,United States,64.9
+47,University of North Carolina at Chapel Hill,United States,64.5
+48,Australian National University,Australia,64.4
+49,Pennsylvania State University,United States,64.2
+50,Boston University,United States,63.5
+50,Tsinghua University,China,63.5
+52,Brown University,United States,63.2
+52,"University of California, Davis",United States,63.2
+52,Kyoto University,Japan,63.2
+55,Ludwig-Maximilians-Universität München,Germany,63.1
+56,Korea Advanced Institute of Science and Technology (KAIST),Republic of Korea,62.9
+57,Hong Kong University of Science and Technology,Hong Kong,62.5
+58,University of Manchester,United Kingdom,62.3
+59,Ohio State University,United States,62.0
+60,Pohang University of Science and Technology (Postech),Republic of Korea,61.7
+61,KU Leuven,Belgium,61.3
+62,Purdue University,United States,60.7
+63,Georg-August-Universität Göttingen,Germany,59.9
+63,University of Queensland Australia,Australia,59.9
+65,École Normale Supérieure,France,59.8
+65,Rice University,United States,59.8
+67,Leiden University,Netherlands,59.4
+68,Universität Heidelberg,Germany,59.2
+69,Delft University of Technology,Netherlands,59.1
+70,École Polytechnique,France,59.0
+70,University of Southern California,United States,59.0
+72,University of Sydney,Australia,58.8
+73,Erasmus University Rotterdam,Netherlands,58.1
+74,Universität Basel,Switzerland,57.7
+74,Utrecht University,Netherlands,57.7
+76,Nanyang Technological University,Singapore,57.2
+77,Wageningen University and Research Center,Netherlands,56.8
+78,University of Pittsburgh,United States,56.7
+79,University of Bristol,United Kingdom,56.3
+80,Durham University,United Kingdom,56.1
+80,Emory University,United States,56.1
+80,Tufts University,United States,56.1
+83,University of Amsterdam,Netherlands,55.9
+83,Michigan State University,United States,55.9
+85,Ghent University,Belgium,55.5
+86,Freie Universität Berlin,Germany,55.3
+87,Technische Universität München,Germany,55.2
+88,Case Western Reserve University,United States,55.0
+88,Vanderbilt University,United States,55.0
+90,University of Notre Dame,United States,54.7
+91,Monash University,Australia,54.6
+92,McMaster University,Canada,54.5
+93,"University of California, Irvine",United States,54.1
+94,Humboldt-Universität zu Berlin,Germany,53.8
+95,University of Rochester,United States,53.6
+96,Université Pierre et Marie Curie,France,53.5
+97,University of Colorado Boulder,United States,53.4
+98,University of Groningen,Netherlands,52.9
+98,Maastricht University,Netherlands,52.9
+100,University of Helsinki,Finland,52.6
+100,University of York,United Kingdom,52.6
+102,"Royal Holloway, University of London",United Kingdom,52.5
+103,University of Arizona,United States,52.4
+103,"Rutgers, The State University of New Jersey",United States,52.4
+103,Stockholm University,Sweden,52.4
+106,Eindhoven University of Technology,Netherlands,52.3
+106,University of Montreal,Canada,52.3
+108,"University of Maryland, College Park",United States,52.2
+109,University of Alberta,Canada,52.0
+109,Chinese University of Hong Kong,Hong Kong,52.0
+111,Uppsala University,Sweden,51.9
+112,University of Sheffield,United Kingdom,51.8
+112,University of Virginia,United States,51.8
+114,University of New South Wales,Australia,51.7
+114,Université Paris-Sud,France,51.7
+114,"Queen Mary, University of London",United Kingdom,51.7
+117,University of Glasgow,United Kingdom,51.6
+117,KTH Royal Institute of Technology,Sweden,51.6
+117,University of St Andrews,United Kingdom,51.6
+117,Technical University of Denmark,Denmark,51.6
+121,University of Sussex,United Kingdom,51.2
+121,University of Zürich,Switzerland,51.2
+123,Lund University,Sweden,51.1
+124,University of Geneva,Switzerland,51.0
+125,Tokyo Institute of Technology,Japan,50.8
+126,University of Cape Town,South Africa,50.5
+126,Dartmouth College,United States,50.5
+128,University of Florida,United States,50.4
+129,RWTH Aachen University,Germany,50.3
+129,Trinity College Dublin,Republic of Ireland,50.3
+131,Radboud University Nijmegen,Netherlands,50.2
+132,Indiana University,United States,50.1
+132,Université de Lausanne,Switzerland,50.1
+132,University of Massachusetts,United States,50.1
+135,Boston College,United States,50.0
+136,"University of California, Santa Cruz",United States,49.9
+137,Lancaster University,United Kingdom,49.7
+138,Aarhus University,Denmark,49.6
+139,Colorado School of Mines,United States,49.5
+139,University of Leeds,United Kingdom,49.5
+141,University of Warwick,United Kingdom,49.4
+142,National Taiwan University,Taiwan,49.2
+143,University of Utah,United States,49.1
+144,Osaka University,Japan,49.0
+144,VU University Amsterdam,Netherlands,49.0
+146,Arizona State University,United States,48.9
+146,University of Southampton,United Kingdom,48.9
+148,"University of California, Riverside",United States,48.7
+148,University of Exeter,United Kingdom,48.7
+150,University of Copenhagen,Denmark,48.5
+150,Tohoku University,Japan,48.5
+152,Albert-Ludwigs-Universität Freiburg,Germany,48.4
+153,University of Birmingham,United Kingdom,48.3
+154,Karlsruhe Institute of Technology,Germany,48.0
+155,"Université Joseph Fourier, Grenoble",France,47.8
+156,École Normale Supérieure de Lyon,France,47.5
+157,University of Bern,Switzerland,47.4
+157,University of Nottingham,United Kingdom,47.4
+159,Texas A&M University,United States,47.2
+160,Georgetown University,United States,47.0
+161,University College Dublin,Republic of Ireland,46.7
+161,University of Iowa,United States,46.7
+161,University of Leicester,United Kingdom,46.7
+164,University of Antwerp,Belgium,46.6
+164,University of Auckland,New Zealand,46.6
+164,Brandeis University,United States,46.6
+164,Pompeu Fabra University,Spain,46.6
+168,University of Western Australia,Australia,46.4
+169,University of Liverpool,United Kingdom,46.3
+170,University of Twente,Netherlands,46.2
+170,University of Vienna,Austria,46.2
+172,Université Catholique de Louvain,Belgium,46.1
+172,Yeshiva University,United States,46.1
+174,University of Delaware,United States,46.0
+174,University of East Anglia,United Kingdom,46.0
+176,University at Buffalo,United States,45.9
+176,Université Libre de Bruxelles,Belgium,45.9
+178,Université Paris Diderot - Paris 7,France,45.8
+178,Stony Brook University,United States,45.8
+180,Wake Forest University,United States,45.7
+181,Universität Bonn,Germany,45.6
+181,Rensselaer Polytechnic Institute,United States,45.6
+183,Iowa State University,United States,45.5
+184,Northeastern University,United States,45.4
+185,University of Miami,United States,45.3
+185,University of Oslo,Norway,45.3
+185,University of Ottawa,Canada,45.3
+188,University of Aberdeen,United Kingdom,45.2
+188,The University of Texas at Dallas,United States,45.2
+190,Yonsei University,Republic of Korea,45.1
+191,Hebrew University of Jerusalem,Israel,45.0
+191,University of Illinois at Chicago,United States,45.0
+193,Mines ParisTech,France,44.9
+194,George Washington University,United States,44.8
+194,University of Reading,United Kingdom,44.8
+196,University of Dundee,United Kingdom,44.7
+197,Florida Institute of Technology,United States,44.6
+198,Newcastle University,United Kingdom,44.5
+199,Boğaziçi University,Turkey,44.3
+199,Tel Aviv University,Israel,44.3
+201-225,University of Adelaide,Australia,Data withheld by THE
+201-225,University of Bergen,Norway,Data withheld by THE
+201-225,"Birkbeck, University of London",United Kingdom,Data withheld by THE
+201-225,University of Calgary,Canada,Data withheld by THE
+201-225,Cardiff University,United Kingdom,Data withheld by THE
+201-225,City University of Hong Kong,Hong Kong,Data withheld by THE
+201-225,Johann Wolfgang Goethe-Universität Frankfurt am Main,Germany,Data withheld by THE
+201-225,Fudan University,China,Data withheld by THE
+201-225,University of Gothenburg,Sweden,Data withheld by THE
+201-225,University of Innsbruck,Austria,Data withheld by THE
+201-225,Istanbul Technical University,Turkey,Data withheld by THE
+201-225,Korea University,Republic of Korea,Data withheld by THE
+201-225,Laval University,Canada,Data withheld by THE
+201-225,Middle East Technical University,Turkey,Data withheld by THE
+201-225,Nagoya University,Japan,Data withheld by THE
+201-225,University of Science and Technology of China,China,Data withheld by THE
+201-225,"St George's, University of London",United Kingdom,Data withheld by THE
+201-225,University of Strasbourg,France,Data withheld by THE
+201-225,Sungkyunkwan University (SKKU),Republic of Korea,Data withheld by THE
+201-225,Technion Israel Institute of Technology,Israel,Data withheld by THE
+201-225,Tokyo Metropolitan University,Japan,Data withheld by THE
+201-225,University of Trento,Italy,Data withheld by THE
+201-225,Eberhard Karls Universität Tübingen,Germany,Data withheld by THE
+201-225,Universität Ulm,Germany,Data withheld by THE
+201-225,University of Victoria,Canada,Data withheld by THE
+201-225,William & Mary,United States,Data withheld by THE
+226-250,Autonomous University of Barcelona,Spain,Data withheld by THE
+226-250,University of Barcelona,Spain,Data withheld by THE
+226-250,Bilkent University,Turkey,Data withheld by THE
+226-250,University of Cincinnati,United States,Data withheld by THE
+226-250,Technische Universität Darmstadt,Germany,Data withheld by THE
+226-250,Friedrich-Alexander-Universität Erlangen-Nürnberg,Germany,Data withheld by THE
+226-250,Christian-Albrechts-Universität zu Kiel,Germany,Data withheld by THE
+226-250,Universität Konstanz,Germany,Data withheld by THE
+226-250,Georgia Health Sciences University,United States,Data withheld by THE
+226-250,University of Milan-Bicocca,Italy,Data withheld by THE
+226-250,Lomonosov Moscow State University,Russian Federation,Data withheld by THE
+226-250,Westfälische Wilhelms-Universität Münster,Germany,Data withheld by THE
+226-250,University of Otago,New Zealand,Data withheld by THE
+226-250,Panjab University,India,Data withheld by THE
+226-250,Queen's University,Canada,Data withheld by THE
+226-250,Renmin University of China,China,Data withheld by THE
+226-250,University of São Paulo,Brazil,Data withheld by THE
+226-250,Simon Fraser University,Canada,Data withheld by THE
+226-250,Tilburg University,Netherlands,Data withheld by THE
+226-250,University of Trieste,Italy,Data withheld by THE
+226-250,Tulane University,United States,Data withheld by THE
+226-250,University of Turin,Italy,Data withheld by THE
+226-250,Vienna University of Technology,Austria,Data withheld by THE
+226-250,University of Waterloo,Canada,Data withheld by THE
+226-250,Western University,Canada,Data withheld by THE
+226-250,University of Witwatersrand,South Africa,Data withheld by THE
+226-250,Universität Würzburg,Germany,Data withheld by THE
+251-275,University of the Andes,Colombia,Data withheld by THE
+251-275,Brunel University,United Kingdom,Data withheld by THE
+251-275,National Chiao Tung University,Taiwan,Data withheld by THE
+251-275,Universität zu Köln,Germany,Data withheld by THE
+251-275,Dalhousie University,Canada,Data withheld by THE
+251-275,Technische Universität Dresden,Germany,Data withheld by THE
+251-275,University of Essex,United Kingdom,Data withheld by THE
+251-275,Vrije Universiteit Brussel,Belgium,Data withheld by THE
+251-275,Hong Kong Polytechnic University,Hong Kong,Data withheld by THE
+251-275,University of Iceland,Iceland,Data withheld by THE
+251-275,Medical University of Vienna,Austria,Data withheld by THE
+251-275,Université Montpellier 2,France,Data withheld by THE
+251-275,Nanjing University,China,Data withheld by THE
+251-275,University of Nebraska-Lincoln,United States,Data withheld by THE
+251-275,The University of Newcastle,Australia,Data withheld by THE
+251-275,Norwegian University of Science and Technology,Norway,Data withheld by THE
+251-275,University of Pavia,Italy,Data withheld by THE
+251-275,Queen's University Belfast,United Kingdom,Data withheld by THE
+251-275,Sharif University of Technology,Iran,Data withheld by THE
+251-275,University of South Carolina,United States,Data withheld by THE
+251-275,Swedish University of Agricultural Sciences,Sweden,Data withheld by THE
+251-275,National Tsing Hua University,Taiwan,Data withheld by THE
+276-300,University of Alaska-Fairbanks,United States,Data withheld by THE
+276-300,University of Bath,United Kingdom,Data withheld by THE
+276-300,University of Bologna,Italy,Data withheld by THE
+276-300,Carleton University,Canada,Data withheld by THE
+276-300,Chalmers University of Technology,Sweden,Data withheld by THE
+276-300,Colorado State University,United States,Data withheld by THE
+276-300,University College Cork,Republic of Ireland,Data withheld by THE
+276-300,Creighton University,United States,Data withheld by THE
+276-300,University of Fribourg,Switzerland,Data withheld by THE
+276-300,University of Georgia,United States,Data withheld by THE
+276-300,University of Kansas,United States,Data withheld by THE
+276-300,Koç University,Turkey,Data withheld by THE
+276-300,Macquarie University,Australia,Data withheld by THE
+276-300,University of Milan,Italy,Data withheld by THE
+276-300,University of Montana,United States,Data withheld by THE
+276-300,Plymouth University,United Kingdom,Data withheld by THE
+276-300,Polytechnic University of Milan,Italy,Data withheld by THE
+276-300,Queensland University of Technology,Australia,Data withheld by THE
+276-300,University of South Florida,United States,Data withheld by THE
+276-300,University of Southern Denmark,Denmark,Data withheld by THE
+276-300,Tokyo Medical and Dental University,Japan,Data withheld by THE
+276-300,Victoria University of Wellington,New Zealand,Data withheld by THE
+276-300,Virginia Polytechnic Institute and State University,United States,Data withheld by THE
+276-300,University of Wollongong,Australia,Data withheld by THE
+276-300,York University,Canada,Data withheld by THE
+301-350,Aalborg University,Denmark,Data withheld by THE
+301-350,Aalto University,Finland,Data withheld by THE
+301-350,Aberystwyth University,United Kingdom,Data withheld by THE
+301-350,Bangor University,United Kingdom,Data withheld by THE
+301-350,Universität Bayreuth,Germany,Data withheld by THE
+301-350,Universität Bielefeld,Germany,Data withheld by THE
+301-350,University of Canterbury,New Zealand,Data withheld by THE
+301-350,National Cheng Kung University,Taiwan,Data withheld by THE
+301-350,Université Claude Bernard Lyon 1,France,Data withheld by THE
+301-350,University of Connecticut,United States,Data withheld by THE
+301-350,University of Crete,Greece,Data withheld by THE
+301-350,Deakin University,Australia,Data withheld by THE
+301-350,Drexel University,United States,Data withheld by THE
+301-350,University of Eastern Finland,Finland,Data withheld by THE
+301-350,Heriot-Watt University,United Kingdom,Data withheld by THE
+301-350,University of Hertfordshire,United Kingdom,Data withheld by THE
+301-350,Hokkaido University,Japan,Data withheld by THE
+301-350,Hong Kong Baptist University,Hong Kong,Data withheld by THE
+301-350,University of Houston,United States,Data withheld by THE
+301-350,Kansas State University,United States,Data withheld by THE
+301-350,Keele University,United Kingdom,Data withheld by THE
+301-350,"King Mongkut's University of Technology, Thonburi",Thailand,Data withheld by THE
+301-350,Kyushu University,Japan,Data withheld by THE
+301-350,Lehigh University,United States,Data withheld by THE
+301-350,Université de Liège,Belgium,Data withheld by THE
+301-350,Linköping University,Sweden,Data withheld by THE
+301-350,Autonomous University of Madrid,Spain,Data withheld by THE
+301-350,University of Manitoba,Canada,Data withheld by THE
+301-350,University of Missouri,United States,Data withheld by THE
+301-350,Murdoch University,Australia,Data withheld by THE
+301-350,"National University of Ireland, Galway",Republic of Ireland,Data withheld by THE
+301-350,Oregon State University,United States,Data withheld by THE
+301-350,University of Padua,Italy,Data withheld by THE
+301-350,University of Pisa,Italy,Data withheld by THE
+301-350,University of Salento,Italy,Data withheld by THE
+301-350,Sapienza University of Rome,Italy,Data withheld by THE
+301-350,Shanghai Jiao Tong University,China,Data withheld by THE
+301-350,University of South Australia,Australia,Data withheld by THE
+301-350,State University of Campinas,Brazil,Data withheld by THE
+301-350,State University of New York Albany - University at Albany,United States,Data withheld by THE
+301-350,Stellenbosch University,South Africa,Data withheld by THE
+301-350,National Sun Yat-Sen University,Taiwan,Data withheld by THE
+301-350,"University of Technology, Sydney",Australia,Data withheld by THE
+301-350,University of Tampere,Finland,Data withheld by THE
+301-350,University of Tsukuba,Japan,Data withheld by THE
+301-350,Umeå University,Sweden,Data withheld by THE
+301-350,University of Vermont,United States,Data withheld by THE
+301-350,University of Waikato,New Zealand,Data withheld by THE
+301-350,University of Warsaw,Poland,Data withheld by THE
+301-350,Washington State University,United States,Data withheld by THE
+301-350,Wayne State University,United States,Data withheld by THE
+301-350,Wuhan University of Technology,China,Data withheld by THE
+301-350,Zhejiang University,China,Data withheld by THE
+351-400,University of Bari Aldo Moro,Italy,Data withheld by THE
+351-400,National Central University,Taiwan,Data withheld by THE
+351-400,Charles Darwin University,Australia,Data withheld by THE
+351-400,Charles University in Prague,Czech Republic,Data withheld by THE
+351-400,China Medical University Taiwan,Taiwan,Data withheld by THE
+351-400,Universität Duisburg-Essen,Germany,Data withheld by THE
+351-400,University of Ferrara,Italy,Data withheld by THE
+351-400,University of Florence,Italy,Data withheld by THE
+351-400,George Mason University,United States,Data withheld by THE
+351-400,Karl-Franzens-Universität Graz,Austria,Data withheld by THE
+351-400,University of Guelph,Canada,Data withheld by THE
+351-400,Leibniz Universität Hannover,Germany,Data withheld by THE
+351-400,Hanyang University,Republic of Korea,Data withheld by THE
+351-400,"Indian Institute of Technology, Delhi",India,Data withheld by THE
+351-400,"Indian Institute of Technology, Kanpur",India,Data withheld by THE
+351-400,"Indian Institute of Technology, Kharagpur",India,Data withheld by THE
+351-400,"Indian Institute of Technology, Roorkee",India,Data withheld by THE
+351-400,"National University of Ireland, Maynooth",Republic of Ireland,Data withheld by THE
+351-400,Johannes Kepler Universität Linz,Austria,Data withheld by THE
+351-400,University of Jyväskylä,Finland,Data withheld by THE
+351-400,King Abdulaziz University,Saudi Arabia,Data withheld by THE
+351-400,King Saud University,Saudi Arabia,Data withheld by THE
+351-400,Liverpool John Moores University,United Kingdom,Data withheld by THE
+351-400,Loughborough University,United Kingdom,Data withheld by THE
+351-400,"University of Maryland, Baltimore County",United States,Data withheld by THE
+351-400,University of Minho,Portugal,Data withheld by THE
+351-400,University of Navarra,Spain,Data withheld by THE
+351-400,University of Oklahoma,United States,Data withheld by THE
+351-400,Old Dominion University,United States,Data withheld by THE
+351-400,University of Porto,Portugal,Data withheld by THE
+351-400,University of Portsmouth,United Kingdom,Data withheld by THE
+351-400,University of Rovira i Virgili,Spain,Data withheld by THE
+351-400,Ruhr-Universität Bochum,Germany,Data withheld by THE
+351-400,San Diego State University,United States,Data withheld by THE
+351-400,University of Stirling,United Kingdom,Data withheld by THE
+351-400,Sun Yat-sen University,China,Data withheld by THE
+351-400,University of Surrey,United Kingdom,Data withheld by THE
+351-400,Swinburne University of Technology,Australia,Data withheld by THE
+351-400,National Taiwan University of Science and Technology,Taiwan,Data withheld by THE
+351-400,University of Tartu,Estonia,Data withheld by THE
+351-400,University of Tasmania,Australia,Data withheld by THE
+351-400,Temple University,United States,Data withheld by THE
+351-400,University of Tromsø,Norway,Data withheld by THE
+351-400,Polytechnic University of Valencia,Spain,Data withheld by THE
+351-400,University of Valencia,Spain,Data withheld by THE
+351-400,University of Vigo,Spain,Data withheld by THE
+351-400,University of Wyoming,United States,Data withheld by THE
