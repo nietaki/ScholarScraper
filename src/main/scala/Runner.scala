@@ -2,17 +2,35 @@
  * Created by nietaki on 19.05.14.
  */
 
-import com.github.tototoshi.csv.CSVWriter
+import com.github.tototoshi.csv.{CSVWriter, CSVReader}
 import java.io.File
 import org.jsoup._
 import org.jsoup.select.Elements
 import scala.collection.JavaConverters._
 import scala.util.matching.Regex
 object Runner {
-  def main (args: Array[String]) = {
+  def main (args: Array[String]): Unit = {
     //saveUniversities()
-    saveAAMAS()
-    Unit
+    //saveAAMAS()
+    printUniversitySimilarities()
+  }
+
+  def printUniversitySimilarities() = {
+    val reader = CSVReader.open(new File("universities_12-13.csv"))
+    val writer = CSVWriter.open(new File("similarities.csv"))
+    val all: List[String] = reader.all().map{row => row(1)}
+    val used = all.take(100)
+    writer.writeRow("x" :: used)
+
+    for (y <- used) yield {
+      val row = for(x <- used) yield {
+        Levenshtein.heuristicSimilarity2(x, y)
+      }
+      writer.writeRow(y :: row)
+    }
+
+    writer.close()
+
   }
 
   def saveAAMAS() = {
@@ -104,9 +122,9 @@ object Runner {
   }
 
   def saveCsv(fileName: String, items: Seq[Seq[Any]]) = {
-      val f = new File(fileName)
-      val writer = CSVWriter.open(f)
-      writer.writeAll(items)
-      writer.close()
-    }
+    val f = new File(fileName)
+    val writer = CSVWriter.open(f)
+    writer.writeAll(items)
+    writer.close()
+  }
 }
