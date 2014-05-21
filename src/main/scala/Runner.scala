@@ -12,7 +12,37 @@ object Runner {
   def main (args: Array[String]): Unit = {
     //saveUniversities()
     //saveAAMAS()
-    printUniversitySimilarities()
+    //printUniversitySimilarities()
+    join()
+  }
+
+  def join() = {
+    val universityRows = CSVReader.open(new File("universities_12-13.csv")).all()
+    val researcherRows = CSVReader.open(new File("AAMAS_2013.csv")).all()
+
+    val res = for(researcherRow: List[String] <- researcherRows) yield {
+      val reseracherUniversity = Utils.stripUniversities(researcherRow(2))
+      val reseracherCountry = Utils.stripCountries(researcherRow(3))
+      var best: Option[(Double, List[String])] = None
+      for (universityRow <- universityRows) {
+        val universityName = Utils.stripUniversities(universityRow(1))
+        val universityCountry = Utils.stripCountries(universityRow(2))
+        val curScore = Levenshtein.heuristicSimilarity2(reseracherUniversity, universityName)
+        val distance = Levenshtein.distance(reseracherUniversity, universityName)
+        val potentialTuple = (curScore, universityRow)
+        if ((curScore > Levenshtein.minSimilarity2 || distance <= Levenshtein.freeDiff) &&
+            Utils.sameCaseInsensitive(reseracherCountry, universityCountry)) {
+          //println("got match")
+          best = Some(best.fold(potentialTuple)(t => if(t._1 < curScore) potentialTuple else t))
+        }
+      }
+
+      researcherRow ::: best.map(_._2).getOrElse(List())
+    }
+
+    //println(res)
+    val writer = CSVWriter.open(new File("result.csv"))
+    writer.writeAll(res)
   }
 
   def printUniversitySimilarities() = {
@@ -28,6 +58,8 @@ object Runner {
         val x2 = Utils.stripUniversities(x)
         if (Levenshtein.heuristicSimilarity2(x2, y2) > 0.81) {
           counter += 1
+          if(x != y)
+            println(s"$y ~== $x")
           "TRUE"
         } else {
           "0"

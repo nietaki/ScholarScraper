@@ -13,4 +13,18 @@ object Utils {
     val in3 = uniStar.replaceAllIn(in2, "U ")
     in3
   }
+
+  val theRegex = new Regex("(?i)The ")
+  val uk = new Regex("(?i)United Kingdom")
+  val usa = new Regex("(?i)United States( of America)?")
+  def stripCountries(in: String): String = {
+    val in2 = theRegex.replaceAllIn(in, "")
+    val in3 = uk.replaceAllIn(in2, "UK")
+    val in4 = usa.replaceAllIn(in3, "USA")
+    in4
+  }
+
+  def sameCaseInsensitive(s1: String, s2: String): Boolean = {
+    s1.compareToIgnoreCase(s2) == 0
+  }
 }
