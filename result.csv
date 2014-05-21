@@ -1,12 +1,12 @@
-paper_id,researcher_name,university_name,country,university_rank,university_name,country,score
-0,Catholijn Jonker,Delft University of Technology,The Netherlands,69,Delft University of Technology,Netherlands,59.1
-0,Maria Gini,University of Minnesota,USA,46,University of Minnesota,United States,64.9
-1,Batya Friedman,University of Washington,USA,25,University of Washington,United States,73.4
-2,Barbara J. Grosz,Harvard University,USA,2,Harvard University,United States,93.9
-3,Jeffrey S. Rosenschein,The Hebrew University of Jerusalem,Israel,191,Hebrew University of Jerusalem,Israel,45.0
-4,Nannan Cao,National University of Singapore,Singapore,26,National University of Singapore (NUS),Singapore,72.4
-4,Kian Hsiang Low,National University of Singapore,Singapore,26,National University of Singapore (NUS),Singapore,72.4
-4,John M. Dolan,Carnegie Mellon University,USA,24,Carnegie Mellon University,United States,76.0
+paper_id,researcher_name,university_name,country,univ_similarity,university_rank,university_name,country,score
+0,Catholijn Jonker,Delft University of Technology,The Netherlands,1.0,69,Delft University of Technology,Netherlands,59.1
+0,Maria Gini,University of Minnesota,USA,1.0,46,University of Minnesota,United States,64.9
+1,Batya Friedman,University of Washington,USA,1.0,25,University of Washington,United States,73.4
+2,Barbara J. Grosz,Harvard University,USA,1.0,2,Harvard University,United States,93.9
+3,Jeffrey S. Rosenschein,The Hebrew University of Jerusalem,Israel,0.8181818181818181,191,Hebrew University of Jerusalem,Israel,45.0
+4,Nannan Cao,National University of Singapore,Singapore,0.7692307692307692,26,National University of Singapore (NUS),Singapore,72.4
+4,Kian Hsiang Low,National University of Singapore,Singapore,0.7692307692307692,26,National University of Singapore (NUS),Singapore,72.4
+4,John M. Dolan,Carnegie Mellon University,USA,1.0,24,Carnegie Mellon University,United States,76.0
 5,Eliahu Khalastchi,Ben-Gurion University of the Negev,Israel
 5,Meir Kalech,Ben-Gurion University of the Negev,Israel
 5,Lior Rokach,Ben-Gurion University of the Negev,Israel
@@ -14,48 +14,48 @@ paper_id,researcher_name,university_name,country,university_rank,university_name
 6,Anders Lynhe Christensen,"Instituto de Telecomunicacões, Instituto Universitário de Lisboa",Portugal
 6,Pedro U. Lima,"Institute for Systems and Robotics (ISR), Instituto Superior Técnico",Portugal
 6,Jorge Carneiro,Instituto Gulbenkian de Ciência,Portugal
-7,Evan Krause,Tufts University,USA,80,Tufts University,United States,56.1
-7,Rehj Cantrell,Indiana University,USA,132,Indiana University,United States,50.1
-7,Ekaterina Potapova,Vienna University of Technology,Austria,226-250,Vienna University of Technology,Austria,Data withheld by THE
-7,Michael Zillich,Vienna University of Technology,Austria,226-250,Vienna University of Technology,Austria,Data withheld by THE
-7,Matthias Scheutz,Tufts University,USA,80,Tufts University,United States,56.1
-8,Michael Rubenstein,Harvard University,USA,2,Harvard University,United States,93.9
+7,Evan Krause,Tufts University,USA,1.0,80,Tufts University,United States,56.1
+7,Rehj Cantrell,Indiana University,USA,1.0,132,Indiana University,United States,50.1
+7,Ekaterina Potapova,Vienna University of Technology,Austria,1.0,226-250,Vienna University of Technology,Austria,Data withheld by THE
+7,Michael Zillich,Vienna University of Technology,Austria,1.0,226-250,Vienna University of Technology,Austria,Data withheld by THE
+7,Matthias Scheutz,Tufts University,USA,1.0,80,Tufts University,United States,56.1
+8,Michael Rubenstein,Harvard University,USA,1.0,2,Harvard University,United States,93.9
 8,Adrian Cabrera,Harvard University & EPFL,USA
-8,Justin Werfel,Harvard University,USA,2,Harvard University,United States,93.9
-8,Golnaz Habibi,Rice University,USA,65,Rice University,United States,59.8
-8,James McLurkin,Rice University,USA,65,Rice University,United States,59.8
-8,Radhika Nagpal,Harvard University,USA,2,Harvard University,United States,93.9
-9,Sayan D. Sen,Vanderbilt University,USA,88,Vanderbilt University,United States,55.0
-9,Julie A. Adams,Vanderbilt University,USA,88,Vanderbilt University,United States,55.0
-10,Aris Valtazanos,University of Edinburgh,UK,39,University of Edinburgh,United Kingdom,67.5
-10,Subramanian Ramamoorthy,University of Edinburgh,UK,39,University of Edinburgh,United Kingdom,67.5
-11,Tekin Meriçli,Boğaziçi University,Turkey,199,Boğaziçi University,Turkey,44.3
-11,Manuela Veloso,Carnegie Mellon University,USA,24,Carnegie Mellon University,United States,76.0
-11,H. Levent Akin,Boğaziçi University,Turkey,199,Boğaziçi University,Turkey,44.3
-12,Andreas Kolling,Linköping University,Sweden,301-350,Linköping University,Sweden,Data withheld by THE
-12,Alexander Kleiner,Linköping University,Sweden,301-350,Linköping University,Sweden,Data withheld by THE
-13,Boris de Wilde,Delft University of Technology,The Netherlands,69,Delft University of Technology,Netherlands,59.1
-13,Adriaan W. ter Mors,Delft University of Technology,The Netherlands,69,Delft University of Technology,Netherlands,59.1
-13,Cees Witteveen,Delft University of Technology,The Netherlands,69,Delft University of Technology,Netherlands,59.1
+8,Justin Werfel,Harvard University,USA,1.0,2,Harvard University,United States,93.9
+8,Golnaz Habibi,Rice University,USA,1.0,65,Rice University,United States,59.8
+8,James McLurkin,Rice University,USA,1.0,65,Rice University,United States,59.8
+8,Radhika Nagpal,Harvard University,USA,1.0,2,Harvard University,United States,93.9
+9,Sayan D. Sen,Vanderbilt University,USA,1.0,88,Vanderbilt University,United States,55.0
+9,Julie A. Adams,Vanderbilt University,USA,1.0,88,Vanderbilt University,United States,55.0
+10,Aris Valtazanos,University of Edinburgh,UK,1.0,39,University of Edinburgh,United Kingdom,67.5
+10,Subramanian Ramamoorthy,University of Edinburgh,UK,1.0,39,University of Edinburgh,United Kingdom,67.5
+11,Tekin Meriçli,Boğaziçi University,Turkey,1.0,199,Boğaziçi University,Turkey,44.3
+11,Manuela Veloso,Carnegie Mellon University,USA,1.0,24,Carnegie Mellon University,United States,76.0
+11,H. Levent Akin,Boğaziçi University,Turkey,1.0,199,Boğaziçi University,Turkey,44.3
+12,Andreas Kolling,Linköping University,Sweden,1.0,301-350,Linköping University,Sweden,Data withheld by THE
+12,Alexander Kleiner,Linköping University,Sweden,1.0,301-350,Linköping University,Sweden,Data withheld by THE
+13,Boris de Wilde,Delft University of Technology,The Netherlands,1.0,69,Delft University of Technology,Netherlands,59.1
+13,Adriaan W. ter Mors,Delft University of Technology,The Netherlands,1.0,69,Delft University of Technology,Netherlands,59.1
+13,Cees Witteveen,Delft University of Technology,The Netherlands,1.0,69,Delft University of Technology,Netherlands,59.1
 14,Pouyan Ziafati,University of Luxembourg & Utrecht University,Luxembourg
-14,Mehdi Dastani,Utrecht University,The Netherlands,74,Utrecht University,Netherlands,57.7
-14,John-Jules Meyer,Utrecht University,The Netherlands,74,Utrecht University,Netherlands,57.7
+14,Mehdi Dastani,Utrecht University,The Netherlands,1.0,74,Utrecht University,Netherlands,57.7
+14,John-Jules Meyer,Utrecht University,The Netherlands,1.0,74,Utrecht University,Netherlands,57.7
 14,Leendert van der Torre,University of Luxembourg,Luxembourg
-15,Ryan C. Julian,"University of California, Berkeley",USA,8,"University of California, Berkeley",United States,89.8
-15,Cameron J. Rose,"University of California, Berkeley",USA,8,"University of California, Berkeley",United States,89.8
-15,Humphrey Hu,Carnegie Mellon University,USA,24,Carnegie Mellon University,United States,76.0
-15,Ronald S. Fearing,"University of California, Berkeley",USA,8,"University of California, Berkeley",United States,89.8
-16,Somchaya Liemhetcharat,Carnegie Mellon University,USA,24,Carnegie Mellon University,United States,76.0
-16,Manuela Veloso,Carnegie Mellon University,USA,24,Carnegie Mellon University,United States,76.0
-17,Marcelo Li Koga,Universidade de São Paulo,Brazil,226-250,University of São Paulo,Brazil,Data withheld by THE
-17,Valdinei Freire da Silva,Universidade de São Paulo,Brazil,226-250,University of São Paulo,Brazil,Data withheld by THE
-17,Fabio Gagliardi Cozman,Universidade de São Paulo,Brazil,226-250,University of São Paulo,Brazil,Data withheld by THE
-17,Anna Helena Reali Costa,Universidade de São Paulo,Brazil,226-250,University of São Paulo,Brazil,Data withheld by THE
+15,Ryan C. Julian,"University of California, Berkeley",USA,1.0,8,"University of California, Berkeley",United States,89.8
+15,Cameron J. Rose,"University of California, Berkeley",USA,1.0,8,"University of California, Berkeley",United States,89.8
+15,Humphrey Hu,Carnegie Mellon University,USA,1.0,24,Carnegie Mellon University,United States,76.0
+15,Ronald S. Fearing,"University of California, Berkeley",USA,1.0,8,"University of California, Berkeley",United States,89.8
+16,Somchaya Liemhetcharat,Carnegie Mellon University,USA,1.0,24,Carnegie Mellon University,United States,76.0
+16,Manuela Veloso,Carnegie Mellon University,USA,1.0,24,Carnegie Mellon University,United States,76.0
+17,Marcelo Li Koga,Universidade de São Paulo,Brazil,0.7857142857142857,226-250,University of São Paulo,Brazil,Data withheld by THE
+17,Valdinei Freire da Silva,Universidade de São Paulo,Brazil,0.7857142857142857,226-250,University of São Paulo,Brazil,Data withheld by THE
+17,Fabio Gagliardi Cozman,Universidade de São Paulo,Brazil,0.7857142857142857,226-250,University of São Paulo,Brazil,Data withheld by THE
+17,Anna Helena Reali Costa,Universidade de São Paulo,Brazil,0.7857142857142857,226-250,University of São Paulo,Brazil,Data withheld by THE
 18,Kevin Gold,MIT Lincoln Laboratory,USA
 18,Zachary J. Weber,MIT Lincoln Laboratory,USA
 18,Ben Priest,MIT Lincoln Laboratory,USA
-18,Josh Ziegler,Air Force Institute of Technology,USA,197,Florida Institute of Technology,United States,44.6
-18,Karen Sittig,Massachusetts Institute of Technology,USA,5,Massachusetts Institute of Technology (MIT),United States,93.0
+18,Josh Ziegler,Air Force Institute of Technology,USA
+18,Karen Sittig,Massachusetts Institute of Technology,USA,0.76,5,Massachusetts Institute of Technology (MIT),United States,93.0
 18,William W. Streilein,MIT Lincoln Laboratory,USA
 18,Mark Mazumder,MIT Lincoln Laboratory,USA
 19,Syed Muhammad Ali Abbas,Manchester Metropolitan Univeristy Business School,UK
@@ -66,70 +66,70 @@ paper_id,researcher_name,university_name,country,university_rank,university_name
 21,Zahia Guessoum,"University of Paris-VI, LIP6, MAS Team",France
 21,René Mandiau,University of Valenciennes LAMIH CNRS 8201,France
 21,Stéphane Espié,"IFSTTAR, IM",France
-22,Laurent Navarro,Thales / Université Pierre et Marie Curie,France,96,Université Pierre et Marie Curie,France,53.5
-22,Vincent Corruble,Université Pierre et Marie Curie (Paris 6),France,96,Université Pierre et Marie Curie,France,53.5
+22,Laurent Navarro,Thales / Université Pierre et Marie Curie,France,0.71875,96,Université Pierre et Marie Curie,France,53.5
+22,Vincent Corruble,Université Pierre et Marie Curie (Paris 6),France
 22,Fabien Flacher,Thales,France
 22,Jean-Daniel Zucker,"UMMISCO, IRD",France
 23,Duc Thien Nguyen,Singapore Management University,Singapore
-23,William Yeoh,New Mexico State University,USA,59,Ohio State University,United States,62.0
+23,William Yeoh,New Mexico State University,USA
 23,Hoong Chuin Lau,Singapore Management University,Singapore
-24,Ulle Endriss,University of Amsterdam,The Netherlands,83,University of Amsterdam,Netherlands,55.9
+24,Ulle Endriss,University of Amsterdam,The Netherlands,1.0,83,University of Amsterdam,Netherlands,55.9
 25,Vadim Levit,Ben-Gurion University of the Negev,Israel
 25,Tal Grinshpoun,Ben-Gurion University of the Negev,Israel
 25,Amnon Meisels,Ben-Gurion University of the Negev,Israel
 25,Ana L. C. Bazzan,PPGC / UFRGS,Brazil
 26,Yoonheui Kim,University of Massachusetts at Amherst,USA
 26,Victor Lesser,University of Massachusetts at Amherst,USA
-27,Joshua Letchford,Duke University,USA,17,Duke University,United States,79.3
+27,Joshua Letchford,Duke University,USA,1.0,17,Duke University,United States,79.3
 27,Yevgeniy Vorobeychik,Sandia National Laboratories,USA
 28,Albert Xin Jiang,"University of Southern California, USA) Zhengyu Yin (University of Southern California",USA
-28,Chao Zhang,University of Southern California,USA,70,University of Southern California,United States,59.0
-28,Milind Tambe,University of Southern California,USA,70,University of Southern California,United States,59.0
+28,Chao Zhang,University of Southern California,USA,1.0,70,University of Southern California,United States,59.0
+28,Milind Tambe,University of Southern California,USA,1.0,70,University of Southern California,United States,59.0
 28,Sarit Kraus,Bar-Ilan University,Israel
-29,Manish Jain,University of Southern California,USA,70,University of Southern California,United States,59.0
-29,Vincent Conitzer,Duke University,USA,17,Duke University,United States,79.3
-29,Milind Tambe,University of Southern California,USA,70,University of Southern California,United States,59.0
+29,Manish Jain,University of Southern California,USA,1.0,70,University of Southern California,United States,59.0
+29,Vincent Conitzer,Duke University,USA,1.0,17,Duke University,United States,79.3
+29,Milind Tambe,University of Southern California,USA,1.0,70,University of Southern California,United States,59.0
 30,Bo An,Chinese Academy of Sciences,China
-30,Matthew Brown,University of Southern California,USA,70,University of Southern California,United States,59.0
+30,Matthew Brown,University of Southern California,USA,1.0,70,University of Southern California,United States,59.0
 30,Yevgeniy Vorobeychik,Sandia National Laboratories,USA
-30,Milind Tambe,University of Southern California,USA,70,University of Southern California,United States,59.0
+30,Milind Tambe,University of Southern California,USA,1.0,70,University of Southern California,United States,59.0
 31,Christopher Kiekintveld,University of Texas at El Paso,USA
 31,Towhidul Islam,University of Texas at El Paso,USA
 31,Vladik Kreinovich,University of Texas at El Paso,USA
-32,Reshef Meir,The Hebrew University of Jerusalem,Israel,191,Hebrew University of Jerusalem,Israel,45.0
-32,Jeffrey S. Rosenschein,The Hebrew University of Jerusalem,Israel,191,Hebrew University of Jerusalem,Israel,45.0
-33,Duane Szafron,University of Alberta,Canada,109,University of Alberta,Canada,52.0
-33,Richard Gibson,University of Alberta,Canada,109,University of Alberta,Canada,52.0
+32,Reshef Meir,The Hebrew University of Jerusalem,Israel,0.8181818181818181,191,Hebrew University of Jerusalem,Israel,45.0
+32,Jeffrey S. Rosenschein,The Hebrew University of Jerusalem,Israel,0.8181818181818181,191,Hebrew University of Jerusalem,Israel,45.0
+33,Duane Szafron,University of Alberta,Canada,1.0,109,University of Alberta,Canada,52.0
+33,Richard Gibson,University of Alberta,Canada,1.0,109,University of Alberta,Canada,52.0
 33,Nathan Sturtevant,University of Denver,USA
-34,Nolan Bard,University of Alberta,Canada,109,University of Alberta,Canada,52.0
-34,Michael Johanson,University of Alberta,Canada,109,University of Alberta,Canada,52.0
-34,Neil Burch,University of Alberta,Canada,109,University of Alberta,Canada,52.0
-34,Michael Bowling,University of Alberta,Canada,109,University of Alberta,Canada,52.0
+34,Nolan Bard,University of Alberta,Canada,1.0,109,University of Alberta,Canada,52.0
+34,Michael Johanson,University of Alberta,Canada,1.0,109,University of Alberta,Canada,52.0
+34,Neil Burch,University of Alberta,Canada,1.0,109,University of Alberta,Canada,52.0
+34,Michael Bowling,University of Alberta,Canada,1.0,109,University of Alberta,Canada,52.0
 35,Anisse Ismaili,LIP6-UPMC,France
 35,Evripidis Bampis,LIP6-UPMC,France
 35,Nicolas Maudet,LIP6-UPMC,France
 35,Patrice Perny,LIP6-UPMC,France
-36,Michael Johanson,University of Alberta,Canada,109,University of Alberta,Canada,52.0
-36,Neil Burch,University of Alberta,Canada,109,University of Alberta,Canada,52.0
-36,Richard Valenzano,University of Alberta,Canada,109,University of Alberta,Canada,52.0
-36,Michael Bowling,University of Alberta,Canada,109,University of Alberta,Canada,52.0
+36,Michael Johanson,University of Alberta,Canada,1.0,109,University of Alberta,Canada,52.0
+36,Neil Burch,University of Alberta,Canada,1.0,109,University of Alberta,Canada,52.0
+36,Richard Valenzano,University of Alberta,Canada,1.0,109,University of Alberta,Canada,52.0
+36,Michael Bowling,University of Alberta,Canada,1.0,109,University of Alberta,Canada,52.0
 37,Ratul Ray,"Indian Institute of Science, India) Rohith D. Vallam (Indian Institute of Science",India
 37,Narahari Y.,Indian Institute of Science,India
 38,Haris Aziz,NICTA and University of New South Wales,Australia
-39,Simina Brânzei,Aarhus University,Denmark,138,Aarhus University,Denmark,49.6
+39,Simina Brânzei,Aarhus University,Denmark,1.0,138,Aarhus University,Denmark,49.6
 39,Tomasz Michalak,Oxford University and Warsaw University,UK & Poland
-39,Talal Rahwan,University of Southampton,UK,146,University of Southampton,United Kingdom,48.9
-39,Kate Larson,University of Waterloo,Canada,226-250,University of Waterloo,Canada,Data withheld by THE
-39,Nicholas R. Jennings,University of Southampton,UK,146,University of Southampton,United Kingdom,48.9
-40,Reshef Meir,The Hebrew University of Jerusalem,Israel,191,Hebrew University of Jerusalem,Israel,45.0
-40,Yiling Chen,Harvard University,USA,2,Harvard University,United States,93.9
+39,Talal Rahwan,University of Southampton,UK,1.0,146,University of Southampton,United Kingdom,48.9
+39,Kate Larson,University of Waterloo,Canada,1.0,226-250,University of Waterloo,Canada,Data withheld by THE
+39,Nicholas R. Jennings,University of Southampton,UK,1.0,146,University of Southampton,United Kingdom,48.9
+40,Reshef Meir,The Hebrew University of Jerusalem,Israel,0.8181818181818181,191,Hebrew University of Jerusalem,Israel,45.0
+40,Yiling Chen,Harvard University,USA,1.0,2,Harvard University,United States,93.9
 40,Michal Feldman,Harvard University & The Hebrew University of Jerusalem,USA
-41,Taiki Todo,Duke University,USA,17,Duke University,United States,79.3
-41,Vincent Conitzer,Duke University,USA,17,Duke University,United States,79.3
-42,Nan Rong,Cornell University,USA,19,Cornell University,United States,79.1
-42,Joseph Y. Halpern,Cornell University,USA,19,Cornell University,United States,79.1
-43,Simina Brânzei,Aarhus University,Denmark,138,Aarhus University,Denmark,49.6
-43,Peter Bro Miltersen,Aarhus University,Denmark,138,Aarhus University,Denmark,49.6
+41,Taiki Todo,Duke University,USA,1.0,17,Duke University,United States,79.3
+41,Vincent Conitzer,Duke University,USA,1.0,17,Duke University,United States,79.3
+42,Nan Rong,Cornell University,USA,1.0,19,Cornell University,United States,79.1
+42,Joseph Y. Halpern,Cornell University,USA,1.0,19,Cornell University,United States,79.1
+43,Simina Brânzei,Aarhus University,Denmark,1.0,138,Aarhus University,Denmark,49.6
+43,Peter Bro Miltersen,Aarhus University,Denmark,1.0,138,Aarhus University,Denmark,49.6
 44,Branislav Bošanský,Czech Technical University in Prague,Czech Rep
 44,Christopher Kiekintveld,University of Texas at El Paso,USA
 44,Viliam Lisý,Czech Technical University in Prague,Czech Rep
@@ -139,33 +139,33 @@ paper_id,researcher_name,university_name,country,university_rank,university_name
 45,Yair Dombb,Bar-llan University,Israel
 45,Avinatan Hassidim,Bar-llan University,Israel
 46,Svetlana Obraztsova,National Technical University of Athens,Greece
-46,Yair Zick,Nanyang Technological University,Singapore,76,Nanyang Technological University,Singapore,57.2
-46,Edith Elkind,Nanyang Technological University,Singapore,76,Nanyang Technological University,Singapore,57.2
+46,Yair Zick,Nanyang Technological University,Singapore,1.0,76,Nanyang Technological University,Singapore,57.2
+46,Edith Elkind,Nanyang Technological University,Singapore,1.0,76,Nanyang Technological University,Singapore,57.2
 47,Piotr Faliszewski,AGH University of Science and Technology,Poland
-47,Edith Hemaspaandra,Rochester Institute of Technology,USA,197,Florida Institute of Technology,United States,44.6
-47,Lane A. Hemaspaandra,University of Rochester,USA,95,University of Rochester,United States,53.6
-48,Felix Brandt,Technische Universität München,Germany,87,Technische Universität München,Germany,55.2
-48,Paul Harrenstein,University of Oxford,UK,2,University of Oxford,United Kingdom,93.9
-48,Keyvan Kardel,Technische Universität München,Germany,87,Technische Universität München,Germany,55.2
-48,Hans Georg Seedig,Technische Universität München,Germany,87,Technische Universität München,Germany,55.2
+47,Edith Hemaspaandra,Rochester Institute of Technology,USA
+47,Lane A. Hemaspaandra,University of Rochester,USA,1.0,95,University of Rochester,United States,53.6
+48,Felix Brandt,Technische Universität München,Germany,1.0,87,Technische Universität München,Germany,55.2
+48,Paul Harrenstein,University of Oxford,UK,1.0,2,University of Oxford,United Kingdom,93.9
+48,Keyvan Kardel,Technische Universität München,Germany,1.0,87,Technische Universität München,Germany,55.2
+48,Hans Georg Seedig,Technische Universität München,Germany,1.0,87,Technische Universität München,Germany,55.2
 49,Svetlana Obraztsova,National Technical University of Athens & Steklov Institute of Mathematics,Greece
-49,Edith Elkind,Nanyang Technological University,Singapore,76,Nanyang Technological University,Singapore,57.2
+49,Edith Elkind,Nanyang Technological University,Singapore,1.0,76,Nanyang Technological University,Singapore,57.2
 49,Piotr Faliszewski,AGH University of Science and Technology,Poland
-49,Arkadii Slinko,University of Auckland,New Zealand,164,University of Auckland,New Zealand,46.6
-50,David R. M. Thompson,University of British Columbia,Canada,31,University of British Columbia,Canada,70.8
-50,Omer Lev,The Hebrew University of Jerusalem,Israel,191,Hebrew University of Jerusalem,Israel,45.0
-50,Kevin Leyton-Brown,University of British Columbia,Canada,31,University of British Columbia,Canada,70.8
-50,Jeffrey Rosenschein,The Hebrew University of Jerusalem,Israel,191,Hebrew University of Jerusalem,Israel,45.0
-51,Piotr Skowron,University of Warsaw,Poland,301-350,University of Warsaw,Poland,Data withheld by THE
+49,Arkadii Slinko,University of Auckland,New Zealand,1.0,164,University of Auckland,New Zealand,46.6
+50,David R. M. Thompson,University of British Columbia,Canada,1.0,31,University of British Columbia,Canada,70.8
+50,Omer Lev,The Hebrew University of Jerusalem,Israel,0.8181818181818181,191,Hebrew University of Jerusalem,Israel,45.0
+50,Kevin Leyton-Brown,University of British Columbia,Canada,1.0,31,University of British Columbia,Canada,70.8
+50,Jeffrey Rosenschein,The Hebrew University of Jerusalem,Israel,0.8181818181818181,191,Hebrew University of Jerusalem,Israel,45.0
+51,Piotr Skowron,University of Warsaw,Poland,1.0,301-350,University of Warsaw,Poland,Data withheld by THE
 51,Piotr Faliszewski,AGH University of Science and Technology,Poland
-51,Arkadii Slinko,University of Auckland,New Zealand,164,University of Auckland,New Zealand,46.6
+51,Arkadii Slinko,University of Auckland,New Zealand,1.0,164,University of Auckland,New Zealand,46.6
 52,Tomasz Perek,AGH University of Science and Technology,Poland
 52,Piotr Faliszewski,AGH University of Science and Technology,Poland
-52,Maria Silvia Pini,University of Padova,Italy,301-350,University of Padua,Italy,Data withheld by THE
-52,Francesca Rossi,University of Padova,Italy,301-350,University of Padua,Italy,Data withheld by THE
-53,Dmitry Shiryaev,Nanyang Technological University,Singapore,76,Nanyang Technological University,Singapore,57.2
-53,Lan Yu,Nanyang Technological University,Singapore,76,Nanyang Technological University,Singapore,57.2
-53,Edith Elkind,Nanyang Technological University,Singapore,76,Nanyang Technological University,Singapore,57.2
+52,Maria Silvia Pini,University of Padova,Italy,0.75,301-350,University of Padua,Italy,Data withheld by THE
+52,Francesca Rossi,University of Padova,Italy,0.75,301-350,University of Padua,Italy,Data withheld by THE
+53,Dmitry Shiryaev,Nanyang Technological University,Singapore,1.0,76,Nanyang Technological University,Singapore,57.2
+53,Lan Yu,Nanyang Technological University,Singapore,1.0,76,Nanyang Technological University,Singapore,57.2
+53,Edith Elkind,Nanyang Technological University,Singapore,1.0,76,Nanyang Technological University,Singapore,57.2
 54,Nina Narodytska,NICTA and UNSW,Australia
 54,Toby Walsh,NICTA and UNSW,Australia
 55,Serge Gaspers,UNSW and NICTA,Australia
@@ -173,135 +173,135 @@ paper_id,researcher_name,university_name,country,university_rank,university_name
 55,Nina Narodytska,NICTA and UNSW,Australia
 55,Toby Walsh,NICTA and UNSW,Australia
 56,Edith Elkind,"Nanyang Technological University, Singapore) Dmitrii Pasechnik (Nanyang Technological University",Singapore
-56,Michael Wooldridge,University of Oxford,UK,2,University of Oxford,United Kingdom,93.9
-57,Henry Franks,University of Warwick,UK,141,University of Warwick,United Kingdom,49.4
-57,Nathan Griffiths,University of Warwick,UK,141,University of Warwick,United Kingdom,49.4
+56,Michael Wooldridge,University of Oxford,UK,1.0,2,University of Oxford,United Kingdom,93.9
+57,Henry Franks,University of Warwick,UK,1.0,141,University of Warwick,United Kingdom,49.4
+57,Nathan Griffiths,University of Warwick,UK,1.0,141,University of Warwick,United Kingdom,49.4
 57,Sarabjot Singh Anand,Algorithmic Insight,India
 58,Haris Aziz,NICTA and UNSW,Australia
-58,Felix Brandt,Technische Universität München,Germany,87,Technische Universität München,Germany,55.2
-58,Markus Brill,Technische Universität München,Germany,87,Technische Universität München,Germany,55.2
-59,Jason Sleight,University of Michigan,USA,18,University of Michigan,United States,79.2
-59,Edmund H. Durfee,University of Michigan,USA,18,University of Michigan,United States,79.2
-60,Lirong Xia,Harvard University,USA,2,Harvard University,United States,93.9
-61,Chao Yu,University of Wollongong,Australia,276-300,University of Wollongong,Australia,Data withheld by THE
-61,Minjie Zhang,University of Wollongong,Australia,276-300,University of Wollongong,Australia,Data withheld by THE
-61,Fenghui Ren,University of Wollongong,Australia,276-300,University of Wollongong,Australia,Data withheld by THE
-61,Xudong Luo,Sun Yat-sen University,China,351-400,Sun Yat-sen University,China,Data withheld by THE
+58,Felix Brandt,Technische Universität München,Germany,1.0,87,Technische Universität München,Germany,55.2
+58,Markus Brill,Technische Universität München,Germany,1.0,87,Technische Universität München,Germany,55.2
+59,Jason Sleight,University of Michigan,USA,1.0,18,University of Michigan,United States,79.2
+59,Edmund H. Durfee,University of Michigan,USA,1.0,18,University of Michigan,United States,79.2
+60,Lirong Xia,Harvard University,USA,1.0,2,Harvard University,United States,93.9
+61,Chao Yu,University of Wollongong,Australia,1.0,276-300,University of Wollongong,Australia,Data withheld by THE
+61,Minjie Zhang,University of Wollongong,Australia,1.0,276-300,University of Wollongong,Australia,Data withheld by THE
+61,Fenghui Ren,University of Wollongong,Australia,1.0,276-300,University of Wollongong,Australia,Data withheld by THE
+61,Xudong Luo,Sun Yat-sen University,China,1.0,351-400,Sun Yat-sen University,China,Data withheld by THE
 62,Javier Morales,Universitat de Barcelona & Spanish Council of Scientic Research,Spain
-62,Maite Lopez-Sanchez,Universitat of Barcelona,Spain,226-250,University of Barcelona,Spain,Data withheld by THE
+62,Maite Lopez-Sanchez,Universitat of Barcelona,Spain,0.7857142857142857,226-250,University of Barcelona,Spain,Data withheld by THE
 62,Juan A. Rodriguez-Aguilar,Spanish Council of Scientic Research,Spain
-62,Michael Wooldridge,University of Oxford,UK,2,University of Oxford,United Kingdom,93.9
-62,Wamberto Vasconcelos,University of Aberdeen,UK,188,University of Aberdeen,United Kingdom,45.2
+62,Michael Wooldridge,University of Oxford,UK,1.0,2,University of Oxford,United Kingdom,93.9
+62,Wamberto Vasconcelos,University of Aberdeen,UK,1.0,188,University of Aberdeen,United Kingdom,45.2
 63,Nils Bulling,Clausthal University of Technology,Germany
-63,Mehdi Dastani,Utrecht University,The Netherlands,74,Utrecht University,Netherlands,57.7
-63,Max Knobbout,Utrecht University,The Netherlands,74,Utrecht University,Netherlands,57.7
-64,M. Birna van Riemsdijk,Delft University of Technology,The Netherlands,69,Delft University of Technology,Netherlands,59.1
-64,Louise A. Dennis,University of Liverpool,UK,169,University of Liverpool,United Kingdom,46.3
-64,Michael Fisher,University of Liverpool,UK,169,University of Liverpool,United Kingdom,46.3
-64,KoenV. Hindriks,Delft University of Technology,The Netherlands,69,Delft University of Technology,Netherlands,59.1
-65,Koen V. Hindriks,Delft University of Technology,The Netherlands,69,Delft University of Technology,Netherlands,59.1
-65,M. Birna van Riemsdijk,Delft University of Technology,The Netherlands,69,Delft University of Technology,Netherlands,59.1
-66,Edith Elkind,Nanyang Technological University,Singapore,76,Nanyang Technological University,Singapore,57.2
-66,Dmitrii Pasechnik,Nanyang Technological University,Singapore,76,Nanyang Technological University,Singapore,57.2
-66,Yair Zick,Nanyang Technological University,Singapore,76,Nanyang Technological University,Singapore,57.2
-67,Yair Zick,Nanyang Technological University,Singapore,76,Nanyang Technological University,Singapore,57.2
-67,Maria Polukarov,University of Southampton,UK,146,University of Southampton,United Kingdom,48.9
-67,Nicholas R. Jennings,University of Southampton,UK,146,University of Southampton,United Kingdom,48.9
-68,Katie Genter,University of Texas at Austin,USA,27,University of Texas at Austin,United States,72.2
+63,Mehdi Dastani,Utrecht University,The Netherlands,1.0,74,Utrecht University,Netherlands,57.7
+63,Max Knobbout,Utrecht University,The Netherlands,1.0,74,Utrecht University,Netherlands,57.7
+64,M. Birna van Riemsdijk,Delft University of Technology,The Netherlands,1.0,69,Delft University of Technology,Netherlands,59.1
+64,Louise A. Dennis,University of Liverpool,UK,1.0,169,University of Liverpool,United Kingdom,46.3
+64,Michael Fisher,University of Liverpool,UK,1.0,169,University of Liverpool,United Kingdom,46.3
+64,KoenV. Hindriks,Delft University of Technology,The Netherlands,1.0,69,Delft University of Technology,Netherlands,59.1
+65,Koen V. Hindriks,Delft University of Technology,The Netherlands,1.0,69,Delft University of Technology,Netherlands,59.1
+65,M. Birna van Riemsdijk,Delft University of Technology,The Netherlands,1.0,69,Delft University of Technology,Netherlands,59.1
+66,Edith Elkind,Nanyang Technological University,Singapore,1.0,76,Nanyang Technological University,Singapore,57.2
+66,Dmitrii Pasechnik,Nanyang Technological University,Singapore,1.0,76,Nanyang Technological University,Singapore,57.2
+66,Yair Zick,Nanyang Technological University,Singapore,1.0,76,Nanyang Technological University,Singapore,57.2
+67,Yair Zick,Nanyang Technological University,Singapore,1.0,76,Nanyang Technological University,Singapore,57.2
+67,Maria Polukarov,University of Southampton,UK,1.0,146,University of Southampton,United Kingdom,48.9
+67,Nicholas R. Jennings,University of Southampton,UK,1.0,146,University of Southampton,United Kingdom,48.9
+68,Katie Genter,University of Texas at Austin,USA,1.0,27,University of Texas at Austin,United States,72.2
 68,Noa Agmon,Bar Ilan University,Israel
-68,Peter Stone,University of Texas at Austin,USA,27,University of Texas at Austin,United States,72.2
+68,Peter Stone,University of Texas at Austin,USA,1.0,27,University of Texas at Austin,United States,72.2
 69,Jilles S. Dibangoye,INRIA,France
-69,Christopher Amato,Massachusetts Institute of Technology,USA,5,Massachusetts Institute of Technology (MIT),United States,93.0
+69,Christopher Amato,Massachusetts Institute of Technology,USA,0.76,5,Massachusetts Institute of Technology (MIT),United States,93.0
 69,Arnaud Doniec,Université Lille Nord de France,France
 69,François Charpillet,INRIA,France
-70,Felipe W. Trevizan,Carnegie Mellon University,USA,24,Carnegie Mellon University,United States,76.0
-70,Manuela M. Veloso,Carnegie Mellon University,USA,24,Carnegie Mellon University,United States,76.0
-71,Levi H. S. Lelis,University of Alberta,Canada,109,University of Alberta,Canada,52.0
+70,Felipe W. Trevizan,Carnegie Mellon University,USA,1.0,24,Carnegie Mellon University,United States,76.0
+70,Manuela M. Veloso,Carnegie Mellon University,USA,1.0,24,Carnegie Mellon University,United States,76.0
+71,Levi H. S. Lelis,University of Alberta,Canada,1.0,109,University of Alberta,Canada,52.0
 71,Sandra Zilles,University of Regina,Canada
-71,Robert C. Holte,University of Alberta,Canada,109,University of Alberta,Canada,52.0
-72,Frans A. Oliehoek,Maastricht University,The Netherlands,98,Maastricht University,Netherlands,52.9
-72,Shimon Whiteson,University of Amsterdam,The Netherlands,83,University of Amsterdam,Netherlands,55.9
-72,Matthijs T .J. Spaan,Delft University of Technology,The Netherlands,69,Delft University of Technology,Netherlands,59.1
+71,Robert C. Holte,University of Alberta,Canada,1.0,109,University of Alberta,Canada,52.0
+72,Frans A. Oliehoek,Maastricht University,The Netherlands,1.0,98,Maastricht University,Netherlands,52.9
+72,Shimon Whiteson,University of Amsterdam,The Netherlands,1.0,83,University of Amsterdam,Netherlands,55.9
+72,Matthijs T .J. Spaan,Delft University of Technology,The Netherlands,1.0,69,Delft University of Technology,Netherlands,59.1
 73,Ece Kamar,Microsoft Research,USA
 73,Eric Horvitz,Microsoft Research,USA
 74,Nicolás Rivera,Pontificia Universidad Católica de Chile,Chile
 74,Jorge A. Baier,Pontificia Universidad Católica de Chile,Chile
 74,Carlos Hernandez,Universidad Católica de la Santisima Concepción,Chile
-75,Christine Talbot,University of North Carolina at Charlotte,USA,47,University of North Carolina at Chapel Hill,United States,64.5
-75,G. Michael Youngblood,University of North Carolina at Charlotte,USA,47,University of North Carolina at Chapel Hill,United States,64.5
-76,Julie Porteous,Teesside University,UK,301-350,Keele University,United Kingdom,Data withheld by THE
-76,Fred Charles,Teesside University,UK,301-350,Keele University,United Kingdom,Data withheld by THE
-76,Marc Cavazza,Teesside University,UK,301-350,Keele University,United Kingdom,Data withheld by THE
+75,Christine Talbot,University of North Carolina at Charlotte,USA,0.7741935483870968,47,University of North Carolina at Chapel Hill,United States,64.5
+75,G. Michael Youngblood,University of North Carolina at Charlotte,USA,0.7741935483870968,47,University of North Carolina at Chapel Hill,United States,64.5
+76,Julie Porteous,Teesside University,UK
+76,Fred Charles,Teesside University,UK
+76,Marc Cavazza,Teesside University,UK
 77,Jonathan Teutenberg,Independent Researcher,UK
-77,Julie Porteous,Teesside University,UK,301-350,Keele University,United Kingdom,Data withheld by THE
-78,Dane M. Kuiper,University of Texas at Dallas,USA,188,The University of Texas at Dallas,United States,45.2
-78,Rym Z. Wenkstern,University of Texas at Dallas,USA,188,The University of Texas at Dallas,United States,45.2
+77,Julie Porteous,Teesside University,UK
+78,Dane M. Kuiper,University of Texas at Dallas,USA,0.8095238095238095,188,The University of Texas at Dallas,United States,45.2
+78,Rym Z. Wenkstern,University of Texas at Dallas,USA,0.8095238095238095,188,The University of Texas at Dallas,United States,45.2
 79,Radosław Niewiadomski,Telecom ParisTech,France
-79,Jennifer Hofmann,Universität Zurich,Switzerland
-79,Jérôme Urbain,Université de Mons,Belgium,301-350,Université de Liège,Belgium,Data withheld by THE
-79,Tracey Platt,Universität Zurich,Switzerland
-79,Johannes Wagner,Universität Augsburg,Germany,226-250,Universität Würzburg,Germany,Data withheld by THE
+79,Jennifer Hofmann,Universität Zurich,Switzerland,0.875,121,University of Zürich,Switzerland,51.2
+79,Jérôme Urbain,Université de Mons,Belgium
+79,Tracey Platt,Universität Zurich,Switzerland,0.875,121,University of Zürich,Switzerland,51.2
+79,Johannes Wagner,Universität Augsburg,Germany
 79,Bilal Piot,Supelec,France
-79,Huseyin Cakmak,Université de Mons,Belgium,301-350,Université de Liège,Belgium,Data withheld by THE
+79,Huseyin Cakmak,Université de Mons,Belgium
 79,Sathish Pammi,Telecom ParisTech,France
-79,Tobias Baur,Universität Augsburg,Germany,226-250,Universität Würzburg,Germany,Data withheld by THE
+79,Tobias Baur,Universität Augsburg,Germany
 79,Stephane Dupont,Universite de Mons,Belgium
 79,Matthieu Geist,Supelec,France
-79,Florian Lingenfelser,Universität Augsburg,Germany,226-250,Universität Würzburg,Germany,Data withheld by THE
+79,Florian Lingenfelser,Universität Augsburg,Germany
 79,Gary McKeown,The Queen's University of Belfast,Gt Britain
 79,Olivier Pietquin,Supelec,France
-79,Willibald Ruch,Universität Zürich,Switzerland
-80,Yoad Lewenberg,The Hebrew University of Jerusalem,Israel,191,Hebrew University of Jerusalem,Israel,45.0
+79,Willibald Ruch,Universität Zürich,Switzerland,1.0,121,University of Zürich,Switzerland,51.2
+80,Yoad Lewenberg,The Hebrew University of Jerusalem,Israel,0.8181818181818181,191,Hebrew University of Jerusalem,Israel,45.0
 80,Zinovi Rabinovich,Mobileye Vision Technologies Ltd,Israel
-80,Jeffrey S. Rosenschein,The Hebrew University of Jerusalem,Israel,191,Hebrew University of Jerusalem,Israel,45.0
-81,Nicola Gatti,Politecnico di Milano,Italy,276-300,Polytechnic University of Milan,Italy,Data withheld by THE
-81,Marco Rocco,Politecnico di Milano,Italy,276-300,Polytechnic University of Milan,Italy,Data withheld by THE
-82,Paul W. Goldberg,University of Liverpool,UK,169,University of Liverpool,United Kingdom,46.3
-82,Carmine Ventre,Teesside University,UK,301-350,Keele University,United Kingdom,Data withheld by THE
-83,Victor Naroditskiy,University of Southampton,UK,146,University of Southampton,United Kingdom,48.9
-83,Sofia Ceppi,Politecnico di Milano,Italy,276-300,Polytechnic University of Milan,Italy,Data withheld by THE
-83,Valentin Robu,University of Southampton,UK,146,University of Southampton,United Kingdom,48.9
-83,Nicholas R. Jennings,University of Southampton,UK,146,University of Southampton,United Kingdom,48.9
+80,Jeffrey S. Rosenschein,The Hebrew University of Jerusalem,Israel,0.8181818181818181,191,Hebrew University of Jerusalem,Israel,45.0
+81,Nicola Gatti,Politecnico di Milano,Italy,0.7142857142857143,276-300,Polytechnic University of Milan,Italy,Data withheld by THE
+81,Marco Rocco,Politecnico di Milano,Italy,0.7142857142857143,276-300,Polytechnic University of Milan,Italy,Data withheld by THE
+82,Paul W. Goldberg,University of Liverpool,UK,1.0,169,University of Liverpool,United Kingdom,46.3
+82,Carmine Ventre,Teesside University,UK
+83,Victor Naroditskiy,University of Southampton,UK,1.0,146,University of Southampton,United Kingdom,48.9
+83,Sofia Ceppi,Politecnico di Milano,Italy,0.7142857142857143,276-300,Polytechnic University of Milan,Italy,Data withheld by THE
+83,Valentin Robu,University of Southampton,UK,1.0,146,University of Southampton,United Kingdom,48.9
+83,Nicholas R. Jennings,University of Southampton,UK,1.0,146,University of Southampton,United Kingdom,48.9
 84,Prashanth Lakshmanrao Ananthapadmanabharao,"SequeL Team, INRIA Lille - Nord Europe",France
 84,Horabailu Laxminarayana Prasad,Indian Institute of Science,India
 84,Nirmit Desai,IBM Research,India
 84,Shalabh Bhatnagar,Indian Institute of Science,India
-85,Lampros C. Stavrogiannis,University of Southampton,UK,146,University of Southampton,United Kingdom,48.9
-85,Enrico H. Gerding,University of Southampton,UK,146,University of Southampton,United Kingdom,48.9
-85,Maria Polukarov,University of Southampton,UK,146,University of Southampton,United Kingdom,48.9
-86,Omer Lev,The Hebrew University of Jerusalem,Israel,191,Hebrew University of Jerusalem,Israel,45.0
-86,Maria Polukarov,University of Southampton,UK,146,University of Southampton,United Kingdom,48.9
+85,Lampros C. Stavrogiannis,University of Southampton,UK,1.0,146,University of Southampton,United Kingdom,48.9
+85,Enrico H. Gerding,University of Southampton,UK,1.0,146,University of Southampton,United Kingdom,48.9
+85,Maria Polukarov,University of Southampton,UK,1.0,146,University of Southampton,United Kingdom,48.9
+86,Omer Lev,The Hebrew University of Jerusalem,Israel,0.8181818181818181,191,Hebrew University of Jerusalem,Israel,45.0
+86,Maria Polukarov,University of Southampton,UK,1.0,146,University of Southampton,United Kingdom,48.9
 86,Yoram Bachrach,Microsoft Research,UK
-86,Jeffrey S. Rosenschein,The Hebrew University of Jerusalem,Israel,191,Hebrew University of Jerusalem,Israel,45.0
-87,Yuqian Li,Duke University,USA,17,Duke University,United States,79.3
-87,Vincent Conitzer,Duke University,USA,17,Duke University,United States,79.3
+86,Jeffrey S. Rosenschein,The Hebrew University of Jerusalem,Israel,0.8181818181818181,191,Hebrew University of Jerusalem,Israel,45.0
+87,Yuqian Li,Duke University,USA,1.0,17,Duke University,United States,79.3
+87,Vincent Conitzer,Duke University,USA,1.0,17,Duke University,United States,79.3
 88,Piotr Krysta,University of Liverpool,Greece
 88,Orestis Telelis,Athens University of Economics and Business,Greece
-88,Carmine Ventre,Teesside University,UK,301-350,Keele University,United Kingdom,Data withheld by THE
-89,Atsushi Iwasaki,Kyushu University,Japan,301-350,Kyushu University,Japan,Data withheld by THE
-89,Etsushi Fujita,Kyushu University,Japan,301-350,Kyushu University,Japan,Data withheld by THE
-89,Taiki Todo,Kyushu University,Japan,301-350,Kyushu University,Japan,Data withheld by THE
-89,Miao Yao,Kyushu University,Japan,301-350,Kyushu University,Japan,Data withheld by THE
-89,Makoto Yokoo,Kyushu University,Japan,301-350,Kyushu University,Japan,Data withheld by THE
-90,Siqi Chen,Maastricht University,The Netherlands,98,Maastricht University,Netherlands,52.9
-90,Haitham Bou Ammar,Maastricht University,The Netherlands,98,Maastricht University,Netherlands,52.9
-90,Karl Tuyls,Maastricht University,The Netherlands,98,Maastricht University,Netherlands,52.9
-90,Gerhard Weiss,Maastricht University,The Netherlands,98,Maastricht University,Netherlands,52.9
-91,Tim Baarslag,Delft University of Technology,The Netherlands,69,Delft University of Technology,Netherlands,59.1
-91,Koen V. Hindriks,Delft University of Technology,The Netherlands,69,Delft University of Technology,Netherlands,59.1
-92,Nicola Gatti,Politecnico di Milano,Italy,276-300,Polytechnic University of Milan,Italy,Data withheld by THE
-92,Marco Rocco,Politecnico di Milano,Italy,276-300,Polytechnic University of Milan,Italy,Data withheld by THE
-92,Tuomas Sandholm,Carnegie Mellon University,USA,24,Carnegie Mellon University,United States,76.0
-93,Muddasser Alam,University of Southampton,UK,146,University of Southampton,United Kingdom,48.9
-93,Sarvapali D. Ramchurn,University of Southampton,UK,146,University of Southampton,United Kingdom,48.9
-93,Alex Rogers,University of Southampton,UK,146,University of Southampton,United Kingdom,48.9
-94,Sabrina Campano,Université Pierre et Marie Curie,France,96,Université Pierre et Marie Curie,France,53.5
-94,Nicolas Sabouret,Université Pierre et Marie Curie,France,96,Université Pierre et Marie Curie,France,53.5
-94,Etienne de Sevin,Université Pierre et Marie Curie,France,96,Université Pierre et Marie Curie,France,53.5
-94,Vincent Corruble,Université Pierre et Marie Curie,France,96,Université Pierre et Marie Curie,France,53.5
-95,Michelle Nicholas,Macquarie University,Australia,276-300,Macquarie University,Australia,Data withheld by THE
-95,Deborah Richards,Macquarie University,Australia,276-300,Macquarie University,Australia,Data withheld by THE
-95,Penny Van Bergen,Macquarie University,Australia,276-300,Macquarie University,Australia,Data withheld by THE
+88,Carmine Ventre,Teesside University,UK
+89,Atsushi Iwasaki,Kyushu University,Japan,1.0,301-350,Kyushu University,Japan,Data withheld by THE
+89,Etsushi Fujita,Kyushu University,Japan,1.0,301-350,Kyushu University,Japan,Data withheld by THE
+89,Taiki Todo,Kyushu University,Japan,1.0,301-350,Kyushu University,Japan,Data withheld by THE
+89,Miao Yao,Kyushu University,Japan,1.0,301-350,Kyushu University,Japan,Data withheld by THE
+89,Makoto Yokoo,Kyushu University,Japan,1.0,301-350,Kyushu University,Japan,Data withheld by THE
+90,Siqi Chen,Maastricht University,The Netherlands,1.0,98,Maastricht University,Netherlands,52.9
+90,Haitham Bou Ammar,Maastricht University,The Netherlands,1.0,98,Maastricht University,Netherlands,52.9
+90,Karl Tuyls,Maastricht University,The Netherlands,1.0,98,Maastricht University,Netherlands,52.9
+90,Gerhard Weiss,Maastricht University,The Netherlands,1.0,98,Maastricht University,Netherlands,52.9
+91,Tim Baarslag,Delft University of Technology,The Netherlands,1.0,69,Delft University of Technology,Netherlands,59.1
+91,Koen V. Hindriks,Delft University of Technology,The Netherlands,1.0,69,Delft University of Technology,Netherlands,59.1
+92,Nicola Gatti,Politecnico di Milano,Italy,0.7142857142857143,276-300,Polytechnic University of Milan,Italy,Data withheld by THE
+92,Marco Rocco,Politecnico di Milano,Italy,0.7142857142857143,276-300,Polytechnic University of Milan,Italy,Data withheld by THE
+92,Tuomas Sandholm,Carnegie Mellon University,USA,1.0,24,Carnegie Mellon University,United States,76.0
+93,Muddasser Alam,University of Southampton,UK,1.0,146,University of Southampton,United Kingdom,48.9
+93,Sarvapali D. Ramchurn,University of Southampton,UK,1.0,146,University of Southampton,United Kingdom,48.9
+93,Alex Rogers,University of Southampton,UK,1.0,146,University of Southampton,United Kingdom,48.9
+94,Sabrina Campano,Université Pierre et Marie Curie,France,1.0,96,Université Pierre et Marie Curie,France,53.5
+94,Nicolas Sabouret,Université Pierre et Marie Curie,France,1.0,96,Université Pierre et Marie Curie,France,53.5
+94,Etienne de Sevin,Université Pierre et Marie Curie,France,1.0,96,Université Pierre et Marie Curie,France,53.5
+94,Vincent Corruble,Université Pierre et Marie Curie,France,1.0,96,Université Pierre et Marie Curie,France,53.5
+95,Michelle Nicholas,Macquarie University,Australia,1.0,276-300,Macquarie University,Australia,Data withheld by THE
+95,Deborah Richards,Macquarie University,Australia,1.0,276-300,Macquarie University,Australia,Data withheld by THE
+95,Penny Van Bergen,Macquarie University,Australia,1.0,276-300,Macquarie University,Australia,Data withheld by THE
 96,Joana Campos,INESC-ID and Instituto Superior Técnico,Portugal
 96,Carlos Martinho,INESC-ID and Instituto Superior Técnico,Portugal
 96,Ana Paiva,INESC-ID and Instituto Superior Técnico,Portugal
@@ -317,54 +317,54 @@ paper_id,researcher_name,university_name,country,university_rank,university_name
 99,Tony Ribeiro,The Graduate University for Advanced Studies,Japan
 99,Kazuhiro Minami,Transdisciplinary Research Integration Center,Japan
 99,Hiroshi Maruyama,Institute of Statistical Mathematics,Japan
-100,Jaroslaw Kochanowicz,Nanyang Technological University,Singapore,76,Nanyang Technological University,Singapore,57.2
-100,Tan Ah-Hwee,Nanyang Technological University,Singapore,76,Nanyang Technological University,Singapore,57.2
-100,Daniel Thalmann,Nanyang Technological University,Singapore,76,Nanyang Technological University,Singapore,57.2
-101,Ofra Amir,Harvard University,USA,2,Harvard University,United States,93.9
-101,Barbara J. Grosz,Harvard University,USA,2,Harvard University,United States,93.9
-101,Edith Law,Harvard University,USA,2,Harvard University,United States,93.9
-101,Roni Stern,Harvard University,USA,2,Harvard University,United States,93.9
-102,Sandip Sen,University of Tulsa,USA,276-300,University of Kansas,United States,Data withheld by THE
+100,Jaroslaw Kochanowicz,Nanyang Technological University,Singapore,1.0,76,Nanyang Technological University,Singapore,57.2
+100,Tan Ah-Hwee,Nanyang Technological University,Singapore,1.0,76,Nanyang Technological University,Singapore,57.2
+100,Daniel Thalmann,Nanyang Technological University,Singapore,1.0,76,Nanyang Technological University,Singapore,57.2
+101,Ofra Amir,Harvard University,USA,1.0,2,Harvard University,United States,93.9
+101,Barbara J. Grosz,Harvard University,USA,1.0,2,Harvard University,United States,93.9
+101,Edith Law,Harvard University,USA,1.0,2,Harvard University,United States,93.9
+101,Roni Stern,Harvard University,USA,1.0,2,Harvard University,United States,93.9
+102,Sandip Sen,University of Tulsa,USA
 103,Gal A. Kaminka,Bar Ilan University,Israel
-104,Hui Fang,Nanyang Technological University,Singapore,76,Nanyang Technological University,Singapore,57.2
-104,Jie Zhang,Nanyang Technological University,Singapore,76,Nanyang Technological University,Singapore,57.2
-104,Nadia M. Thalmann,Nanyang Technological University,Singapore,76,Nanyang Technological University,Singapore,57.2
-105,Siwei Jiang,Nanyang Technological University,Singapore,76,Nanyang Technological University,Singapore,57.2
-105,Jie Zhang,Nanyang Technological University,Singapore,76,Nanyang Technological University,Singapore,57.2
-105,Yew-Soon Ong,Nanyang Technological University,Singapore,76,Nanyang Technological University,Singapore,57.2
-106,Siyuan Liu,Nanyang Technological University,Singapore,76,Nanyang Technological University,Singapore,57.2
-106,Han Yu,Nanyang Technological University,Singapore,76,Nanyang Technological University,Singapore,57.2
-106,Chunyan Miao,Nanyang Technological University,Singapore,76,Nanyang Technological University,Singapore,57.2
-106,Alex C. Kot,Nanyang Technological University,Singapore,76,Nanyang Technological University,Singapore,57.2
-107,Matteo Venanzi,University of Southampton,UK,146,University of Southampton,United Kingdom,48.9
-107,Alex Rogers,University of Southampton,UK,146,University of Southampton,United Kingdom,48.9
-107,Nicholas R. Jennings,University of Southampton,UK,146,University of Southampton,United Kingdom,48.9
+104,Hui Fang,Nanyang Technological University,Singapore,1.0,76,Nanyang Technological University,Singapore,57.2
+104,Jie Zhang,Nanyang Technological University,Singapore,1.0,76,Nanyang Technological University,Singapore,57.2
+104,Nadia M. Thalmann,Nanyang Technological University,Singapore,1.0,76,Nanyang Technological University,Singapore,57.2
+105,Siwei Jiang,Nanyang Technological University,Singapore,1.0,76,Nanyang Technological University,Singapore,57.2
+105,Jie Zhang,Nanyang Technological University,Singapore,1.0,76,Nanyang Technological University,Singapore,57.2
+105,Yew-Soon Ong,Nanyang Technological University,Singapore,1.0,76,Nanyang Technological University,Singapore,57.2
+106,Siyuan Liu,Nanyang Technological University,Singapore,1.0,76,Nanyang Technological University,Singapore,57.2
+106,Han Yu,Nanyang Technological University,Singapore,1.0,76,Nanyang Technological University,Singapore,57.2
+106,Chunyan Miao,Nanyang Technological University,Singapore,1.0,76,Nanyang Technological University,Singapore,57.2
+106,Alex C. Kot,Nanyang Technological University,Singapore,1.0,76,Nanyang Technological University,Singapore,57.2
+107,Matteo Venanzi,University of Southampton,UK,1.0,146,University of Southampton,United Kingdom,48.9
+107,Alex Rogers,University of Southampton,UK,1.0,146,University of Southampton,United Kingdom,48.9
+107,Nicholas R. Jennings,University of Southampton,UK,1.0,146,University of Southampton,United Kingdom,48.9
 108,Murat Şensoy,University of Aberdeen & Ozyegin University,UK & Turkey
 108,Achille Fokoue,IBM T.J. Watson Research Center,USA
-108,Jeff Z. Pan,University of Aberdeen,UK,188,University of Aberdeen,United Kingdom,45.2
-108,Timothy J. Norman,University of Aberdeen,UK,188,University of Aberdeen,United Kingdom,45.2
-108,Yuqing Tang,Carnegie Mellon University,USA,24,Carnegie Mellon University,United States,76.0
-108,Nir Oren,University of Aberdeen,UK,188,University of Aberdeen,United Kingdom,45.2
-108,Katia Sycara,Carnegie Mellon University,USA,24,Carnegie Mellon University,United States,76.0
-109,Xiaowei Huang,University of New South Wales,Australia,114,University of New South Wales,Australia,51.7
-109,Cheng Luo,University of New South Wales,Australia,114,University of New South Wales,Australia,51.7
-110,Xiaowei Huang,University of New South Wales,Australia,114,University of New South Wales,Australia,51.7
-111,Panagiotis Kouvaros,Imperial College London,UK,10,Imperial College London,United Kingdom,87.5
-111,Alessio Lomuscio,Imperial College London,UK,10,Imperial College London,United Kingdom,87.5
-112,Josie Hunter,Oregon State University,USA,301-350,Oregon State University,United States,Data withheld by THE
+108,Jeff Z. Pan,University of Aberdeen,UK,1.0,188,University of Aberdeen,United Kingdom,45.2
+108,Timothy J. Norman,University of Aberdeen,UK,1.0,188,University of Aberdeen,United Kingdom,45.2
+108,Yuqing Tang,Carnegie Mellon University,USA,1.0,24,Carnegie Mellon University,United States,76.0
+108,Nir Oren,University of Aberdeen,UK,1.0,188,University of Aberdeen,United Kingdom,45.2
+108,Katia Sycara,Carnegie Mellon University,USA,1.0,24,Carnegie Mellon University,United States,76.0
+109,Xiaowei Huang,University of New South Wales,Australia,1.0,114,University of New South Wales,Australia,51.7
+109,Cheng Luo,University of New South Wales,Australia,1.0,114,University of New South Wales,Australia,51.7
+110,Xiaowei Huang,University of New South Wales,Australia,1.0,114,University of New South Wales,Australia,51.7
+111,Panagiotis Kouvaros,Imperial College London,UK,1.0,10,Imperial College London,United Kingdom,87.5
+111,Alessio Lomuscio,Imperial College London,UK,1.0,10,Imperial College London,United Kingdom,87.5
+112,Josie Hunter,Oregon State University,USA,1.0,301-350,Oregon State University,United States,Data withheld by THE
 112,Franco Raimondi,MiddleSex University,UK
 112,Neha Rungta,NASA Ames Research Center,USA
-112,Richard Stocker,University of Liverpool,UK,169,University of Liverpool,United Kingdom,46.3
+112,Richard Stocker,University of Liverpool,UK,1.0,169,University of Liverpool,United Kingdom,46.3
 113,Pankaj R. Telang,North Carolina State University,USA
 113,Felipe Meneguzzi,Pontifical Catholic University of Rio Grande do Sul,Brazil
 113,Munindar P. Singh,North Carolina State University,USA
 115,Shanjun Cheng,Altisource,USA
 115,Anita Raja,The University of North Carolina at Charlotte,USA
 115,Victor Lesser,"University of Massachusetts, Amherst",USA
-116,Long Tran-Thanh,University of Southampton,UK,146,University of Southampton,United Kingdom,48.9
-116,Matteo Venanzi,University of Southampton,UK,146,University of Southampton,United Kingdom,48.9
-116,Alex Rogers,University of Southampton,UK,146,University of Southampton,United Kingdom,48.9
-116,Nicholas R. Jennings,University of Southampton,UK,146,University of Southampton,United Kingdom,48.9
+116,Long Tran-Thanh,University of Southampton,UK,1.0,146,University of Southampton,United Kingdom,48.9
+116,Matteo Venanzi,University of Southampton,UK,1.0,146,University of Southampton,United Kingdom,48.9
+116,Alex Rogers,University of Southampton,UK,1.0,146,University of Southampton,United Kingdom,48.9
+116,Nicholas R. Jennings,University of Southampton,UK,1.0,146,University of Southampton,United Kingdom,48.9
 117,W. Bradley Knox,MIT Media Lab,USA
 118,Matthew Yee-King,"Goldsmiths College, University of London",UK
 118,Roberto Confalonieri,"Goldsmiths College, University of London",UK
@@ -381,8 +381,8 @@ paper_id,researcher_name,university_name,country,university_rank,university_name
 120,Simon Le Gloannec,CASSIDIAN,France
 120,Dafni Stampouli,CASSIDIAN,France
 120,Marc Contat,CASSIDIAN,France
-121,Mitchell Colby,Oregon State University,USA,301-350,Oregon State University,United States,Data withheld by THE
-121,Kagan Tumer,Oregon State University,USA,301-350,Oregon State University,United States,Data withheld by THE
+121,Mitchell Colby,Oregon State University,USA,1.0,301-350,Oregon State University,United States,Data withheld by THE
+121,Kagan Tumer,Oregon State University,USA,1.0,301-350,Oregon State University,United States,Data withheld by THE
 122,Nidhi Parikh,"Virginia Bioinformatics Institute, Virginia Tech",USA
 122,Samarth Swarup,"Virginia Bioinformatics Institute, Virginia Tech",USA
 122,Paula E. Stretz,"Virginia Bioinformatics Institute, Virginia Tech",USA
@@ -393,69 +393,69 @@ paper_id,researcher_name,university_name,country,university_rank,university_name
 122,Christopher L. Barrett,"Virginia Bioinformatics Institute, Virginia Tech",USA
 122,Kristian Lum,"Virginia Bioinformatics Institute, Virginia Tech",USA
 122,Youngyun Chungbaek,"Virginia Bioinformatics Institute, Virginia Tech",USA
-123,Fei Fang,University of Southern California,USA,70,University of Southern California,United States,59.0
-123,Albert Xin Jiang,University of Southern California,USA,70,University of Southern California,United States,59.0
-123,Milind Tambe,University of Southern California,USA,70,University of Southern California,United States,59.0
-124,Jun-young Kwak,University of Southern California,USA,70,University of Southern California,United States,59.0
+123,Fei Fang,University of Southern California,USA,1.0,70,University of Southern California,United States,59.0
+123,Albert Xin Jiang,University of Southern California,USA,1.0,70,University of Southern California,United States,59.0
+123,Milind Tambe,University of Southern California,USA,1.0,70,University of Southern California,United States,59.0
+124,Jun-young Kwak,University of Southern California,USA,1.0,70,University of Southern California,United States,59.0
 124,Pradeep Varakantham,Singapore Management University,Singapore
-124,Rajiv Maheswaran,University of Southern California,USA,70,University of Southern California,United States,59.0
-124,Yu-Han Chang,University of Southern California,USA,70,University of Southern California,United States,59.0
-124,Milind Tambe,University of Southern California,USA,70,University of Southern California,United States,59.0
-124,Burcin Becerik-Gerber,University of Southern California,USA,70,University of Southern California,United States,59.0
-124,Wendy Wood,University of Southern California,USA,70,University of Southern California,United States,59.0
-125,Lan Yu,Nanyang Technological University,Singapore,76,Nanyang Technological University,Singapore,57.2
+124,Rajiv Maheswaran,University of Southern California,USA,1.0,70,University of Southern California,United States,59.0
+124,Yu-Han Chang,University of Southern California,USA,1.0,70,University of Southern California,United States,59.0
+124,Milind Tambe,University of Southern California,USA,1.0,70,University of Southern California,United States,59.0
+124,Burcin Becerik-Gerber,University of Southern California,USA,1.0,70,University of Southern California,United States,59.0
+124,Wendy Wood,University of Southern California,USA,1.0,70,University of Southern California,United States,59.0
+125,Lan Yu,Nanyang Technological University,Singapore,1.0,76,Nanyang Technological University,Singapore,57.2
 125,Chi-Kin Chau,Masdar Institute of Science and Technology,UAE
-126,Sarvapali D. Ramchurn,University of Southampton,UK,146,University of Southampton,United Kingdom,48.9
-126,Michael A. Osborne,University of Oxford,UK,2,University of Oxford,United Kingdom,93.9
-126,Oliver Parson,University of Southampton,UK,146,University of Southampton,United Kingdom,48.9
-126,Talal Rahwan,University of Southampton,UK,146,University of Southampton,United Kingdom,48.9
-126,Sasan Maleki,University of Southampton,UK,146,University of Southampton,United Kingdom,48.9
-126,Steve Reece,University of Oxford,UK,2,University of Oxford,United Kingdom,93.9
-126,Trung D. Huynh,University of Southampton,UK,146,University of Southampton,United Kingdom,48.9
-126,Muddasser Alam,University of Southampton,UK,146,University of Southampton,United Kingdom,48.9
-126,Joel E. Fischer,University of Nottingham,UK,157,University of Nottingham,United Kingdom,47.4
-126,Tom Rodden,University of Nottingham,UK,157,University of Nottingham,United Kingdom,47.4
-126,Luc Moreau,University of Southampton,UK,146,University of Southampton,United Kingdom,48.9
-126,Stephen Roberts,University of Oxford,UK,2,University of Oxford,United Kingdom,93.9
-127,Enrico H. Gerding,University of Southampton,UK,146,University of Southampton,United Kingdom,48.9
-127,Sebastian Stein,University of Southampton,UK,146,University of Southampton,United Kingdom,48.9
-127,Valentin Robu,University of Southampton,UK,146,University of Southampton,United Kingdom,48.9
+126,Sarvapali D. Ramchurn,University of Southampton,UK,1.0,146,University of Southampton,United Kingdom,48.9
+126,Michael A. Osborne,University of Oxford,UK,1.0,2,University of Oxford,United Kingdom,93.9
+126,Oliver Parson,University of Southampton,UK,1.0,146,University of Southampton,United Kingdom,48.9
+126,Talal Rahwan,University of Southampton,UK,1.0,146,University of Southampton,United Kingdom,48.9
+126,Sasan Maleki,University of Southampton,UK,1.0,146,University of Southampton,United Kingdom,48.9
+126,Steve Reece,University of Oxford,UK,1.0,2,University of Oxford,United Kingdom,93.9
+126,Trung D. Huynh,University of Southampton,UK,1.0,146,University of Southampton,United Kingdom,48.9
+126,Muddasser Alam,University of Southampton,UK,1.0,146,University of Southampton,United Kingdom,48.9
+126,Joel E. Fischer,University of Nottingham,UK,1.0,157,University of Nottingham,United Kingdom,47.4
+126,Tom Rodden,University of Nottingham,UK,1.0,157,University of Nottingham,United Kingdom,47.4
+126,Luc Moreau,University of Southampton,UK,1.0,146,University of Southampton,United Kingdom,48.9
+126,Stephen Roberts,University of Oxford,UK,1.0,2,University of Oxford,United Kingdom,93.9
+127,Enrico H. Gerding,University of Southampton,UK,1.0,146,University of Southampton,United Kingdom,48.9
+127,Sebastian Stein,University of Southampton,UK,1.0,146,University of Southampton,United Kingdom,48.9
+127,Valentin Robu,University of Southampton,UK,1.0,146,University of Southampton,United Kingdom,48.9
 127,Dengji Zhao,University of Western Sydney,Australia
-127,Nicholas R. Jennings,University of Southampton,UK,146,University of Southampton,United Kingdom,48.9
+127,Nicholas R. Jennings,University of Southampton,UK,1.0,146,University of Southampton,United Kingdom,48.9
 128,Scott N. Gerard,North Carolina State University,USA
 128,Munindar P. Singh,North Carolina State University,USA
-129,Joshua Davidson,University of Alberta,Canada,109,University of Alberta,Canada,52.0
-129,Christopher Archibald,University of Alberta,Canada,109,University of Alberta,Canada,52.0
-129,Michael Bowling,University of Alberta,Canada,109,University of Alberta,Canada,52.0
-130,Lin Padgham,RMIT University,Australia,301-350,Deakin University,Australia,Data withheld by THE
-130,Dhirendra Singh,RMIT University,Australia,301-350,Deakin University,Australia,Data withheld by THE
+129,Joshua Davidson,University of Alberta,Canada,1.0,109,University of Alberta,Canada,52.0
+129,Christopher Archibald,University of Alberta,Canada,1.0,109,University of Alberta,Canada,52.0
+129,Michael Bowling,University of Alberta,Canada,1.0,109,University of Alberta,Canada,52.0
+130,Lin Padgham,RMIT University,Australia
+130,Dhirendra Singh,RMIT University,Australia
 131,H. Van Dyke Parunak,Soar Technology,USA
 131,Sven A. Brueckner,Soar Technology,USA
 131,Lu Hong,Loyola University Chicago,USA
-131,Scott Page,University of Michigan,USA,18,University of Michigan,United States,79.2
+131,Scott Page,University of Michigan,USA,1.0,18,University of Michigan,United States,79.2
 131,Richard Rohwer,SRI,USA
 132,Mateusz Guzek,University of Luxembourg,Luxembourg
 132,Grégoire Danoy,University of Luxembourg,Luxembourg
 132,Pascal Bouvry,University of Luxembourg,Luxembourg
-133,Clement Gehring,McGill University,Canada,35,McGill University,Canada,68.1
-133,Doina Precup,McGill University,Canada,35,McGill University,Canada,68.1
+133,Clement Gehring,McGill University,Canada,1.0,35,McGill University,Canada,68.1
+133,Doina Precup,McGill University,Canada,1.0,35,McGill University,Canada,68.1
 134,Sherief Abdallah,British University in Dubai,UAE
-134,Michael Kaisers,Maastricht University,The Netherlands,98,Maastricht University,Netherlands,52.9
+134,Michael Kaisers,Maastricht University,The Netherlands,1.0,98,Maastricht University,Netherlands,52.9
 135,Lisa Torrey,St. Lawrence University,USA
-135,Matthew E. Taylor,Washington State University,USA,301-350,Washington State University,United States,Data withheld by THE
-136,Luis C. Cobo,Georgia Institute of Technology,USA,197,Florida Institute of Technology,United States,44.6
-136,Charles L. Isbell Jr.,Georgia Institute of Technology,USA,197,Florida Institute of Technology,United States,44.6
-136,Andrea L. Thomaz,Georgia Institute of Technology,USA,197,Florida Institute of Technology,United States,44.6
-137,Todd Hester,University of Texas at Austin,USA,27,University of Texas at Austin,United States,72.2
+135,Matthew E. Taylor,Washington State University,USA,1.0,301-350,Washington State University,United States,Data withheld by THE
+136,Luis C. Cobo,Georgia Institute of Technology,USA
+136,Charles L. Isbell Jr.,Georgia Institute of Technology,USA
+136,Andrea L. Thomaz,Georgia Institute of Technology,USA
+137,Todd Hester,University of Texas at Austin,USA,1.0,27,University of Texas at Austin,United States,72.2
 137,Manuel Lopes,INRIA Bordeaux Sud-Ouest,France
-137,Peter Stone,University of Texas at Austin,USA,27,University of Texas at Austin,United States,72.2
-138,Qiangfeng Peter Lau,National University of Singapore,Singapore,26,National University of Singapore (NUS),Singapore,72.4
-138,Mong Li Lee,National University of Singapore,Singapore,26,National University of Singapore (NUS),Singapore,72.4
-138,Wynne Hsu,National University of Singapore,Singapore,26,National University of Singapore (NUS),Singapore,72.4
+137,Peter Stone,University of Texas at Austin,USA,1.0,27,University of Texas at Austin,United States,72.2
+138,Qiangfeng Peter Lau,National University of Singapore,Singapore,0.7692307692307692,26,National University of Singapore (NUS),Singapore,72.4
+138,Mong Li Lee,National University of Singapore,Singapore,0.7692307692307692,26,National University of Singapore (NUS),Singapore,72.4
+138,Wynne Hsu,National University of Singapore,Singapore,0.7692307692307692,26,National University of Singapore (NUS),Singapore,72.4
 139,Doran Chakraborty,Microsoft,USA
-139,Peter Stone,The University of Texas at Austin,USA,27,University of Texas at Austin,United States,72.2
-140,Daniel Urieli,The University of Texas at Austin,USA,27,University of Texas at Austin,United States,72.2
-140,Peter Stone,The University of Texas at Austin,USA,27,University of Texas at Austin,United States,72.2
+139,Peter Stone,The University of Texas at Austin,USA,0.8095238095238095,27,University of Texas at Austin,United States,72.2
+140,Daniel Urieli,The University of Texas at Austin,USA,0.8095238095238095,27,University of Texas at Austin,United States,72.2
+140,Peter Stone,The University of Texas at Austin,USA,0.8095238095238095,27,University of Texas at Austin,United States,72.2
 141,Chongjie Zhang,"University of Massachusetts, Amherst",USA
 141,Victor Lesser,"University of Massachusetts, Amherst",USA
 142,Andrew Koster,UFRGS,Spain
@@ -468,127 +468,127 @@ paper_id,researcher_name,university_name,country,university_rank,university_name
 142,Dave de Jonge,IIIA-CSIC & Universidad Autònoma de Barcelona,Spain
 142,Josep Puyol-Gruart,IIIA-CSIC & Universidad Autònoma de Barcelona,Spain
 142,Pere Garcia-Calvés,IIIA-CSIC,Spain
-143,Fenghui Ren,University of Wollongong,Australia,276-300,University of Wollongong,Australia,Data withheld by THE
-143,Minjie Zhang,University of Wollongong,Australia,276-300,University of Wollongong,Australia,Data withheld by THE
-143,Danny Sutanto,University of Wollongong,Australia,276-300,University of Wollongong,Australia,Data withheld by THE
-144,Chris HolmesParker,Oregon State University,USA,301-350,Oregon State University,United States,Data withheld by THE
+143,Fenghui Ren,University of Wollongong,Australia,1.0,276-300,University of Wollongong,Australia,Data withheld by THE
+143,Minjie Zhang,University of Wollongong,Australia,1.0,276-300,University of Wollongong,Australia,Data withheld by THE
+143,Danny Sutanto,University of Wollongong,Australia,1.0,276-300,University of Wollongong,Australia,Data withheld by THE
+144,Chris HolmesParker,Oregon State University,USA,1.0,301-350,Oregon State University,United States,Data withheld by THE
 144,Adrian Agogino,NASA Ames Research Center,USA
-144,Kagan Tumer,Oregon State University,USA,301-350,Oregon State University,United States,Data withheld by THE
+144,Kagan Tumer,Oregon State University,USA,1.0,301-350,Oregon State University,United States,Data withheld by THE
 145,Damien Pellier,Université Paris Descartes,France
-145,Humbert Fiorino,Université Joseph Fourier,France,155,"Université Joseph Fourier, Grenoble",France,47.8
+145,Humbert Fiorino,Université Joseph Fourier,France
 145,Marc Métivier,Université Paris Descartes,France
-146,Minyi Li,Swinburne University of Technology,Australia,351-400,Swinburne University of Technology,Australia,Data withheld by THE
-146,Quoc Bao Vo,Swinburne University of Technology,Australia,351-400,Swinburne University of Technology,Australia,Data withheld by THE
-146,Ryszard Kowalczyk,Swinburne University of Technology,Australia,351-400,Swinburne University of Technology,Australia,Data withheld by THE
-147,Simone Gabbriellini,University of Bologna,Italy,276-300,University of Bologna,Italy,Data withheld by THE
-147,Paolo Torroni,University of Bologna,Italy,276-300,University of Bologna,Italy,Data withheld by THE
-148,Jie Jiang,Delft University of Technology,The Netherlands,69,Delft University of Technology,Netherlands,59.1
-148,Virginia Dignum,Delft University of Technology,The Netherlands,69,Delft University of Technology,Netherlands,59.1
-148,Huib Aldewereld,Delft University of Technology,The Netherlands,69,Delft University of Technology,Netherlands,59.1
-148,Frank Dignum,Utrecht University,The Netherlands,74,Utrecht University,Netherlands,57.7
-148,Yao-Hua Tan,Delft University of Technology,The Netherlands,69,Delft University of Technology,Netherlands,59.1
-149,Adam Eck,University of Nebraska-Lincoln,USA,251-275,University of Nebraska-Lincoln,United States,Data withheld by THE
-149,Leen-Kiat Soh,University of Nebraska-Lincoln,USA,251-275,University of Nebraska-Lincoln,United States,Data withheld by THE
-149,Sam Devlin,University of York,UK,100,University of York,United Kingdom,52.6
-149,Daniel Kudenko,University of York,UK,100,University of York,United Kingdom,52.6
+146,Minyi Li,Swinburne University of Technology,Australia,1.0,351-400,Swinburne University of Technology,Australia,Data withheld by THE
+146,Quoc Bao Vo,Swinburne University of Technology,Australia,1.0,351-400,Swinburne University of Technology,Australia,Data withheld by THE
+146,Ryszard Kowalczyk,Swinburne University of Technology,Australia,1.0,351-400,Swinburne University of Technology,Australia,Data withheld by THE
+147,Simone Gabbriellini,University of Bologna,Italy,1.0,276-300,University of Bologna,Italy,Data withheld by THE
+147,Paolo Torroni,University of Bologna,Italy,1.0,276-300,University of Bologna,Italy,Data withheld by THE
+148,Jie Jiang,Delft University of Technology,The Netherlands,1.0,69,Delft University of Technology,Netherlands,59.1
+148,Virginia Dignum,Delft University of Technology,The Netherlands,1.0,69,Delft University of Technology,Netherlands,59.1
+148,Huib Aldewereld,Delft University of Technology,The Netherlands,1.0,69,Delft University of Technology,Netherlands,59.1
+148,Frank Dignum,Utrecht University,The Netherlands,1.0,74,Utrecht University,Netherlands,57.7
+148,Yao-Hua Tan,Delft University of Technology,The Netherlands,1.0,69,Delft University of Technology,Netherlands,59.1
+149,Adam Eck,University of Nebraska-Lincoln,USA,1.0,251-275,University of Nebraska-Lincoln,United States,Data withheld by THE
+149,Leen-Kiat Soh,University of Nebraska-Lincoln,USA,1.0,251-275,University of Nebraska-Lincoln,United States,Data withheld by THE
+149,Sam Devlin,University of York,UK,1.0,100,University of York,United Kingdom,52.6
+149,Daniel Kudenko,University of York,UK,1.0,100,University of York,United Kingdom,52.6
 150,Ayush Dewan,International Institute of Information Technology,India
 150,Aravindh Mahendran,International Institute of Information Technology,India
 150,Nikhil Soni,International Institute of Information Technology,India
 150,Madhava Krishna,International Institute of Information Technology,India
-151,Joost van Oijen,Utrecht University,The Netherlands,74,Utrecht University,Netherlands,57.7
-151,Frank Dignum,Utrecht University,The Netherlands,74,Utrecht University,Netherlands,57.7
+151,Joost van Oijen,Utrecht University,The Netherlands,1.0,74,Utrecht University,Netherlands,57.7
+151,Frank Dignum,Utrecht University,The Netherlands,1.0,74,Utrecht University,Netherlands,57.7
 152,Carl-Johan Jørgensen,MimeTIC team - IRISA,France
 152,Fabrice Lamarche,MimeTIC team - IRISA,France
 153,Serge Gaspers,The University of New South Wales and NICTA,Australia
-153,Victor Naroditskiy,University of Southampton,UK,146,University of Southampton,United Kingdom,48.9
+153,Victor Naroditskiy,University of Southampton,UK,1.0,146,University of Southampton,United Kingdom,48.9
 153,Nina Narodytska,NICTA and The University of New South Wales,Australia
 153,Toby Walsh,NICTA and The University of New South Wales,Australia
-154,Nathan Brooks,Carnegie Mellon University,USA,24,Carnegie Mellon University,United States,76.0
+154,Nathan Brooks,Carnegie Mellon University,USA,1.0,24,Carnegie Mellon University,United States,76.0
 154,Ewart de Visser,"Perceptronics Solutions, Inc.",USA
 154,Timur Chabuk,"Perceptronics Solutions, Inc.",USA
 154,Elan Freedy,"Perceptronics Solutions, Inc.",USA
-154,Paul Scerri,Carnegie Mellon University,USA,24,Carnegie Mellon University,United States,76.0
+154,Paul Scerri,Carnegie Mellon University,USA,1.0,24,Carnegie Mellon University,United States,76.0
 155,Pablo F. Hernandez-Leal,Instituto Nacional de Astrofísca,Mexico
 155,Enrique Munoz de Cote,Instituto Nacional de Astrofísca,Mexico
 155,L. Enrique Sucar,Instituto Nacional de Astrofísca,Mexico
-156,Sharmila Savarimuthu,University of Otago,New Zealand,226-250,University of Otago,New Zealand,Data withheld by THE
-156,Michael Winikoff,University of Otago,New Zealand,226-250,University of Otago,New Zealand,Data withheld by THE
+156,Sharmila Savarimuthu,University of Otago,New Zealand,1.0,226-250,University of Otago,New Zealand,Data withheld by THE
+156,Michael Winikoff,University of Otago,New Zealand,1.0,226-250,University of Otago,New Zealand,Data withheld by THE
 157,Trung Thanh Nguyen,Heinrich-Heine-Universität Düsseldorf,Germany
 157,Jörg Rothe,Heinrich-Heine-Universität Düsseldorf,Germany
 158,Daniel Borrajo,Universidad Carlos III de Madrid,Spain
 159,H. Van Dyke Parunak,Soar Technology,USA
 159,Sven A. Brueckner,Soar Technology,USA
-160,James C. Boerkoel Jr.,Massachusetts Institute of Technology,USA,5,Massachusetts Institute of Technology (MIT),United States,93.0
-160,Edmund H. Durfee,University of Michigan,USA,18,University of Michigan,United States,79.2
-161,Jean Oh,Carnegie Mellon University,USA,24,Carnegie Mellon University,United States,76.0
-161,Arne Suppe,Carnegie Mellon University,USA,24,Carnegie Mellon University,United States,76.0
-161,Anthony Stentz,Carnegie Mellon University,USA,24,Carnegie Mellon University,United States,76.0
-161,Martial Hebert,Carnegie Mellon University,USA,24,Carnegie Mellon University,United States,76.0
-162,Nicolaj Søndberg-Jeppesen,Aalborg University,Denmark,301-350,Aalborg University,Denmark,Data withheld by THE
-162,Finn V. Jensen,Aalborg University,Denmark,301-350,Aalborg University,Denmark,Data withheld by THE
-162,Yifeng Zeng,Teesside University,UK,301-350,Keele University,United Kingdom,Data withheld by THE
-163,Régis Riveret,Imperial College London,UK,10,Imperial College London,United Kingdom,87.5
+160,James C. Boerkoel Jr.,Massachusetts Institute of Technology,USA,0.76,5,Massachusetts Institute of Technology (MIT),United States,93.0
+160,Edmund H. Durfee,University of Michigan,USA,1.0,18,University of Michigan,United States,79.2
+161,Jean Oh,Carnegie Mellon University,USA,1.0,24,Carnegie Mellon University,United States,76.0
+161,Arne Suppe,Carnegie Mellon University,USA,1.0,24,Carnegie Mellon University,United States,76.0
+161,Anthony Stentz,Carnegie Mellon University,USA,1.0,24,Carnegie Mellon University,United States,76.0
+161,Martial Hebert,Carnegie Mellon University,USA,1.0,24,Carnegie Mellon University,United States,76.0
+162,Nicolaj Søndberg-Jeppesen,Aalborg University,Denmark,1.0,301-350,Aalborg University,Denmark,Data withheld by THE
+162,Finn V. Jensen,Aalborg University,Denmark,1.0,301-350,Aalborg University,Denmark,Data withheld by THE
+162,Yifeng Zeng,Teesside University,UK
+163,Régis Riveret,Imperial College London,UK,1.0,10,Imperial College London,United Kingdom,87.5
 163,Giuseppe Contissa,EUI,Italy
-163,Antonino Rotolo,University of Bologna,Italy,276-300,University of Bologna,Italy,Data withheld by THE
-163,Jeremy V. Pitt,Imperial College London,UK,10,Imperial College London,United Kingdom,87.5
-164,John T. Balint,George Mason University,USA,351-400,George Mason University,United States,Data withheld by THE
-164,Jan M. Allbeck,George Mason University,USA,351-400,George Mason University,United States,Data withheld by THE
-165,Stefano V. Albrecht,University of Edinburgh,UK,39,University of Edinburgh,United Kingdom,67.5
-165,Subramanian Ramamoorthy,University of Edinburgh,UK,39,University of Edinburgh,United Kingdom,67.5
-166,Marina De Vos,University of Bath,UK,276-300,University of Bath,United Kingdom,Data withheld by THE
-166,Tina Balke,University of Surrey,UK,351-400,University of Surrey,United Kingdom,Data withheld by THE
+163,Antonino Rotolo,University of Bologna,Italy,1.0,276-300,University of Bologna,Italy,Data withheld by THE
+163,Jeremy V. Pitt,Imperial College London,UK,1.0,10,Imperial College London,United Kingdom,87.5
+164,John T. Balint,George Mason University,USA,1.0,351-400,George Mason University,United States,Data withheld by THE
+164,Jan M. Allbeck,George Mason University,USA,1.0,351-400,George Mason University,United States,Data withheld by THE
+165,Stefano V. Albrecht,University of Edinburgh,UK,1.0,39,University of Edinburgh,United Kingdom,67.5
+165,Subramanian Ramamoorthy,University of Edinburgh,UK,1.0,39,University of Edinburgh,United Kingdom,67.5
+166,Marina De Vos,University of Bath,UK,1.0,276-300,University of Bath,United Kingdom,Data withheld by THE
+166,Tina Balke,University of Surrey,UK,1.0,351-400,University of Surrey,United Kingdom,Data withheld by THE
 166,Ken Satoh,National Institute of Informatics,UK
 167,Didac Gil de la Iglesia,Linnaeus University,Sweden
 167,Danny Weyns,Linnaeus University,Sweden
-168,Elton Sbruzzi,University of Essex,UK,251-275,University of Essex,United Kingdom,Data withheld by THE
-168,Steve Phelps,University of Essex,UK,251-275,University of Essex,United Kingdom,Data withheld by THE
+168,Elton Sbruzzi,University of Essex,UK,1.0,251-275,University of Essex,United Kingdom,Data withheld by THE
+168,Steve Phelps,University of Essex,UK,1.0,251-275,University of Essex,United Kingdom,Data withheld by THE
 169,Gal A. Kaminka,Bar Ilan University,Israel
 169,Meytal Traub,Bar Ilan University,Israel
 169,Yehuda Elmaliach,"Cogniteam, Ltd. and the College of Management",Israel
 169,Dan Erusalimchik,"Cogniteam, Ltd.",Israel
 169,Alex Fridman,Bar Ilan University,Israel
-170,Richard Cole,New York University,USA,80,Emory University,United States,56.1
-170,Vasilis Gkatzelis,New York University,USA,80,Emory University,United States,56.1
+170,Richard Cole,New York University,USA
+170,Vasilis Gkatzelis,New York University,USA
 170,Gagan Goel,Google Research,USA
-171,Xiang Li,Texas Tech University,USA,159,Texas A&M University,United States,47.2
-171,Mohan Sridharan,Texas Tech University,USA,159,Texas A&M University,United States,47.2
+171,Xiang Li,Texas Tech University,USA
+171,Mohan Sridharan,Texas Tech University,USA
 171,Catie Meador,Swarthmore College,USA
 172,Warda El Kholy,Concordia University,Canada
 172,Mohamed El Menshawy,Concordia University,Canada
 172,Jamal Bentahar,Concordia University,Canada
-172,Hongyang Qu,Oxford University,UK,301-350,Bangor University,United Kingdom,Data withheld by THE
+172,Hongyang Qu,Oxford University,UK
 172,Rachida Dssouli,Concordia University,Canada
-173,Qiong Wu,Nanyang Technological University,Singapore,76,Nanyang Technological University,Singapore,57.2
-173,Xiaogang Han,Nanyang Technological University,Singapore,76,Nanyang Technological University,Singapore,57.2
-173,Han Yu,Nanyang Technological University,Singapore,76,Nanyang Technological University,Singapore,57.2
-173,Zhiqi Shen,Nanyang Technological University,Singapore,76,Nanyang Technological University,Singapore,57.2
-173,Chunyan Miao,Nanyang Technological University,Singapore,76,Nanyang Technological University,Singapore,57.2
-174,Yoosef Abushark,RMIT University,Australia,301-350,Deakin University,Australia,Data withheld by THE
-174,John Thangarajah,RMIT University,Australia,301-350,Deakin University,Australia,Data withheld by THE
+173,Qiong Wu,Nanyang Technological University,Singapore,1.0,76,Nanyang Technological University,Singapore,57.2
+173,Xiaogang Han,Nanyang Technological University,Singapore,1.0,76,Nanyang Technological University,Singapore,57.2
+173,Han Yu,Nanyang Technological University,Singapore,1.0,76,Nanyang Technological University,Singapore,57.2
+173,Zhiqi Shen,Nanyang Technological University,Singapore,1.0,76,Nanyang Technological University,Singapore,57.2
+173,Chunyan Miao,Nanyang Technological University,Singapore,1.0,76,Nanyang Technological University,Singapore,57.2
+174,Yoosef Abushark,RMIT University,Australia
+174,John Thangarajah,RMIT University,Australia
 175,Paulo Shakarian,U.S. Military Academy,USA
-175,Gerardo I. Simari,University of Oxford,UK,2,University of Oxford,United Kingdom,93.9
+175,Gerardo I. Simari,University of Oxford,UK,1.0,2,University of Oxford,United Kingdom,93.9
 175,Robert Schroeder,Naval Postgraduate School,USA
-176,Yusen Zhan,Nanjing University,China,251-275,Nanjing University,China,Data withheld by THE
-176,Jun Wu,Hohai University,China,201-225,Fudan University,China,Data withheld by THE
-176,Chongjun Wang,Nanjing University,China,251-275,Nanjing University,China,Data withheld by THE
-176,Meilin Liu,Wright State University,USA,301-350,Oregon State University,United States,Data withheld by THE
-176,Junyuan Xie,Nanjing University,China,251-275,Nanjing University,China,Data withheld by THE
-177,Jolie Olsen,University of Tulsa,USA,276-300,University of Kansas,United States,Data withheld by THE
-177,Sandip Sen,University of Tulsa,USA,276-300,University of Kansas,United States,Data withheld by THE
-178,Chris HolmesParker,Oregon State University,USA,301-350,Oregon State University,United States,Data withheld by THE
+176,Yusen Zhan,Nanjing University,China,1.0,251-275,Nanjing University,China,Data withheld by THE
+176,Jun Wu,Hohai University,China
+176,Chongjun Wang,Nanjing University,China,1.0,251-275,Nanjing University,China,Data withheld by THE
+176,Meilin Liu,Wright State University,USA,0.7142857142857143,301-350,Oregon State University,United States,Data withheld by THE
+176,Junyuan Xie,Nanjing University,China,1.0,251-275,Nanjing University,China,Data withheld by THE
+177,Jolie Olsen,University of Tulsa,USA
+177,Sandip Sen,University of Tulsa,USA
+178,Chris HolmesParker,Oregon State University,USA,1.0,301-350,Oregon State University,United States,Data withheld by THE
 178,Adrian Agogino,NASA Ames Research Center,USA
-178,Kagan Tumer,Oregon State University,USA,301-350,Oregon State University,United States,Data withheld by THE
-179,Wenjie Wang,Nanyang Technological University,Singapore,76,Nanyang Technological University,Singapore,57.2
-179,Wooi Boon Goh,Nanyang Technological University,Singapore,76,Nanyang Technological University,Singapore,57.2
-180,Jason Tsai,University of Southern California,USA,70,University of Southern California,United States,59.0
-180,Yundi Qian,University of Southern California,USA,70,University of Southern California,United States,59.0
+178,Kagan Tumer,Oregon State University,USA,1.0,301-350,Oregon State University,United States,Data withheld by THE
+179,Wenjie Wang,Nanyang Technological University,Singapore,1.0,76,Nanyang Technological University,Singapore,57.2
+179,Wooi Boon Goh,Nanyang Technological University,Singapore,1.0,76,Nanyang Technological University,Singapore,57.2
+180,Jason Tsai,University of Southern California,USA,1.0,70,University of Southern California,United States,59.0
+180,Yundi Qian,University of Southern California,USA,1.0,70,University of Southern California,United States,59.0
 180,Yevgeniy Vorobeychik,Sandia National Laboratories,USA
 180,Christopher Kiekintveld,University of Texas at El Paso,USA
-180,Milind Tambe,University of Southern California,USA,70,University of Southern California,United States,59.0
-181,Bao Vo Luong,RMIT University,Australia,301-350,Deakin University,Australia,Data withheld by THE
-181,John Thangarajah,RMIT University,Australia,301-350,Deakin University,Australia,Data withheld by THE
-181,Fabio Zambetta,RMIT University,Australia,301-350,Deakin University,Australia,Data withheld by THE
-181,Mahmud Hasan,RMIT University,Australia,301-350,Deakin University,Australia,Data withheld by THE
+180,Milind Tambe,University of Southern California,USA,1.0,70,University of Southern California,United States,59.0
+181,Bao Vo Luong,RMIT University,Australia
+181,John Thangarajah,RMIT University,Australia
+181,Fabio Zambetta,RMIT University,Australia
+181,Mahmud Hasan,RMIT University,Australia
 182,Tobias Küster,Technical University of Berlin,Germany
 182,Thomas Konnerth,Technical University of Berlin,Germany
 182,Alexander Thiele,Technical University of Berlin,Germany
@@ -597,64 +597,64 @@ paper_id,researcher_name,university_name,country,university_rank,university_name
 182,Michael Burkhardt,Technical University of Berlin,Germany
 182,Silvan Kaiser,Technical University of Berlin,Germany
 182,Sahin Albayrak,Technical University of Berlin,Germany
-183,Jamie Snape,University of North Carolina at Chapel Hill,USA,47,University of North Carolina at Chapel Hill,United States,64.5
-183,Dinesh Manocha,University of North Carolina at Chapel Hill,USA,47,University of North Carolina at Chapel Hill,United States,64.5
-184,Alexander Kleiner,Linköping University,Sweden,301-350,Linköping University,Sweden,Data withheld by THE
-184,Alessandro Farinelli,University of Verona,Italy,276-300,University of Bologna,Italy,Data withheld by THE
-184,Sarvapali Ramchurn,University of Southampton,UK,146,University of Southampton,United Kingdom,48.9
-184,Bing Shi,Wuhan University of Technology,China,301-350,Wuhan University of Technology,China,Data withheld by THE
-184,Fabio Maffioletti,University of Verona,Italy,276-300,University of Bologna,Italy,Data withheld by THE
-184,Riccardo Reffato,University of Verona,Italy,276-300,University of Bologna,Italy,Data withheld by THE
-185,Ilan Nehama,The Hebrew University of Jerusalem,Israel,191,Hebrew University of Jerusalem,Israel,45.0
-186,Nicola Gatti,Politecnico di Milano,Italy,276-300,Polytechnic University of Milan,Italy,Data withheld by THE
-186,Fabio Panozzo,Politecnico di Milano,Italy,276-300,Polytechnic University of Milan,Italy,Data withheld by THE
-186,Marcello Restelli,Politecnico di Milano,Italy,276-300,Polytechnic University of Milan,Italy,Data withheld by THE
+183,Jamie Snape,University of North Carolina at Chapel Hill,USA,1.0,47,University of North Carolina at Chapel Hill,United States,64.5
+183,Dinesh Manocha,University of North Carolina at Chapel Hill,USA,1.0,47,University of North Carolina at Chapel Hill,United States,64.5
+184,Alexander Kleiner,Linköping University,Sweden,1.0,301-350,Linköping University,Sweden,Data withheld by THE
+184,Alessandro Farinelli,University of Verona,Italy
+184,Sarvapali Ramchurn,University of Southampton,UK,1.0,146,University of Southampton,United Kingdom,48.9
+184,Bing Shi,Wuhan University of Technology,China,1.0,301-350,Wuhan University of Technology,China,Data withheld by THE
+184,Fabio Maffioletti,University of Verona,Italy
+184,Riccardo Reffato,University of Verona,Italy
+185,Ilan Nehama,The Hebrew University of Jerusalem,Israel,0.8181818181818181,191,Hebrew University of Jerusalem,Israel,45.0
+186,Nicola Gatti,Politecnico di Milano,Italy,0.7142857142857143,276-300,Polytechnic University of Milan,Italy,Data withheld by THE
+186,Fabio Panozzo,Politecnico di Milano,Italy,0.7142857142857143,276-300,Polytechnic University of Milan,Italy,Data withheld by THE
+186,Marcello Restelli,Politecnico di Milano,Italy,0.7142857142857143,276-300,Polytechnic University of Milan,Italy,Data withheld by THE
 187,Angelo Cafaro,Reykjavik University,Iceland
 187,Hannes H. Vilhjálmsson,Reykjavik University,Iceland
-187,Timothy Bickmore,Northeastern University,USA,184,Northeastern University,United States,45.4
-187,Dirk Heylen,University of Twente,The Netherlands,170,University of Twente,Netherlands,46.2
-187,Daniel Schulman,Northeastern University,USA,184,Northeastern University,United States,45.4
+187,Timothy Bickmore,Northeastern University,USA,1.0,184,Northeastern University,United States,45.4
+187,Dirk Heylen,University of Twente,The Netherlands,1.0,170,University of Twente,Netherlands,46.2
+187,Daniel Schulman,Northeastern University,USA,1.0,184,Northeastern University,United States,45.4
 188,Sindhu Kolli,IIIT Hyderabad,India
 188,Kamalakar Karlapalem,IIIT Hyderabad,India
-189,Jeehang Lee,University of Bath,UK,276-300,University of Bath,United Kingdom,Data withheld by THE
-189,Tingting Li,University of Bath,UK,276-300,University of Bath,United Kingdom,Data withheld by THE
-189,Marina De Vos,University of Bath,UK,276-300,University of Bath,United Kingdom,Data withheld by THE
-189,Julian Padget,University of Bath,UK,276-300,University of Bath,United Kingdom,Data withheld by THE
+189,Jeehang Lee,University of Bath,UK,1.0,276-300,University of Bath,United Kingdom,Data withheld by THE
+189,Tingting Li,University of Bath,UK,1.0,276-300,University of Bath,United Kingdom,Data withheld by THE
+189,Marina De Vos,University of Bath,UK,1.0,276-300,University of Bath,United Kingdom,Data withheld by THE
+189,Julian Padget,University of Bath,UK,1.0,276-300,University of Bath,United Kingdom,Data withheld by THE
 190,George A. Vouros,University of Piraeus,Greece
-191,Diederik M. Roijers,University of Amsterdam,The Netherlands,83,University of Amsterdam,Netherlands,55.9
-191,Shimon Whiteson,University of Amsterdam,The Netherlands,83,University of Amsterdam,Netherlands,55.9
-191,Frans A. Oliehoek,Maastricht University,The Netherlands,98,Maastricht University,Netherlands,52.9
+191,Diederik M. Roijers,University of Amsterdam,The Netherlands,1.0,83,University of Amsterdam,Netherlands,55.9
+191,Shimon Whiteson,University of Amsterdam,The Netherlands,1.0,83,University of Amsterdam,Netherlands,55.9
+191,Frans A. Oliehoek,Maastricht University,The Netherlands,1.0,98,Maastricht University,Netherlands,52.9
 192,João Dias,"Universidade Técnica de Lisboa, Instituto Superior Técnico",Portugal
 192,Henrique Reis,"Universidade Técnica de Lisboa, Instituto Superior Técnico",Portugal
 192,Ana Paiva,"Universidade Técnica de Lisboa, Instituto Superior Técnico",Portugal
-193,Feyza Merve Hafizoğlu,University of Tulsa,USA,276-300,University of Kansas,United States,Data withheld by THE
-193,Roger Mailler,University of Tulsa,USA,276-300,University of Kansas,United States,Data withheld by THE
+193,Feyza Merve Hafizoğlu,University of Tulsa,USA
+193,Roger Mailler,University of Tulsa,USA
 194,Nuno Ferreira,Technical University of Lisbon,Portugal
 194,Samuel Mascarenhas,Technical University of Lisbon,Portugal
 194,Ana Paiva,Technical University of Lisbon,Portugal
-194,John Mc Breen,Wageningen University,The Netherlands,67,Leiden University,Netherlands,59.4
-194,Nick Degens,Wageningen University,The Netherlands,67,Leiden University,Netherlands,59.4
-194,Gert Jan Hofstede,Wageningen University,The Netherlands,67,Leiden University,Netherlands,59.4
-194,Gennaro Di Tosto,Utrecht University,The Netherlands,74,Utrecht University,Netherlands,57.7
-194,Frank Dignum,Utrecht University,The Netherlands,74,Utrecht University,Netherlands,57.7
+194,John Mc Breen,Wageningen University,The Netherlands
+194,Nick Degens,Wageningen University,The Netherlands
+194,Gert Jan Hofstede,Wageningen University,The Netherlands
+194,Gennaro Di Tosto,Utrecht University,The Netherlands,1.0,74,Utrecht University,Netherlands,57.7
+194,Frank Dignum,Utrecht University,The Netherlands,1.0,74,Utrecht University,Netherlands,57.7
 194,Giulia Andrighetto,ISCT-CNR,Italy
 194,Rosaria Conte,ISCT-CNR,Italy
-195,Adam Eck,University of Nebraska-Lincoln,USA,251-275,University of Nebraska-Lincoln,United States,Data withheld by THE
-195,Leen-Kiat Soh,University of Nebraska-Lincoln,USA,251-275,University of Nebraska-Lincoln,United States,Data withheld by THE
+195,Adam Eck,University of Nebraska-Lincoln,USA,1.0,251-275,University of Nebraska-Lincoln,United States,Data withheld by THE
+195,Leen-Kiat Soh,University of Nebraska-Lincoln,USA,1.0,251-275,University of Nebraska-Lincoln,United States,Data withheld by THE
 196,Lancelot Six,IFSTTAR,France
 196,Zahia Guessoum,Lip6,France
 196,Julien Saunier,IFSTTAR,France
 196,Sio-Song Ieng,IFSTTAR,France
-197,Roger Mailler,University of Tulsa,USA,276-300,University of Kansas,United States,Data withheld by THE
-197,Huimin Zheng,University of Tulsa,USA,276-300,University of Kansas,United States,Data withheld by THE
-198,Stephen Cranefield,University of Otago,New Zealand,226-250,University of Otago,New Zealand,Data withheld by THE
-198,Surangika Ranathunga,University of Otago,New Zealand,226-250,University of Otago,New Zealand,Data withheld by THE
+197,Roger Mailler,University of Tulsa,USA
+197,Huimin Zheng,University of Tulsa,USA
+198,Stephen Cranefield,University of Otago,New Zealand,1.0,226-250,University of Otago,New Zealand,Data withheld by THE
+198,Surangika Ranathunga,University of Otago,New Zealand,1.0,226-250,University of Otago,New Zealand,Data withheld by THE
 199,Chad Crawford,The University of Tulsa,USA
 199,Logan Brooks,The University of Tulsa,USA
 199,Sandip Sen,The University of Tulsa,USA
-200,BrandonA. Mayer,Brown University,USA,52,Brown University,United States,63.2
-200,Eric Sodomka,Brown University,USA,52,Brown University,United States,63.2
-200,Amy Greenwald,Brown University,USA,52,Brown University,United States,63.2
+200,BrandonA. Mayer,Brown University,USA,1.0,52,Brown University,United States,63.2
+200,Eric Sodomka,Brown University,USA,1.0,52,Brown University,United States,63.2
+200,Amy Greenwald,Brown University,USA,1.0,52,Brown University,United States,63.2
 201,Mario Caruso,Sapienza University,Italy
 201,Francesco Leotta,Sapienza University,Italy
 201,Massimo Mecella,Sapienza University,Italy
@@ -662,117 +662,117 @@ paper_id,researcher_name,university_name,country,university_rank,university_name
 202,Jan Tožička,FEE CTU in Prague,Czech Rep
 202,David Šišlák,FEE CTU in Prague,Czech Rep
 202,Michal Pěchouček,FEE CTU in Prague,Czech Rep
-203,Bijan Ranjbar-Sahraei,Maastricht University,The Netherlands,98,Maastricht University,Netherlands,52.9
-203,Gerhard Weiss,Maastricht University,The Netherlands,98,Maastricht University,Netherlands,52.9
-203,Karl Tuyls,Maastricht University,The Netherlands,98,Maastricht University,Netherlands,52.9
-204,Jolie Olsen,University of Tulsa,USA,276-300,University of Kansas,United States,Data withheld by THE
-204,Sandip Sen,University of Tulsa,USA,276-300,University of Kansas,United States,Data withheld by THE
+203,Bijan Ranjbar-Sahraei,Maastricht University,The Netherlands,1.0,98,Maastricht University,Netherlands,52.9
+203,Gerhard Weiss,Maastricht University,The Netherlands,1.0,98,Maastricht University,Netherlands,52.9
+203,Karl Tuyls,Maastricht University,The Netherlands,1.0,98,Maastricht University,Netherlands,52.9
+204,Jolie Olsen,University of Tulsa,USA
+204,Sandip Sen,University of Tulsa,USA
 205,Ning Ding,Hong Kong University of Science and Technology,China
 205,Fangzhen Lin,Hong Kong University of Science and Technology,China
 206,Jacob W. Crandall,Masdar Institute of Science and Technology,UAE
-207,Loïs Vanhée,Utrecht Universiteit,The Netherlands,74,Utrecht University,Netherlands,57.7
+207,Loïs Vanhée,Utrecht Universiteit,The Netherlands,1.0,74,Utrecht University,Netherlands,57.7
 207,Jacques Ferber,LIRMM,France
 207,Frank Dignum,University of Utrecht,The Netherlands
-208,Karthik Subbian,University of Minnesota,USA,46,University of Minnesota,United States,64.9
-208,Dhruv Sharma,University of Minnesota,USA,46,University of Minnesota,United States,64.9
+208,Karthik Subbian,University of Minnesota,USA,1.0,46,University of Minnesota,United States,64.9
+208,Dhruv Sharma,University of Minnesota,USA,1.0,46,University of Minnesota,United States,64.9
 208,Zhen Wen,IBM T.J. Watson Research Center,USA
-208,Jaideep Srivastava,University of Minnesota,USA,46,University of Minnesota,United States,64.9
-209,Kyriakos Efthymiadis,University of York,UK,100,University of York,United Kingdom,52.6
-209,Sam Devlin,University of York,UK,100,University of York,United Kingdom,52.6
-209,Daniel Kudenko,University of York,UK,100,University of York,United Kingdom,52.6
+208,Jaideep Srivastava,University of Minnesota,USA,1.0,46,University of Minnesota,United States,64.9
+209,Kyriakos Efthymiadis,University of York,UK,1.0,100,University of York,United Kingdom,52.6
+209,Sam Devlin,University of York,UK,1.0,100,University of York,United Kingdom,52.6
+209,Daniel Kudenko,University of York,UK,1.0,100,University of York,United Kingdom,52.6
 210,Samy Sá,Universidade Federal do Ceará,Brazil
 210,João Alcântara,Universidade Federal do Ceará,Brazil
-211,Ajay Sundar Ramakrishnan,University of California Davis,USA,52,"University of California, Davis",United States,63.2
-211,Michael Neff,University of California Davis,USA,52,"University of California, Davis",United States,63.2
+211,Ajay Sundar Ramakrishnan,University of California Davis,USA,0.9473684210526316,52,"University of California, Davis",United States,63.2
+211,Michael Neff,University of California Davis,USA,0.9473684210526316,52,"University of California, Davis",United States,63.2
 212,Elizabeth Sklar,City University of New York,USA
 212,Mohammad Q. Azhar,City University of New York,USA
 212,Todd Flyr,City University of New York,USA
 212,Simon Parsons,City University of New York,USA
-213,Shai Hertz,Tel Aviv University,Israel,199,Tel Aviv University,Israel,44.3
-213,Mariano Schain,Tel Aviv University,Israel,199,Tel Aviv University,Israel,44.3
-213,Yishay Mansour,Tel Aviv University,Israel,199,Tel Aviv University,Israel,44.3
-214,Max Korein,Carnegie Mellon University,USA,24,Carnegie Mellon University,United States,76.0
-214,Brian Coltin,Carnegie Mellon University,USA,24,Carnegie Mellon University,United States,76.0
-214,Manuela Veloso,Carnegie Mellon University,USA,24,Carnegie Mellon University,United States,76.0
+213,Shai Hertz,Tel Aviv University,Israel,1.0,199,Tel Aviv University,Israel,44.3
+213,Mariano Schain,Tel Aviv University,Israel,1.0,199,Tel Aviv University,Israel,44.3
+213,Yishay Mansour,Tel Aviv University,Israel,1.0,199,Tel Aviv University,Israel,44.3
+214,Max Korein,Carnegie Mellon University,USA,1.0,24,Carnegie Mellon University,United States,76.0
+214,Brian Coltin,Carnegie Mellon University,USA,1.0,24,Carnegie Mellon University,United States,76.0
+214,Manuela Veloso,Carnegie Mellon University,USA,1.0,24,Carnegie Mellon University,United States,76.0
 215,Neil Yorke-Smith,American University of Beirut & University of Cambridge,Lebanon
 215,Stijn Heymans,SRI International,USA
 215,Vinay Chaudhri,SRI International,USA
-216,M. M. Hassan Mahmud,University of Edinburgh,UK,39,University of Edinburgh,United Kingdom,67.5
-216,Subramanian Ramamoorthy,University of Edinburgh,UK,39,University of Edinburgh,United Kingdom,67.5
+216,M. M. Hassan Mahmud,University of Edinburgh,UK,1.0,39,University of Edinburgh,United Kingdom,67.5
+216,Subramanian Ramamoorthy,University of Edinburgh,UK,1.0,39,University of Edinburgh,United Kingdom,67.5
 217,Hala Mostafa,Raytheon BBN Technologies,USA
 217,Nathaniel Soule,Raytheon BBN Technologies,USA
 217,Nicholas Hoff,Raytheon BBN Technologies,USA
 217,Partha Pal,Raytheon BBN Technologies,USA
 217,Patrick Hurley,Air Force Research Laboratory,USA
 218,Michal Čáp,Czech Technical University in Prague,Czech Rep
-218,Peter Novák,Delft University of Technology,The Netherlands,69,Delft University of Technology,Netherlands,59.1
+218,Peter Novák,Delft University of Technology,The Netherlands,1.0,69,Delft University of Technology,Netherlands,59.1
 218,Jiří Vokřínek,Czech Technical University in Prague,Czech Rep
 218,Michal Pěchouček,Czech Technical University in Prague,Czech Rep
 219,Daniele Porello,Laboratory for Applied Ontology (ISTC-CNR),Italy
 220,Rafael C. Cardoso,FACIN-PUCRS,Brazil
 220,Jomi F. Hübner,DAS-UFSC,Brazil
 220,Rafael H. Bordini,FACIN-PUCRS,Brazil
-221,Atil Iscen,Oregon State University,USA,301-350,Oregon State University,United States,Data withheld by THE
-221,Kagan Tumer,Oregon State University,USA,301-350,Oregon State University,United States,Data withheld by THE
+221,Atil Iscen,Oregon State University,USA,1.0,301-350,Oregon State University,United States,Data withheld by THE
+221,Kagan Tumer,Oregon State University,USA,1.0,301-350,Oregon State University,United States,Data withheld by THE
 222,Li Zhang,University of Northumbria,UK
-222,John Barnden,University of Birmingham,UK,153,University of Birmingham,United Kingdom,48.3
-222,Ming Jiang,University of Leeds,UK,139,University of Leeds,United Kingdom,49.5
+222,John Barnden,University of Birmingham,UK,1.0,153,University of Birmingham,United Kingdom,48.3
+222,Ming Jiang,University of Leeds,UK,1.0,139,University of Leeds,United Kingdom,49.5
 223,João V. Messias,Instituto Superior Técnico - Universidade Técnica de Lisboa,Portugal
-223,Matthijs T. J. Spaan,Delft University of Technology,The Netherlands,69,Delft University of Technology,Netherlands,59.1
+223,Matthijs T. J. Spaan,Delft University of Technology,The Netherlands,1.0,69,Delft University of Technology,Netherlands,59.1
 223,Pedro U. Lima,Instituto Superior Técnico - Universidade Técnica de Lisboa,Portugal
 224,Enrique Munoz de Cote,"National Institute of Astrophysics, Optics and Electronics",Mexico
-224,Ruben Stranders,University of Southampton,UK,146,University of Southampton,United Kingdom,48.9
-224,Nicola Basilico,Politecnico di Milano,Italy,276-300,Polytechnic University of Milan,Italy,Data withheld by THE
-224,Nicola Gatti,Politecnico di Milano,Italy,276-300,Polytechnic University of Milan,Italy,Data withheld by THE
-224,Nick Jennings,University of Southampton,UK,146,University of Southampton,United Kingdom,48.9
-225,Scott Proper,Oregon State University,USA,301-350,Oregon State University,United States,Data withheld by THE
-225,Kagan Tumer,Oregon State University,USA,301-350,Oregon State University,United States,Data withheld by THE
-226,Ronghuo Zheng,Carnegie Mellon University,USA,24,Carnegie Mellon University,United States,76.0
-226,Nilanjan Chakraborty,Carnegie Mellon University,USA,24,Carnegie Mellon University,United States,76.0
-226,Tinglong Dai,Carnegie Mellon University,USA,24,Carnegie Mellon University,United States,76.0
-226,Katia Sycara,Carnegie Mellon University,USA,24,Carnegie Mellon University,United States,76.0
-227,William Curran,Oregon State University,USA,301-350,Oregon State University,United States,Data withheld by THE
+224,Ruben Stranders,University of Southampton,UK,1.0,146,University of Southampton,United Kingdom,48.9
+224,Nicola Basilico,Politecnico di Milano,Italy,0.7142857142857143,276-300,Polytechnic University of Milan,Italy,Data withheld by THE
+224,Nicola Gatti,Politecnico di Milano,Italy,0.7142857142857143,276-300,Polytechnic University of Milan,Italy,Data withheld by THE
+224,Nick Jennings,University of Southampton,UK,1.0,146,University of Southampton,United Kingdom,48.9
+225,Scott Proper,Oregon State University,USA,1.0,301-350,Oregon State University,United States,Data withheld by THE
+225,Kagan Tumer,Oregon State University,USA,1.0,301-350,Oregon State University,United States,Data withheld by THE
+226,Ronghuo Zheng,Carnegie Mellon University,USA,1.0,24,Carnegie Mellon University,United States,76.0
+226,Nilanjan Chakraborty,Carnegie Mellon University,USA,1.0,24,Carnegie Mellon University,United States,76.0
+226,Tinglong Dai,Carnegie Mellon University,USA,1.0,24,Carnegie Mellon University,United States,76.0
+226,Katia Sycara,Carnegie Mellon University,USA,1.0,24,Carnegie Mellon University,United States,76.0
+227,William Curran,Oregon State University,USA,1.0,301-350,Oregon State University,United States,Data withheld by THE
 227,Adrian Agogino,NASA Ames Research Center,USA
-227,Kagan Tumer,Oregon State University,USA,301-350,Oregon State University,United States,Data withheld by THE
+227,Kagan Tumer,Oregon State University,USA,1.0,301-350,Oregon State University,United States,Data withheld by THE
 228,Jinzhong Niu,"The City College, The City University of New York",USA
 228,Simon Parsons,"Brooklyn College, The City University of New York",USA
-229,Mohammad Moshirpour,University of Calgary,Canada,201-225,University of Calgary,Canada,Data withheld by THE
-229,Nariman Mani,Carleton University,Canada,276-300,Carleton University,Canada,Data withheld by THE
+229,Mohammad Moshirpour,University of Calgary,Canada,1.0,201-225,University of Calgary,Canada,Data withheld by THE
+229,Nariman Mani,Carleton University,Canada,1.0,276-300,Carleton University,Canada,Data withheld by THE
 229,Armin Eberlein,American University of Sharjah,UAE
-229,Behrouz H. Far,University of Calgary,Canada,201-225,University of Calgary,Canada,Data withheld by THE
-230,Sreerupa Chatterjee,University of Tulsa,USA,276-300,University of Kansas,United States,Data withheld by THE
-230,Feyza Merve Hafizoğlu,University of Tulsa,USA,276-300,University of Kansas,United States,Data withheld by THE
-230,Sandip Sen,University of Tulsa,USA,276-300,University of Kansas,United States,Data withheld by THE
+229,Behrouz H. Far,University of Calgary,Canada,1.0,201-225,University of Calgary,Canada,Data withheld by THE
+230,Sreerupa Chatterjee,University of Tulsa,USA
+230,Feyza Merve Hafizoğlu,University of Tulsa,USA
+230,Sandip Sen,University of Tulsa,USA
 231,Gonçalo Pereira,INESC-ID and Instituto Superior Técnico and Universidade Técnica de Lisboa,Portugal
 231,Rui Prada,INESC-ID and Instituto Superior Técnico and Universidade Técnica de Lisboa,Portugal
 231,Pedro A. Santos,INESC-ID and Instituto Superior Técnico and Universidade Técnica de Lisboa,Portugal
 232,Landon Kraemer,The University of Southern Mississippi,USA
 232,Bikramjit Banerjee,The University of Southern Mississippi,USA
-233,Yuan Liu,Nanyang Technological University,Singapore,76,Nanyang Technological University,Singapore,57.2
-233,Jie Zhang,Nanyang Technological University,Singapore,76,Nanyang Technological University,Singapore,57.2
-234,Masaru Okaya,Meijo University,Japan,52,Kyoto University,Japan,63.2
-234,Mary Southern,University of Minnesota,USA,46,University of Minnesota,United States,64.9
-234,Tomoichi Takahashi,Meijo University,Japan,52,Kyoto University,Japan,63.2
-235,Thanh H. Nguyen,University of Southern California,USA,70,University of Southern California,United States,59.0
-235,James Pita,University of Southern California,USA,70,University of Southern California,United States,59.0
-235,Rajiv Maheswaran,University of Southern California,USA,70,University of Southern California,United States,59.0
-235,Milind Tambe,University of Southern California,USA,70,University of Southern California,United States,59.0
+233,Yuan Liu,Nanyang Technological University,Singapore,1.0,76,Nanyang Technological University,Singapore,57.2
+233,Jie Zhang,Nanyang Technological University,Singapore,1.0,76,Nanyang Technological University,Singapore,57.2
+234,Masaru Okaya,Meijo University,Japan
+234,Mary Southern,University of Minnesota,USA,1.0,46,University of Minnesota,United States,64.9
+234,Tomoichi Takahashi,Meijo University,Japan
+235,Thanh H. Nguyen,University of Southern California,USA,1.0,70,University of Southern California,United States,59.0
+235,James Pita,University of Southern California,USA,1.0,70,University of Southern California,United States,59.0
+235,Rajiv Maheswaran,University of Southern California,USA,1.0,70,University of Southern California,United States,59.0
+235,Milind Tambe,University of Southern California,USA,1.0,70,University of Southern California,United States,59.0
 235,Amos Azaria,Bar-Ilan University,Israel
 235,Sarit Kraus,"Bar Ilan University & University of Maryland, College Park",Israel & USA
-236,Brian Coltin,Carnegie Mellon University,USA,24,Carnegie Mellon University,United States,76.0
-236,Manuela Veloso,Carnegie Mellon University,USA,24,Carnegie Mellon University,United States,76.0
-237,Maria Silvia Pini,University of Padova,Italy,301-350,University of Padua,Italy,Data withheld by THE
-237,Francesca Rossi,University of Padova,Italy,301-350,University of Padua,Italy,Data withheld by THE
+236,Brian Coltin,Carnegie Mellon University,USA,1.0,24,Carnegie Mellon University,United States,76.0
+236,Manuela Veloso,Carnegie Mellon University,USA,1.0,24,Carnegie Mellon University,United States,76.0
+237,Maria Silvia Pini,University of Padova,Italy,0.75,301-350,University of Padua,Italy,Data withheld by THE
+237,Francesca Rossi,University of Padova,Italy,0.75,301-350,University of Padua,Italy,Data withheld by THE
 237,Kristen Brent Venable,Tulane University and IHMC,USA
 238,Noam Peled,Bar Ilan University,Israel
 238,Ya'akov Kobi Gal,Ben-Gurion University,Israel
 238,Sarit Kraus,Bar Ilan University,Israel
-239,Elliot Anshelevich,Rensselaer Polytechnic Institute,USA,181,Rensselaer Polytechnic Institute,United States,45.6
-239,Ameya Hate,Rensselaer Polytechnic Institute,USA,181,Rensselaer Polytechnic Institute,United States,45.6
-239,Malik Magdon-Ismail,Rensselaer Polytechnic Institute,USA,181,Rensselaer Polytechnic Institute,United States,45.6
-240,Christopher Archibald,University of Alberta,Canada,109,University of Alberta,Canada,52.0
-240,Neil Burch,University of Alberta,Canada,109,University of Alberta,Canada,52.0
-240,Michael Bowling,University of Alberta,Canada,109,University of Alberta,Canada,52.0
+239,Elliot Anshelevich,Rensselaer Polytechnic Institute,USA,1.0,181,Rensselaer Polytechnic Institute,United States,45.6
+239,Ameya Hate,Rensselaer Polytechnic Institute,USA,1.0,181,Rensselaer Polytechnic Institute,United States,45.6
+239,Malik Magdon-Ismail,Rensselaer Polytechnic Institute,USA,1.0,181,Rensselaer Polytechnic Institute,United States,45.6
+240,Christopher Archibald,University of Alberta,Canada,1.0,109,University of Alberta,Canada,52.0
+240,Neil Burch,University of Alberta,Canada,1.0,109,University of Alberta,Canada,52.0
+240,Michael Bowling,University of Alberta,Canada,1.0,109,University of Alberta,Canada,52.0
 240,Matthew Rutherford,University of Denver,USA
 241,Daniel Corkill,"University of Massachusetts, Amherst",USA
 241,Chongjie Zhang,"University of Massachusetts, Amherst",USA
@@ -781,85 +781,85 @@ paper_id,researcher_name,university_name,country,university_rank,university_name
 241,Daniel Garant,"University of Massachusetts, Amherst",USA
 241,Victor R. Lesser,"University of Massachusetts, Amherst",USA
 241,Xiaoqin Zhang,"University of Massachusetts, Dartmouth",USA
-242,Ruth Aylett,Heriot-Watt University,UK,301-350,Heriot-Watt University,United Kingdom,Data withheld by THE
-242,Michael Kriegel,Heriot-Watt University,UK,301-350,Heriot-Watt University,United Kingdom,Data withheld by THE
-242,Iain Wallace,Heriot-Watt University,UK,301-350,Heriot-Watt University,United Kingdom,Data withheld by THE
+242,Ruth Aylett,Heriot-Watt University,UK,1.0,301-350,Heriot-Watt University,United Kingdom,Data withheld by THE
+242,Michael Kriegel,Heriot-Watt University,UK,1.0,301-350,Heriot-Watt University,United Kingdom,Data withheld by THE
+242,Iain Wallace,Heriot-Watt University,UK,1.0,301-350,Heriot-Watt University,United Kingdom,Data withheld by THE
 242,Elena Segura,SICS,Sweden
 242,Johanna Mercurio,SICS,Sweden
 242,Stina Nylander,SICS,Sweden
-243,Meng Chang,Aston University,UK,301-350,Bangor University,United Kingdom,Data withheld by THE
-243,Minghua He,Aston University,UK,301-350,Bangor University,United Kingdom,Data withheld by THE
-243,Aniko Ekart,Aston University,UK,301-350,Bangor University,United Kingdom,Data withheld by THE
+243,Meng Chang,Aston University,UK
+243,Minghua He,Aston University,UK
+243,Aniko Ekart,Aston University,UK
 243,Xudong Luo,Sun Yat-Sen University,UK
 243,Shichao Zhang,Guangxi Normal University,China
-244,Han Yu,Nanyang Technological University,Singapore,76,Nanyang Technological University,Singapore,57.2
-244,Zhiqi Shen,Nanyang Technological University,Singapore,76,Nanyang Technological University,Singapore,57.2
-244,Chunyan Miao,Nanyang Technological University,Singapore,76,Nanyang Technological University,Singapore,57.2
+244,Han Yu,Nanyang Technological University,Singapore,1.0,76,Nanyang Technological University,Singapore,57.2
+244,Zhiqi Shen,Nanyang Technological University,Singapore,1.0,76,Nanyang Technological University,Singapore,57.2
+244,Chunyan Miao,Nanyang Technological University,Singapore,1.0,76,Nanyang Technological University,Singapore,57.2
 244,Bo An,"Institute of Computing Technology, Chinese Academy of Sciences",China
 245,Toni Penya-Alba,IIIA-CSIC,Spain
 245,Jesus Cerquides,IIIA-CSIC,Spain
 245,Juan A. Rodriguez-Aguilar,IIIA-CSIC,Spain
-245,Meritxell Vinyals,University of Southampton,UK,146,University of Southampton,United Kingdom,48.9
+245,Meritxell Vinyals,University of Southampton,UK,1.0,146,University of Southampton,United Kingdom,48.9
 246,Patricia Everaere,Université Lille 1,France
 246,Maxime Morge,Université Lille 1,France
 246,Gauthier Picard,École Nationale Supérieure des Mines de Saint-Étienne,France
 247,Jianye Hao,The Chinese University of Hong Kong,China
 247,Ho-fung Leung,The Chinese University of Hong Kong,China
-248,Akin Günay,Bogazici University,Turkey,199,Boğaziçi University,Turkey,44.3
+248,Akin Günay,Bogazici University,Turkey,0.8,199,Boğaziçi University,Turkey,44.3
 248,Michael Winikoff,Otago University,New Zealand
-248,Pinar Yolum,Bogazici University,Turkey,199,Boğaziçi University,Turkey,44.3
-249,Daisuke Hatano,Kobe University,Japan,52,Kyoto University,Japan,63.2
-249,Katsutoshi Hirayama,Kobe University,Japan,52,Kyoto University,Japan,63.2
+248,Pinar Yolum,Bogazici University,Turkey,0.8,199,Boğaziçi University,Turkey,44.3
+249,Daisuke Hatano,Kobe University,Japan,0.5714285714285714,52,Kyoto University,Japan,63.2
+249,Katsutoshi Hirayama,Kobe University,Japan,0.5714285714285714,52,Kyoto University,Japan,63.2
 250,Yongjie Yang,Universität des Saarlandes,Germany
 250,Jiong Guo,Universität des Saarlandes,Germany
 251,Stefania Costantini,University of L'Aquila,Italy
-252,Janneke M. van der Zwaan,Delft University of Technology,The Netherlands,69,Delft University of Technology,Netherlands,59.1
-252,Virginia Dignum,Delft University of Technology,The Netherlands,69,Delft University of Technology,Netherlands,59.1
+252,Janneke M. van der Zwaan,Delft University of Technology,The Netherlands,1.0,69,Delft University of Technology,Netherlands,59.1
+252,Virginia Dignum,Delft University of Technology,The Netherlands,1.0,69,Delft University of Technology,Netherlands,59.1
 253,Ricardo Gonçalves,Universidade Nova de Lisboa,Portugal
 253,José Júlio Alferes,Universidade Nova de Lisboa,Portugal
 254,Samuel Mascarenhas,Universidade Tecnica de Lisboa,Portugal
 254,Rui Prada,Universidade Tecnica de Lisboa,Portugal
 254,Ana Paiva,Universidade Tecnica de Lisboa,Portugal
-254,Nick Degens,Wageningen University,The Netherlands,67,Leiden University,Netherlands,59.4
-254,Gert Jan Hofstede,Wageningen University,The Netherlands,67,Leiden University,Netherlands,59.4
+254,Nick Degens,Wageningen University,The Netherlands
+254,Gert Jan Hofstede,Wageningen University,The Netherlands
 255,Joana Dimas,"Technical University of Lisbon, Portugal",Portugal
 255,Rui Prada,"Technical University of Lisbon, Portugal",Portugal
 256,Jamal Bentahar,Concordia University,Canada
-256,Babak Khosravifar,McGill University,Canada,35,McGill University,Canada,68.1
+256,Babak Khosravifar,McGill University,Canada,1.0,35,McGill University,Canada,68.1
 256,Kathleen Clacens,University of Namur,Belgium
 256,Christophe Goffart,University of Namur,Belgium
 256,Philippe Thiran,University of Namur,Belgium
-257,William Groves,University of Minnesota,USA,46,University of Minnesota,United States,64.9
-257,Maria Gini,University of Minnesota,USA,46,University of Minnesota,United States,64.9
+257,William Groves,University of Minnesota,USA,1.0,46,University of Minnesota,United States,64.9
+257,Maria Gini,University of Minnesota,USA,1.0,46,University of Minnesota,United States,64.9
 258,Annie S. Wu,University of Central Florida,USA
 258,R. Paul Wiegand,University of Central Florida,USA
 258,Ramya Pradhan,University of Central Florida,USA
-259,Lane A. Hemaspaandra,University of Rochester,USA,95,University of Rochester,United States,53.6
-259,Rahman Lavaee,University of Rochester,USA,95,University of Rochester,United States,53.6
-259,Curtis Menton,University of Rochester,USA,95,University of Rochester,United States,53.6
+259,Lane A. Hemaspaandra,University of Rochester,USA,1.0,95,University of Rochester,United States,53.6
+259,Rahman Lavaee,University of Rochester,USA,1.0,95,University of Rochester,United States,53.6
+259,Curtis Menton,University of Rochester,USA,1.0,95,University of Rochester,United States,53.6
 260,Yuko Sakurai,Kyushu University and JST PRESTO,Japan
 260,Tenda Okimoto,Transdisciplinary Research Integration Center,Japan
-260,Masaaki Oka,Kyushu University,Japan,301-350,Kyushu University,Japan,Data withheld by THE
+260,Masaaki Oka,Kyushu University,Japan,1.0,301-350,Kyushu University,Japan,Data withheld by THE
 260,Masato Shinoda,Nara Women's University,Japan
-260,Maokoto Yokoo,Kyushu University,Japan,301-350,Kyushu University,Japan,Data withheld by THE
+260,Maokoto Yokoo,Kyushu University,Japan,1.0,301-350,Kyushu University,Japan,Data withheld by THE
 261,Edouard Amouroux,"LIP6, UPMC",France
 261,François Sempé,Francois Sempé AE,France
 261,Thomas Huraux,LIP6 UPMC - EDF R&D,France
 261,Nicolas Sabouret,LIMSI CNRS - SUPELEC,France
 261,Yvon Haradji,EDF R&D,France
-262,Frederico Araujo,University of Texas at Dallas,USA,188,The University of Texas at Dallas,United States,45.2
-262,Junia Valente,University of Texas at Dallas,USA,188,The University of Texas at Dallas,United States,45.2
-262,Mohammad Al-Zinati,University of Texas at Dallas,USA,188,The University of Texas at Dallas,United States,45.2
-262,Dane Kuiper,University of Texas at Dallas,USA,188,The University of Texas at Dallas,United States,45.2
-262,Rym Zalila-Wenkstern,University of Texas at Dallas,USA,188,The University of Texas at Dallas,United States,45.2
+262,Frederico Araujo,University of Texas at Dallas,USA,0.8095238095238095,188,The University of Texas at Dallas,United States,45.2
+262,Junia Valente,University of Texas at Dallas,USA,0.8095238095238095,188,The University of Texas at Dallas,United States,45.2
+262,Mohammad Al-Zinati,University of Texas at Dallas,USA,0.8095238095238095,188,The University of Texas at Dallas,United States,45.2
+262,Dane Kuiper,University of Texas at Dallas,USA,0.8095238095238095,188,The University of Texas at Dallas,United States,45.2
+262,Rym Zalila-Wenkstern,University of Texas at Dallas,USA,0.8095238095238095,188,The University of Texas at Dallas,United States,45.2
 263,Mohammad Q. Azhar,"Borough of Manhattan Community College, The City University of New York",USA
 263,Simon Parsons,"The Graduate Center & Brooklyn College, The City University of New York",USA
 263,Elizabeth Sklar,"The Graduate Center & Brooklyn College, The City University of New York",USA
-264,Nathan Brooks,Carnegie Mellon University,USA,24,Carnegie Mellon University,United States,76.0
+264,Nathan Brooks,Carnegie Mellon University,USA,1.0,24,Carnegie Mellon University,United States,76.0
 264,Ewart de Visser,"Perceptronics Solutions, Inc.",USA
 264,Timur Chabuk,"Perceptronics Solutions, Inc.",USA
 264,Elan Freedy,"Perceptronics Solutions, Inc.",USA
-264,Paul Scerri,Carnegie Mellon University,USA,24,Carnegie Mellon University,United States,76.0
+264,Paul Scerri,Carnegie Mellon University,USA,1.0,24,Carnegie Mellon University,United States,76.0
 265,Henrique Campos,INESC-ID and Instituto Superior Técnico - UTL,Portugal
 265,Joana Campos,INESC-ID and Instituto Superior Técnico - UTL,Portugal
 265,João Cabral,INESC-ID and Instituto Superior Técnico - UTL,Portugal
@@ -868,12 +868,12 @@ paper_id,researcher_name,university_name,country,university_rank,university_name
 265,Ana Paiva,INESC-ID and Instituto Superior Técnico - UTL,Portugal
 266,Prithviraj Dasgupta,University of Nebraska-Omaha,USA
 266,José Baca,University of Nebraska-Omaha,USA
-266,S. G. M. Hossain,University of Nebraska-Lincoln,USA,251-275,University of Nebraska-Lincoln,United States,Data withheld by THE
+266,S. G. M. Hossain,University of Nebraska-Lincoln,USA,1.0,251-275,University of Nebraska-Lincoln,United States,Data withheld by THE
 266,Ayan Dutta,University of Nebraska-Omaha,USA
-266,Carl Nelson,University of Nebraska-Lincoln,USA,251-275,University of Nebraska-Lincoln,United States,Data withheld by THE
+266,Carl Nelson,University of Nebraska-Lincoln,USA,1.0,251-275,University of Nebraska-Lincoln,United States,Data withheld by THE
 267,Alexis Drogoul,"UMMISCO, IRD",Vietnam
 267,Edouard Amouroux,"LIP6, UPMC",France
-267,Philippe Caillou,"LRI, Université Paris Sud",France,114,Université Paris-Sud,France,51.7
+267,Philippe Caillou,"LRI, Université Paris Sud",France
 267,Benoit Gaudou,"IRIT, Université Toulouse 1",France
 267,Arnaud Grignard,"UMMISCO, IRD",Vietnam
 267,Nicolas Marilleau,"UMMISCO, IRD",France
@@ -881,32 +881,32 @@ paper_id,researcher_name,university_name,country,university_rank,university_name
 267,Maroussia Vavasseur,"IRIT, Université Toulouse 1",France
 267,Duc-An Vo,"UMMISCO, IRD",Vietnam
 267,Jean-Daniel Zucker,"UMMISCO, IRD",Vietnam
-268,Joscha-David Fossel,Maastricht University,The Netherlands,98,Maastricht University,Netherlands,52.9
-268,Daniel Hennes,Maaastricht University,The Netherlands,98,Maastricht University,Netherlands,52.9
-268,Sjriek Alers,Maastricht University,The Netherlands,98,Maastricht University,Netherlands,52.9
-268,Daniel Claes,Maastricht University,The Netherlands,98,Maastricht University,Netherlands,52.9
-268,Karl Tuyls,Maastricht University,The Netherlands,98,Maastricht University,Netherlands,52.9
-269,Simone Gabbriellini,University of Bologna,Italy,276-300,University of Bologna,Italy,Data withheld by THE
-269,Paolo Torroni,University of Bologna,Italy,276-300,University of Bologna,Italy,Data withheld by THE
+268,Joscha-David Fossel,Maastricht University,The Netherlands,1.0,98,Maastricht University,Netherlands,52.9
+268,Daniel Hennes,Maaastricht University,The Netherlands,0.9230769230769231,98,Maastricht University,Netherlands,52.9
+268,Sjriek Alers,Maastricht University,The Netherlands,1.0,98,Maastricht University,Netherlands,52.9
+268,Daniel Claes,Maastricht University,The Netherlands,1.0,98,Maastricht University,Netherlands,52.9
+268,Karl Tuyls,Maastricht University,The Netherlands,1.0,98,Maastricht University,Netherlands,52.9
+269,Simone Gabbriellini,University of Bologna,Italy,1.0,276-300,University of Bologna,Italy,Data withheld by THE
+269,Paolo Torroni,University of Bologna,Italy,1.0,276-300,University of Bologna,Italy,Data withheld by THE
 270,Jereme Haack,Pacific Northwest National Laboratory,USA
 270,Bora Akyol,Pacific Northwest National Laboratory,USA
 270,Brandon Carpenter,Pacific Northwest National Laboratory,USA
 270,Cody Tews,Pacific Northwest National Laboratory,USA
 270,Lance Foglesong,Pacific Northwest National Laboratory,USA
-271,Nader Hanna,Macquarie University,Australia,276-300,Macquarie University,Australia,Data withheld by THE
-271,Deborah Richards,Macquarie University,Australia,276-300,Macquarie University,Australia,Data withheld by THE
+271,Nader Hanna,Macquarie University,Australia,1.0,276-300,Macquarie University,Australia,Data withheld by THE
+271,Deborah Richards,Macquarie University,Australia,1.0,276-300,Macquarie University,Australia,Data withheld by THE
 272,Arjun Iyer,Franklin W. Olin College of Engineering,USA
 272,Luis Rayas,Franklin W. Olin College of Engineering,USA
 272,Andrew Bennett,Franklin W. Olin College of Engineering,USA
-273,Robert Junges,Örebro University,Sweden,301-350,Umeå University,Sweden,Data withheld by THE
-273,Franziska Klügl,Örebro University,Sweden,301-350,Umeå University,Sweden,Data withheld by THE
+273,Robert Junges,Örebro University,Sweden
+273,Franziska Klügl,Örebro University,Sweden
 274,Fan Liu,Auckland University of Technology,New Zealand
 274,Ajit Narayanan,Auckland University of Technology,New Zealand
 275,Samantha Luber,Microsoft,USA
-275,Zhengyu Yin,University of Southern California,USA,70,University of Southern California,United States,59.0
-275,Francesco Delle Fave,University of Southern California,USA,70,University of Southern California,United States,59.0
-275,Albert Xin Jiang,University of Southern California,USA,70,University of Southern California,United States,59.0
-275,Milind Tambe,University of Southern California,USA,70,University of Southern California,United States,59.0
+275,Zhengyu Yin,University of Southern California,USA,1.0,70,University of Southern California,United States,59.0
+275,Francesco Delle Fave,University of Southern California,USA,1.0,70,University of Southern California,United States,59.0
+275,Albert Xin Jiang,University of Southern California,USA,1.0,70,University of Southern California,United States,59.0
+275,Milind Tambe,University of Southern California,USA,1.0,70,University of Southern California,United States,59.0
 275,John P. Sullivan,LA County Sheriff's Department,USA
 276,Marco Lützenberger,Technical University of Berlin,Germany
 276,Tobias Küster,Technical University of Berlin,Germany
@@ -921,35 +921,35 @@ paper_id,researcher_name,university_name,country,university_rank,university_name
 276,Sahin Albayrak,Technical University of Berlin,Germany
 277,Marconi Madruga,National Institute of Informatics,Japan
 277,Helmut Prendinger,National Institute of Informatics,Japan
-278,Fabio Maffioletti,University of Verona,Italy,276-300,University of Bologna,Italy,Data withheld by THE
-278,Riccardo Reffato,University of Verona,Italy,276-300,University of Bologna,Italy,Data withheld by THE
-278,Alessandro Farinelli,University of Verona,Italy,276-300,University of Bologna,Italy,Data withheld by THE
-278,Alexander Kleiner,Linköping University,Sweden,301-350,Linköping University,Sweden,Data withheld by THE
-278,Sarvapali Ramchurn,University of Southampton,UK,146,University of Southampton,United Kingdom,48.9
-278,Bing Shi,Wuhan University of Technology,China,301-350,Wuhan University of Technology,China,Data withheld by THE
-279,Leandro Soriano Marcolino,University of Southern California,USA,70,University of Southern California,United States,59.0
-279,Douglass Chen,University of Southern California,USA,70,University of Southern California,United States,59.0
-279,Albert Xin Jiang,University of Southern California,USA,70,University of Southern California,United States,59.0
-279,Milind Tambe,University of Southern California,USA,70,University of Southern California,United States,59.0
+278,Fabio Maffioletti,University of Verona,Italy
+278,Riccardo Reffato,University of Verona,Italy
+278,Alessandro Farinelli,University of Verona,Italy
+278,Alexander Kleiner,Linköping University,Sweden,1.0,301-350,Linköping University,Sweden,Data withheld by THE
+278,Sarvapali Ramchurn,University of Southampton,UK,1.0,146,University of Southampton,United Kingdom,48.9
+278,Bing Shi,Wuhan University of Technology,China,1.0,301-350,Wuhan University of Technology,China,Data withheld by THE
+279,Leandro Soriano Marcolino,University of Southern California,USA,1.0,70,University of Southern California,United States,59.0
+279,Douglass Chen,University of Southern California,USA,1.0,70,University of Southern California,United States,59.0
+279,Albert Xin Jiang,University of Southern California,USA,1.0,70,University of Southern California,United States,59.0
+279,Milind Tambe,University of Southern California,USA,1.0,70,University of Southern California,United States,59.0
 280,Samuel Mascarenhas,INESC-ID / Instituto Superior Técnico,Portugal
 280,André Silva,INESC-ID / Instituto Superior Técnico,Portugal
 280,Ana Paiva,INESC-ID / Instituto Superior Técnico,Portugal
 280,Ruth Aylett,Herriot-Watt University,Scotland Uk
 280,Felix Kistler,Augsburg University,Germany
 280,Elisabeth André,Augsburg University,Germany
-280,Nick Degens,Wageningen University,The Netherlands,67,Leiden University,Netherlands,59.4
-280,Gert Jan Hofstede,Wageningen University,The Netherlands,67,Leiden University,Netherlands,59.4
+280,Nick Degens,Wageningen University,The Netherlands
+280,Gert Jan Hofstede,Wageningen University,The Netherlands
 280,Arvid Kappas,Jacobs University,Germany
 281,Javier Morales,University of Barcelona & Spanish Council of Scientific Research,Spain
-281,Maite Lopez-Sanchez,University of Barcelona,Spain,226-250,University of Barcelona,Spain,Data withheld by THE
+281,Maite Lopez-Sanchez,University of Barcelona,Spain,1.0,226-250,University of Barcelona,Spain,Data withheld by THE
 281,Juan A. Rodriguez-Aguilar,IIIA-CSIC,Spain
-281,Michael Wooldridge,University of Oxford,UK,2,University of Oxford,United Kingdom,93.9
-281,Wamberto Vasconcelos,University of Aberdeen,UK,188,University of Aberdeen,United Kingdom,45.2
-282,Hung Quoc Viet Nguyen,École Polytechnique Fédérale de Lausanne,Switzerland,37,École Polytechnique Fédérale de Lausanne,Switzerland,67.7
-282,Xuan Hoai Luong,École Polytechnique Fédérale de Lausanne,Switzerland,37,École Polytechnique Fédérale de Lausanne,Switzerland,67.7
+281,Michael Wooldridge,University of Oxford,UK,1.0,2,University of Oxford,United Kingdom,93.9
+281,Wamberto Vasconcelos,University of Aberdeen,UK,1.0,188,University of Aberdeen,United Kingdom,45.2
+282,Hung Quoc Viet Nguyen,École Polytechnique Fédérale de Lausanne,Switzerland,1.0,37,École Polytechnique Fédérale de Lausanne,Switzerland,67.7
+282,Xuan Hoai Luong,École Polytechnique Fédérale de Lausanne,Switzerland,1.0,37,École Polytechnique Fédérale de Lausanne,Switzerland,67.7
 282,Zoltán Miklós,Université de Rennes 1,France
 282,Tho Quan Thanh,Ho Chi Minh City University of Technology,Vietnam
-282,Karl Aberer,École Polytechnique Fédérale de Lausanne,Switzerland,37,École Polytechnique Fédérale de Lausanne,Switzerland,67.7
+282,Karl Aberer,École Polytechnique Fédérale de Lausanne,Switzerland,1.0,37,École Polytechnique Fédérale de Lausanne,Switzerland,67.7
 283,A. Tuna Özgelen,The City University of New York - The Graduate Center,USA
 283,Elizabeth Sklar,The City University of New York - Brooklyn College,USA
 284,Simon Parsons,The City University of New York - Brooklyn College,USA
@@ -963,29 +963,29 @@ paper_id,researcher_name,university_name,country,university_rank,university_name
 285,Apeksha Khare,International Institute of Information Technology,India
 285,Soujanya Lanka,International Institute of Information Technology,India
 285,Kamalakar Karlapalem,International Institute of Information Technology,India
-286,Julie Porteous,Teesside University,UK,301-350,Keele University,United Kingdom,Data withheld by THE
-286,Fred Charles,Teesside University,UK,301-350,Keele University,United Kingdom,Data withheld by THE
-286,Marc Cavazza,Teesside University,UK,301-350,Keele University,United Kingdom,Data withheld by THE
-287,Sarvapali D. Ramchurn,University of Southampton,UK,146,University of Southampton,United Kingdom,48.9
-287,Michael A. Osborne,University of Oxford,UK,2,University of Oxford,United Kingdom,93.9
-287,Oliver Parson,University of Southampton,UK,146,University of Southampton,United Kingdom,48.9
-287,Talal Rahwan,University of Southampton,UK,146,University of Southampton,United Kingdom,48.9
-287,Sasan Maleki,University of Southampton,UK,146,University of Southampton,United Kingdom,48.9
-287,Steve Reece,University of Oxford,UK,2,University of Oxford,United Kingdom,93.9
-287,Trung D. Huynh,University of Southampton,UK,146,University of Southampton,United Kingdom,48.9
-287,Muddasser Alam,University of Southampton,UK,146,University of Southampton,United Kingdom,48.9
-287,Joel E. Fischer,University of Nottingham,UK,157,University of Nottingham,United Kingdom,47.4
-287,Tom Rodden,University of Nottingham,UK,157,University of Nottingham,United Kingdom,47.4
-287,Luc Moreau,University of Southampton,UK,146,University of Southampton,United Kingdom,48.9
-287,Stephen Roberts,University of Oxford,UK,2,University of Oxford,United Kingdom,93.9
-288,Bijan Ranjbar-Sahraei,Maastricht University,The Netherlands,98,Maastricht University,Netherlands,52.9
-288,Sjriek Alers,Maastricht University,The Netherlands,98,Maastricht University,Netherlands,52.9
-288,Karl Tuyls,Maastricht University,The Netherlands,98,Maastricht University,Netherlands,52.9
-288,erhard Weiss,Maastricht University,The Netherlands,98,Maastricht University,Netherlands,52.9
-289,Joris Scharpff,Delft University of Technology,The Netherlands,69,Delft University of Technology,Netherlands,59.1
-289,Matthijs T.J. Spaan,Delft University of Technology,The Netherlands,69,Delft University of Technology,Netherlands,59.1
-289,Leentje Volker,Delft University of Technology,The Netherlands,69,Delft University of Technology,Netherlands,59.1
-289,Mathijs M. De Weerdt,Delft University of Technology,The Netherlands,69,Delft University of Technology,Netherlands,59.1
+286,Julie Porteous,Teesside University,UK
+286,Fred Charles,Teesside University,UK
+286,Marc Cavazza,Teesside University,UK
+287,Sarvapali D. Ramchurn,University of Southampton,UK,1.0,146,University of Southampton,United Kingdom,48.9
+287,Michael A. Osborne,University of Oxford,UK,1.0,2,University of Oxford,United Kingdom,93.9
+287,Oliver Parson,University of Southampton,UK,1.0,146,University of Southampton,United Kingdom,48.9
+287,Talal Rahwan,University of Southampton,UK,1.0,146,University of Southampton,United Kingdom,48.9
+287,Sasan Maleki,University of Southampton,UK,1.0,146,University of Southampton,United Kingdom,48.9
+287,Steve Reece,University of Oxford,UK,1.0,2,University of Oxford,United Kingdom,93.9
+287,Trung D. Huynh,University of Southampton,UK,1.0,146,University of Southampton,United Kingdom,48.9
+287,Muddasser Alam,University of Southampton,UK,1.0,146,University of Southampton,United Kingdom,48.9
+287,Joel E. Fischer,University of Nottingham,UK,1.0,157,University of Nottingham,United Kingdom,47.4
+287,Tom Rodden,University of Nottingham,UK,1.0,157,University of Nottingham,United Kingdom,47.4
+287,Luc Moreau,University of Southampton,UK,1.0,146,University of Southampton,United Kingdom,48.9
+287,Stephen Roberts,University of Oxford,UK,1.0,2,University of Oxford,United Kingdom,93.9
+288,Bijan Ranjbar-Sahraei,Maastricht University,The Netherlands,1.0,98,Maastricht University,Netherlands,52.9
+288,Sjriek Alers,Maastricht University,The Netherlands,1.0,98,Maastricht University,Netherlands,52.9
+288,Karl Tuyls,Maastricht University,The Netherlands,1.0,98,Maastricht University,Netherlands,52.9
+288,erhard Weiss,Maastricht University,The Netherlands,1.0,98,Maastricht University,Netherlands,52.9
+289,Joris Scharpff,Delft University of Technology,The Netherlands,1.0,69,Delft University of Technology,Netherlands,59.1
+289,Matthijs T.J. Spaan,Delft University of Technology,The Netherlands,1.0,69,Delft University of Technology,Netherlands,59.1
+289,Leentje Volker,Delft University of Technology,The Netherlands,1.0,69,Delft University of Technology,Netherlands,59.1
+289,Mathijs M. De Weerdt,Delft University of Technology,The Netherlands,1.0,69,Delft University of Technology,Netherlands,59.1
 290,Martin Selecký,Czech Technical University in Prague,Czech Rep
 290,Michal Štolba,Czech Technical University in Prague,Czech Rep
 290,Tomáš Meiser,Czech Technical University in Prague,Czech Rep
@@ -1003,33 +1003,33 @@ paper_id,researcher_name,university_name,country,university_rank,university_name
 292,Jan Tožička,Czech Technical University in Prague,Czech Rep
 292,Jan Balata,Czech Technical University in Prague,Czech Rep
 292,Zdeněk Mikovec,Czech Technical University in Prague,Czech Rep
-293,Janneke M. van der Zwaan,Delft University of Technology,The Netherlands,69,Delft University of Technology,Netherlands,59.1
-293,Virginia Dignum,Delft University of Technology,The Netherlands,69,Delft University of Technology,Netherlands,59.1
-294,Stefano V. Albrecht,University of Edinburgh,UK,39,University of Edinburgh,United Kingdom,67.5
-294,Subramanian Ramamoorthy,University of Edinburgh,UK,39,University of Edinburgh,United Kingdom,67.5
-295,Ofra Amir,Harvard University,USA,2,Harvard University,United States,93.9
-296,Tim Baarslag,Delft University of Technology,The Netherlands,69,Delft University of Technology,Netherlands,59.1
+293,Janneke M. van der Zwaan,Delft University of Technology,The Netherlands,1.0,69,Delft University of Technology,Netherlands,59.1
+293,Virginia Dignum,Delft University of Technology,The Netherlands,1.0,69,Delft University of Technology,Netherlands,59.1
+294,Stefano V. Albrecht,University of Edinburgh,UK,1.0,39,University of Edinburgh,United Kingdom,67.5
+294,Subramanian Ramamoorthy,University of Edinburgh,UK,1.0,39,University of Edinburgh,United Kingdom,67.5
+295,Ofra Amir,Harvard University,USA,1.0,2,Harvard University,United States,93.9
+296,Tim Baarslag,Delft University of Technology,The Netherlands,1.0,69,Delft University of Technology,Netherlands,59.1
 297,Cristina Battaglino,Università degli Studi di Torino,Italy
 298,Branislav Bosansky,Czech Technical University in Prague,Czech Rep
-299,Mitchell K. Colby,Oregon State University,USA,301-350,Oregon State University,United States,Data withheld by THE
-300,Hongying Du,University of South Carolina,USA,251-275,University of South Carolina,United States,Data withheld by THE
-301,Adam Eck,University of Nebraska-Lincoln,USA,251-275,University of Nebraska-Lincoln,United States,Data withheld by THE
-302,Katie Genter,University of Texas at Austin,USA,27,University of Texas at Austin,United States,72.2
-303,Mohammad Rashedul Hasan,University of North Carolina at Charlotte,USA,47,University of North Carolina at Chapel Hill,United States,64.5
-304,Elizabeth A. Jensen,University of Minnesota,USA,46,University of Minnesota,United States,64.9
-304,,University of Minnesota,USA,46,University of Minnesota,United States,64.9
-305,Jie Jiang,Delft University of Technology,The Netherlands,69,Delft University of Technology,Netherlands,59.1
+299,Mitchell K. Colby,Oregon State University,USA,1.0,301-350,Oregon State University,United States,Data withheld by THE
+300,Hongying Du,University of South Carolina,USA,1.0,251-275,University of South Carolina,United States,Data withheld by THE
+301,Adam Eck,University of Nebraska-Lincoln,USA,1.0,251-275,University of Nebraska-Lincoln,United States,Data withheld by THE
+302,Katie Genter,University of Texas at Austin,USA,1.0,27,University of Texas at Austin,United States,72.2
+303,Mohammad Rashedul Hasan,University of North Carolina at Charlotte,USA,0.7741935483870968,47,University of North Carolina at Chapel Hill,United States,64.5
+304,Elizabeth A. Jensen,University of Minnesota,USA,1.0,46,University of Minnesota,United States,64.9
+304,,University of Minnesota,USA,1.0,46,University of Minnesota,United States,64.9
+305,Jie Jiang,Delft University of Technology,The Netherlands,1.0,69,Delft University of Technology,Netherlands,59.1
 306,Landon Kraemer,The University of Southern Mississippi,USA
-307,Yuan Liu,Nanyang Technological University,Singapore,76,Nanyang Technological University,Singapore,57.2
+307,Yuan Liu,Nanyang Technological University,Singapore,1.0,76,Nanyang Technological University,Singapore,57.2
 308,Nidhi Parikh,Virginia Tech,USA
-309,James E. Parker,University of Minnesota,USA,46,University of Minnesota,United States,64.9
+309,James E. Parker,University of Minnesota,USA,1.0,46,University of Minnesota,United States,64.9
 310,Toni Penya-Alba,IIIA-CSIC,Spain
 311,Ramya Pradhan,University of Central Florida,USA
-312,Marco Rocco,Politecnico di Milano,Italy,276-300,Polytechnic University of Milan,Italy,Data withheld by THE
+312,Marco Rocco,Politecnico di Milano,Italy,0.7142857142857143,276-300,Polytechnic University of Milan,Italy,Data withheld by THE
 313,Samy Sá,Universidade Federal do Ceará,Brazil
-314,Joris Scharpff,Delft University of Technology,The Netherlands,69,Delft University of Technology,Netherlands,59.1
-315,Christine Talbot,University of North Carolina at Charlotte,USA,47,University of North Carolina at Chapel Hill,United States,64.5
-316,Loïs Vanhée,University of Montpellier II,France
+314,Joris Scharpff,Delft University of Technology,The Netherlands,1.0,69,Delft University of Technology,Netherlands,59.1
+315,Christine Talbot,University of North Carolina at Charlotte,USA,0.7741935483870968,47,University of North Carolina at Chapel Hill,United States,64.5
+316,Loïs Vanhée,University of Montpellier II,France,0.875,251-275,Université Montpellier 2,France,Data withheld by THE
 317,Yang Zhang,Northumbria University,UK
 317,Li Zhang,Northumbria University,UK
 317,Alamgir Hossain,Northumbria University,UK

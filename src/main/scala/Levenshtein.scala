@@ -7,7 +7,7 @@ object Levenshtein {
 
   //var minSimilarity2 = 0.81
   var minSimilarity2 = 0.7
-  var freeDiff = 4
+  var freeDiff = 3
 
   def minimum(i1: Int, i2: Int, i3: Int)=min(min(i1, i2), i3)
 

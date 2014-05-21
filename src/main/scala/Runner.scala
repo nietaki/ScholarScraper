@@ -17,31 +17,31 @@ object Runner {
   }
 
   def join() = {
-    val universityRows = CSVReader.open(new File("universities_12-13.csv")).all()
-    val researcherRows = CSVReader.open(new File("AAMAS_2013.csv")).all()
+    val hr :: researcherRows = CSVReader.open(new File("AAMAS_2013.csv")).all()
+    val hu :: universityRows = CSVReader.open(new File("universities_12-13.csv")).all()
 
     val res = for(researcherRow: List[String] <- researcherRows) yield {
-      val reseracherUniversity = Utils.stripUniversities(researcherRow(2))
-      val reseracherCountry = Utils.stripCountries(researcherRow(3))
+      val researcherUniversity = Utils.stripUniversities(researcherRow(2))
+      val researcherCountry = Utils.stripCountries(researcherRow(3))
       var best: Option[(Double, List[String])] = None
       for (universityRow <- universityRows) {
         val universityName = Utils.stripUniversities(universityRow(1))
         val universityCountry = Utils.stripCountries(universityRow(2))
-        val curScore = Levenshtein.heuristicSimilarity2(reseracherUniversity, universityName)
-        val distance = Levenshtein.distance(reseracherUniversity, universityName)
+        val curScore = Levenshtein.heuristicSimilarity2(researcherUniversity, universityName)
+        val distance = Levenshtein.distance(researcherUniversity, universityName)
         val potentialTuple = (curScore, universityRow)
         if ((curScore > Levenshtein.minSimilarity2 || distance <= Levenshtein.freeDiff) &&
-            Utils.sameCaseInsensitive(reseracherCountry, universityCountry)) {
-          //println("got match")
+            Utils.sameCaseInsensitive(researcherCountry, universityCountry)) {
           best = Some(best.fold(potentialTuple)(t => if(t._1 < curScore) potentialTuple else t))
         }
       }
 
-      researcherRow ::: best.map(_._2).getOrElse(List())
+      researcherRow ::: best.map(x => List(x._1.toString())).getOrElse(List()) ::: best.map(_._2).getOrElse(List())
     }
 
     //println(res)
     val writer = CSVWriter.open(new File("result.csv"))
+    writer.writeRow(hr ::: List("univ_similarity") ::: hu)
     writer.writeAll(res)
   }
 
