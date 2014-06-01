@@ -17,7 +17,8 @@ object Runner {
     //saveStoc()
     //joinAAMAS()
 
-    joinAndSave(getStoc(), "stoc_join.csv")
+    //joinAndSave(getStoc2013(), "stoc_2013_joined.csv")
+    joinAndSave(getStoc2010(), "stoc_2010_joined.csv")
   }
 
   def getUniversities(): Seq[University] = {
@@ -108,7 +109,7 @@ object Runner {
   }
 
   def saveAAMAS() = {
-    val in = new File("AAMAS_2013.html")
+    val in = new File("csv/AAMAS_2013.html")
     val doc = Jsoup.parse(in, "windows-1252")
     val papers: Elements = doc.getElementsByAttributeValue("style", "text-indent: 0; margin-left: 12; margin-right: 9; margin-top: 6; margin-bottom: 0")
 
@@ -199,13 +200,14 @@ object Runner {
     writer.close()
   }
 
-  def getStoc(): Seq[Scientist] = {
+  val commasInParentsRegex = new Regex("\\(([^(),]+)(,.*)\\)")
+  val authorUniversityMatcher = new Regex(" ?(and )?([^)(]+) \\(([^)(]+)\\)", "and", "name", "uni")
+
+  def getStoc2013(): Seq[Scientist] = {
     val address = "http://theory.stanford.edu/stoc2013/accepted.html"
     val stocDoc: nodes.Document = Jsoup.connect(address).get();
 
-    val commasInParentsRegex = new Regex("\\(([^(),]+)(,.*)\\)")
     //val authorUniversityMatcher = new Regex("([^)(]+) \\(([^)(]+)\\)", "name", "uni")
-    val authorUniversityMatcher = new Regex(" ?(and )?([^)(]+) \\(([^)(]+)\\)", "and", "name", "uni")
 
     val papers = stocDoc.getElementsByTag("pre").last().text()
     println(papers)
@@ -229,6 +231,34 @@ object Runner {
       println(name)
       println(uni)*/
       Scientist(index, name, uni)
+    }
+    entries
+  }
+  val andRegex = new Regex("&amp;")
+  val otherHtml = new Regex("&[a-zA-Z]+;")
+  def getStoc2010()/*: Seq[Scientist]*/ = {
+    val in = new File("csv/STOC_2010.html")
+    val stocDoc = Jsoup.parse(in, "iso-8859-1")
+    //val stocDoc = Jsoup.parse(in, null)
+    val papers = stocDoc.getElementsByTag("ul").first().getElementsByTag("li").asScala
+    println(papers.map(_.html()).toList)
+    val entries = for (
+      (paperUncleaned, index) <- papers.map(_.html()).zipWithIndex;
+      paperAnd = andRegex.replaceAllIn(paperUncleaned, "n");
+      paper = otherHtml.replaceAllIn(paperAnd, "X");
+      lines = paper.split("<br />");
+      (title, authors) = (lines.head, lines.last);
+      authorsSanitized = commasInParentsRegex.replaceAllIn(authors, "($1)");
+      authorsList = authorsSanitized.split(',').map(_.trim().replaceFirst("^and", "").replaceAll("\\s+", " ").trim()).toList;
+      authorsUniversities <- authorsList;
+      m <- authorUniversityMatcher.findAllMatchIn(authorsUniversities)
+    ) yield {
+      println("==========")
+      println(title)
+      println(authors)
+      println(m.group("name"))
+      println(m.group("uni"))
+      Scientist(index, m.group("name"), m.group("uni"))
     }
     entries
   }

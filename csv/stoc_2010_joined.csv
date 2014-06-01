@@ -1,0 +1,161 @@
+paper_id,researcher_name,university_name,country,univ_similarity,university_rank,university_name,country
+0,Sayan Bhattacharya,Duke,,0.6666666666666667,17,Duke University,United States
+0,Gagan Goel,Georgia Tech,
+0,Sreenivas Gollapudi,Microsoft Research,
+0,Kamesh Munagala,Duke,,0.6666666666666667,17,Duke University,United States
+1,Elad Haramaty and Amir Shpilka,Technion,
+2,Scott Aaronson,MIT,,1.0,5,Massachusetts Institute of Technology (MIT),United States
+3,Jean Cardinal,ULB,,0.4,213,Universität Ulm,Germany
+3,Samuel Fiorini,ULB,,0.4,213,Universität Ulm,Germany
+3,GwenaXl Joret,ULB,,0.4,213,Universität Ulm,Germany
+3,RaphaXl Jungers,MIT,,1.0,5,Massachusetts Institute of Technology (MIT),United States
+3,J. Ian Munro,University of Waterloo,,1.0,238,University of Waterloo,Canada
+4,MohammadHossein Bateni,Princeton University,,1.0,6,Princeton University,United States
+4,MohammadTaghi Hajiaghayi,ATnT Labs -- Research,
+4,DXniel Marx,Tel Aviv University,,1.0,199,Tel Aviv University,Israel
+5,Tom Leighton,MIT and Akamai Technologies,,1.0,5,Massachusetts Institute of Technology (MIT),United States
+6,Adam Tauman Kalai,Microsoft,
+6,Ankur Moitra,MIT,,1.0,5,Massachusetts Institute of Technology (MIT),United States
+6,Gregory Valiant,UC Berkeley,
+7,Miklos Ajtai,IBM Almaden Research Center,
+8,Lander Ramos and Carme Xlvarez,Universitat Polit`ecnica de Catalunya,
+9,Zohar S. Karnin and Partha Mukhopadhyay and Amir Shpilka and Ilya Volkovich,Technion,
+10,James B. Orlin,MIT,,1.0,5,Massachusetts Institute of Technology (MIT),United States
+11,Alexander A. Sherstov,Microsoft Research,
+12,Rahul Jain,National University of Singapore,,0.7692307692307692,26,National University of Singapore (NUS),Singapore
+12,Zhengfeng Ji,Perimeter Institute,
+12,Sarvagya Upadhyay,University of Waterloo,,1.0,238,University of Waterloo,Canada
+12,John Watrous,University of Waterloo,,1.0,238,University of Waterloo,Canada
+13,Laszlo A. Vegh,MTA-ELTE Egervary Research Group and Department of Operations Research,
+14,Peter Buergisser,University of Paderborn,
+14,Felipe Cucker,City University of Hong Kong,,1.0,213,City University of Hong Kong,Hong Kong
+15,Jon Lee,IBM TJ Watson Research Center,
+15,Maxim Sviridenko,IBM TJ Watson Research Center,
+15,Jan Vondrak,IBM Almaden Research Center,
+16,Ran Raz,Weizmann Institute,
+17,Mihai Patrascu,ATnT Labs,
+18,Ryan Williams,IBM Almaden Research Center,
+19,Pierre Fraigniaud and Amos Korman,CNRS and Univ. Paris Diderot,
+20,DXniel Marx,Tel Aviv University,,1.0,199,Tel Aviv University,Israel
+21,Pierre Fraigniaud,CNRS and Univ. Paris Diderot,
+21,George Giakkoupis,Univ. Paris Diderot,
+22,Holger Dell,Humboldt University of Berlin,,0.85,94,Humboldt-Universität zu Berlin,Germany
+22,Dieter van Melkebeek,University of Wisconsin-Madison,,1.0,30,University of Wisconsin-Madison,United States
+23,Ken-ichi Kawarabayashi,National Institute of Informatics,
+24,Raghu Meka and David Zuckerman,University of Texas at Austin,,1.0,27,University of Texas at Austin,United States
+25,Boaz Barak,Princeton University,,1.0,6,Princeton University,United States
+25,Mark Braverman,Microsoft Research New England,
+25,Xi Chen,University of Southern California,,1.0,70,University of Southern California,United States
+25,Anup Rao,University of Washington,,1.0,25,University of Washington,United States
+26,Vladimir Braverman and Rafail Ostrovsky,UCLA,,1.0,12,"University of California, Los Angeles (UCLA)",United States
+27,Hiroshi Hirai,Reseach Institute for Mathematical Sciences,
+28,Vladimir Braverman and Rafail Ostrovsky,UCLA,,1.0,12,"University of California, Los Angeles (UCLA)",United States
+29,Moritz Hardt,Princeton University,,1.0,6,Princeton University,United States
+29,Kunal Talwar,Microsoft Research,
+30,Prahladh Harsha,Tata Institute of Fundamental Research,
+30,Adam Klivans,UT-Austin,
+30,Raghu Meka,UT-Austin,
+31,Ashish Goel,Stanford University and Twitter,
+31,Michael Kapralov,Stanford University,,1.0,4,Stanford University,United States
+31,Sanjeev Khanna,University of Pennsylvania,,1.0,16,University of Pennsylvania,United States
+32,Andris Ambainis,University of Latvia,,0.75,263,University of Pavia,Italy
+32,Julia Kempe,Tel Aviv University,,1.0,199,Tel Aviv University,Israel
+32,Or Sattath,Hebrew University and Tel Aviv University,
+33,Jason D. Hartline,Northwestern University,,1.0,22,Northwestern University,United States
+33,Brendan Lucier,University of Toronto,,1.0,20,University of Toronto,Canada
+34,Hartmut Klauck,Centre for Quantum Technologies,
+35,Frederic Magniez,LRI,
+36,Ola Svensson,KTH - Royal Institute of Technology,,1.0,117,KTH Royal Institute of Technology,Sweden
+37,Jaroslaw Byrka,EPFL,
+38,Martin Dyer and David Richerby,University of Leeds,,1.0,139,University of Leeds,United Kingdom
+39,Anna Gilbert,University of Michigan,,1.0,18,University of Michigan,United States
+39,Yi Li,University of Michigan,,1.0,18,University of Michigan,United States
+39,Ely Porat,Bar Ilan University,
+39,Martin Strauss,University of Michigan,,1.0,18,University of Michigan,United States
+40,Vikraman Arvind and Srikanth Srinivasan,Institute of Mathematical Sciences,
+41,Daniele Micciancio and Panagiotis Voulgaris,UCSD,
+42,Mohsen Bayati,Stanford,,0.8,4,Stanford University,United States
+42,David Gamarnik,MIT,,1.0,5,Massachusetts Institute of Technology (MIT),United States
+42,Prasad Tetali,Georgia Institute of Technology,
+43,Kasturi Varadarajan,University of Iowa,,1.0,161,University of Iowa,United States
+44,Akitoshi Kawamura and Stephen Cook,University of Toronto,,1.0,20,University of Toronto,Canada
+45,Ken-ichi Kawarabayashi,National Institute of Informatics,
+46,Aaron Roth,CMU,
+46,Tim Roughgarden,Stanford,,0.8,4,Stanford University,United States
+47,Vipul Goyal,MSR India,
+47,Abhishek Jain,UCLA,,1.0,12,"University of California, Los Angeles (UCLA)",United States
+48,Benny Applebaum,Weizmann Institute of Science,
+48,Boaz Barak,Princeton University,,1.0,6,Princeton University,United States
+48,Avi Wigderson,Institute for Advanced Study,
+49,Venkatesan Guruswami,Carnegie Mellon University,,1.0,24,Carnegie Mellon University,United States
+49,Johan HXstad,KTH - Royal Institute of Technology,,1.0,117,KTH Royal Institute of Technology,Sweden
+49,Swastik Kopparty,Massachusetts Institute of Technology,,0.76,5,Massachusetts Institute of Technology (MIT),United States
+50,Paul Beame,University of Washington,,1.0,25,University of Washington,United States
+50,Trinh Huynh,University of Washington,,1.0,25,University of Washington,United States
+50,Toniann Pitassi,University of Toronto,,1.0,20,University of Toronto,Canada
+51,Pavel Hrubes,Princeton University,,1.0,6,Princeton University,United States
+51,Avi Wigderson,Institute for Advanced Study,
+51,Amir Yehudayoff,Institute for Advanced Study,
+52,Aleksander Madry,MIT,,1.0,5,Massachusetts Institute of Technology (MIT),United States
+53,Iftach Haitner,Microsoft Research New England,
+53,Omer Reingold,Microsoft Research Silicon Valley and Weizmann Institute of Science,
+53,Salil Vadhan,Harvard University,,1.0,2,Harvard University,United States
+54,Pu Gao and Nicholas Wormald,University of Waterloo,,1.0,238,University of Waterloo,Canada
+55,Ilias Diakonikolas,Columbia University,,1.0,13,Columbia University,United States
+55,Prahladh Harsha,Tata Institute of Fundamental Research,
+55,Adam R. Klivans,University of Texas,,0.5714285714285714,139,University of Leeds,United Kingdom
+55,Raghu Meka,University of Texas,,0.5714285714285714,139,University of Leeds,United Kingdom
+55,Prasad Raghavendra,Microsoft Research New England,
+55,Rocco A. Servedio,Columbia University,,1.0,13,Columbia University,United States
+55,Li-Yang Tan,Columbia University,,1.0,13,Columbia University,United States
+56,Prasad Raghavendra,Microsoft Research New England,
+56,David Steurer,Princeton University,,1.0,6,Princeton University,United States
+57,Prasad Raghavendra,Microsoft Research New England,
+57,David Steurer,Princeton University,,1.0,6,Princeton University,United States
+57,Prasad Tetali,Georgia Tech,
+58,Aditya Bhaskara,Princeton University,,1.0,6,Princeton University,United States
+58,Moses Charikar,Princeton University,,1.0,6,Princeton University,United States
+58,Eden Chlamtac,Weizmann Institute of Science,
+58,Uriel Feige,Weizmann Institute of Science,
+58,Aravindan Vijayaraghavan,Princeton University,,1.0,6,Princeton University,United States
+59,Anindya De and Thomas Vidick,UC Berkeley,
+60,Ramamohan Paturi,University of California,
+61,Seth Pettie and Ran Duan,University of Michigan,,1.0,18,University of Michigan,United States
+62,Shuchi Chawla,University of Wisconsin-Madison,,1.0,30,University of Wisconsin-Madison,United States
+62,Jason Hartline,Northwestern University,,1.0,22,Northwestern University,United States
+62,David Malec,University of Wisconsin-Madison,,1.0,30,University of Wisconsin-Madison,United States
+62,Balasubramanian Sivan,University of Wisconsin-Madison,,1.0,30,University of Wisconsin-Madison,United States
+63,Alexandra Kolla,Institute for Advanced Study,
+63,Yury Makarychev,Toyota Technological Institute at Chicago,
+63,Amin Saberi,Stanford University,,1.0,4,Stanford University,United States
+63,Shang-Hua Teng,University of Southern California,,1.0,70,University of Southern California,United States
+64,James R. Lee and Mohammad Moharrami,University of Washington,,1.0,25,University of Washington,United States
+65,Elad Verbin,ITCS,
+66,Tamal K. Dey,Ohio State University,,1.0,59,Ohio State University,United States
+66,Anil N. Hirani,University of Illinois at Urbana-Champaign,,0.9666666666666667,29,University of Illinois at Urbana Champaign,United States
+66,Bala Krishnamoorthy,Washington State University,,1.0,325,Washington State University,United States
+67,Fabian Kuhn,University of Lugano,
+67,Nancy Lynch,MIT,,1.0,5,Massachusetts Institute of Technology (MIT),United States
+67,Rotem Oshman,MIT,,1.0,5,Massachusetts Institute of Technology (MIT),United States
+68,Scott Aaronson and Andrew Drucker,MIT,,1.0,5,Massachusetts Institute of Technology (MIT),United States
+69,Krzysztof Onak,MIT,,1.0,5,Massachusetts Institute of Technology (MIT),United States
+69,Ronitt Rubinfeld,MIT and Tel Aviv University,,1.0,5,Massachusetts Institute of Technology (MIT),United States
+70,Silvio Lattanzi and Alessandro Panconesi,Sapienza University,
+71,Yevgeniy Dodis,New York University,
+71,Mihai Pastrascu,ATnT Labs,
+71,Mikkel Thorup,ATnT Labs,
+72,Shiva Kasiviswanathan,Los Alamos National Laboratory,
+72,Mark Rudelson,University of Missouri,,1.0,325,University of Missouri,United States
+72,Adam Smith,Pennsylvania State University,,1.0,49,Pennsylvania State University,United States
+72,Jonathan Ullman,Harvard University,,1.0,2,Harvard University,United States
+73,Daniel Lokshtanov and Jesper Nederlof,University of Bergen,,1.0,213,University of Bergen,Norway
+74,Nishanth Chandran,UCLA,,1.0,12,"University of California, Los Angeles (UCLA)",United States
+74,Bhavana Kanukurthi,Boston University,,1.0,50,Boston University,United States
+74,Rafail Ostrovsky,UCLA,,1.0,12,"University of California, Los Angeles (UCLA)",United States
+74,Leonid Reyzin,Boston University,,1.0,50,Boston University,United States
+75,Anirban Dasgupta and Ravi Kumar and Tamas Sarlos,Yahoo! Research,
+76,Swastik Kopparty and Shubhangi Saraf,MIT,,1.0,5,Massachusetts Institute of Technology (MIT),United States
+77,Cynthia Dwork,Microsoft Research,
+77,Moni Naor,Weizmann Institute,
+77,Toniann Pitassi,University of Toronto,,1.0,20,University of Toronto,Canada
+77,Guy Rothblum,Princeton University,,1.0,6,Princeton University,United States
