@@ -13,7 +13,8 @@ object Runner {
     //saveUniversities()
     //saveAAMAS()
     //printUniversitySimilarities()
-    join()
+    //join()
+    saveStoc()
   }
 
   def join() = {
@@ -165,5 +166,39 @@ object Runner {
     val writer = CSVWriter.open(f)
     writer.writeAll(items)
     writer.close()
+  }
+
+  def saveStoc() = {
+    val address = "http://theory.stanford.edu/stoc2013/accepted.html"
+    val stocDoc: nodes.Document = Jsoup.connect(address).get();
+
+    val commasInParentsRegex = new Regex("\\(([^(),]+)(,.*)\\)")
+    //val authorUniversityMatcher = new Regex("([^)(]+) \\(([^)(]+)\\)", "name", "uni")
+    val authorUniversityMatcher = new Regex(" ?(and )?([^)(]+) \\(([^)(]+)\\)", "and", "name", "uni")
+
+    val papers = stocDoc.getElementsByTag("pre").last().text()
+    println(papers)
+    val papersSeq = papers.replaceAll("(?m)^$", "|").split('|')
+    println(papersSeq.toList)
+    val entries = for (
+      (paper, index) <- papersSeq.zipWithIndex;
+      lines = paper.split("\n").filter(_.length > 0).map(_.trim());
+      if(lines.length == 2);
+      (title, authors) = (lines.head, lines.last);
+      authorsSanitized = commasInParentsRegex.replaceAllIn(authors, "($1)");
+      authorsList = authorsSanitized.split(',').map(_.trim().replaceFirst("^and", "").replaceAll("\\s+", " ").trim()).toList;
+      authorsUniversities <- authorsList;
+      m <- authorUniversityMatcher.findAllMatchIn(authorsUniversities)
+    ) yield {
+      val name = m.group("name");
+      val uni= m.group("uni")
+      /*
+      println(index)
+      println(title)
+      println(name)
+      println(uni)*/
+      (index, name, uni)
+    }
+    println(entries.toList)
   }
 }
