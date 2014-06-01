@@ -47,4 +47,12 @@ object Utils {
   def sameCaseInsensitive(s1: String, s2: String): Boolean = {
     s1.compareToIgnoreCase(s2) == 0
   }
+
+  def tryParseInt(s: String): Option[Int] = {
+    try {
+      Some(Integer.parseInt(s))
+    } catch{
+      case _: java.lang.NumberFormatException => None
+    }
+  }
 }
