@@ -51,13 +51,13 @@ paper_id,researcher_name,university_name,country,univ_similarity,university_rank
 17,Valdinei Freire da Silva,Universidade de São Paulo,Brazil,0.7857142857142857,226-250,University of São Paulo,Brazil,Data withheld by THE
 17,Fabio Gagliardi Cozman,Universidade de São Paulo,Brazil,0.7857142857142857,226-250,University of São Paulo,Brazil,Data withheld by THE
 17,Anna Helena Reali Costa,Universidade de São Paulo,Brazil,0.7857142857142857,226-250,University of São Paulo,Brazil,Data withheld by THE
-18,Kevin Gold,MIT Lincoln Laboratory,USA
-18,Zachary J. Weber,MIT Lincoln Laboratory,USA
-18,Ben Priest,MIT Lincoln Laboratory,USA
+18,Kevin Gold,MIT Lincoln Laboratory,USA,1.0,5,Massachusetts Institute of Technology (MIT),United States,93.0
+18,Zachary J. Weber,MIT Lincoln Laboratory,USA,1.0,5,Massachusetts Institute of Technology (MIT),United States,93.0
+18,Ben Priest,MIT Lincoln Laboratory,USA,1.0,5,Massachusetts Institute of Technology (MIT),United States,93.0
 18,Josh Ziegler,Air Force Institute of Technology,USA
 18,Karen Sittig,Massachusetts Institute of Technology,USA,0.76,5,Massachusetts Institute of Technology (MIT),United States,93.0
-18,William W. Streilein,MIT Lincoln Laboratory,USA
-18,Mark Mazumder,MIT Lincoln Laboratory,USA
+18,William W. Streilein,MIT Lincoln Laboratory,USA,1.0,5,Massachusetts Institute of Technology (MIT),United States,93.0
+18,Mark Mazumder,MIT Lincoln Laboratory,USA,1.0,5,Massachusetts Institute of Technology (MIT),United States,93.0
 19,Syed Muhammad Ali Abbas,Manchester Metropolitan Univeristy Business School,UK
 20,Natalie Fridman,Academic College of Management,Israel
 20,Gal A. Kaminka,Bar Ilan University,Israel
@@ -365,7 +365,7 @@ paper_id,researcher_name,university_name,country,univ_similarity,university_rank
 116,Matteo Venanzi,University of Southampton,UK,1.0,146,University of Southampton,United Kingdom,48.9
 116,Alex Rogers,University of Southampton,UK,1.0,146,University of Southampton,United Kingdom,48.9
 116,Nicholas R. Jennings,University of Southampton,UK,1.0,146,University of Southampton,United Kingdom,48.9
-117,W. Bradley Knox,MIT Media Lab,USA
+117,W. Bradley Knox,MIT Media Lab,USA,1.0,5,Massachusetts Institute of Technology (MIT),United States,93.0
 118,Matthew Yee-King,"Goldsmiths College, University of London",UK
 118,Roberto Confalonieri,"Goldsmiths College, University of London",UK
 118,Dave de Jonge,Artificial Intelligence Research Institute,Spain

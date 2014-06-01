@@ -38,5 +38,12 @@ object Levenshtein {
     1.0 - distance(s1, s2) * 1.0 / maxLength(s1, s2)
   }
 
+  def heuristicWithAcronymMatcher(s1: String, s2: String): Double = {
+    if(Utils.haveMatchingAcronym(s1, s2))
+      1.0
+    else
+      heuristicSimilarity2(s1, s2)
+  }
+
   def printDistance(s1:String, s2:String)=println("%s -> %s : %d".format(s1, s2, distance(s1, s2)))
 }

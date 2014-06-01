@@ -27,7 +27,7 @@ object Runner {
       for (universityRow <- universityRows) {
         val universityName = Utils.stripUniversities(universityRow(1))
         val universityCountry = Utils.stripCountries(universityRow(2))
-        val curScore = Levenshtein.heuristicSimilarity2(researcherUniversity, universityName)
+        val curScore = Levenshtein.heuristicWithAcronymMatcher(researcherUniversity, universityName)
         val distance = Levenshtein.distance(researcherUniversity, universityName)
         val potentialTuple = (curScore, universityRow)
         if ((curScore > Levenshtein.minSimilarity2 || distance <= Levenshtein.freeDiff) &&
