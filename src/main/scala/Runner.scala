@@ -15,55 +15,34 @@ object Runner {
     //printUniversitySimilarities()
     //join()
     //saveStoc()
-    joinAAMAS()
+    //joinAAMAS()
+
+    joinAndSave(getStoc(), "stoc_join.csv")
   }
 
-  /*
-  def joinAAMASOld() = {
-    val hr :: researcherRows = CSVReader.open(new File("AAMAS_2013.csv")).all()
-    val hu :: universityRows = CSVReader.open(new File("universities_12-13.csv")).all()
-
-    val res = for(researcherRow: List[String] <- researcherRows) yield {
-      val researcherUniversity = Utils.stripUniversities(researcherRow(2))
-      val researcherCountry = Utils.stripCountries(researcherRow(3))
-      var best: Option[(Double, List[String])] = None
-      for (universityRow <- universityRows) {
-        val universityName = Utils.stripUniversities(universityRow(1))
-        val universityCountry = Utils.stripCountries(universityRow(2))
-        val curScore = Levenshtein.heuristicWithAcronymMatcher(researcherUniversity, universityName)
-        val distance = Levenshtein.distance(researcherUniversity, universityName)
-        val potentialTuple = (curScore, universityRow)
-        if ((curScore > Levenshtein.minSimilarity2 || distance <= Levenshtein.freeDiff) &&
-            Utils.sameCaseInsensitive(researcherCountry, universityCountry)) {
-          best = Some(best.fold(potentialTuple)(t => if(t._1 < curScore) potentialTuple else t))
-        }
-      }
-
-      researcherRow ::: best.map(x => List(x._1.toString())).getOrElse(List()) ::: best.map(_._2).getOrElse(List())
-    }
-
-    //println(res)
-    val writer = CSVWriter.open(new File("result.csv"))
-    writer.writeRow(hr ::: List("univ_similarity") ::: hu)
-    writer.writeAll(res)
-    writer.close()
+  def getUniversities(): Seq[University] = {
+    val hu :: universityRows = CSVReader.open(new File("csv/universities_12-13.csv")).all()
+    universityRows.map(ls => University(ls(0), ls(1), ls(2)))
   }
-  */
+  def csvHeaders(): List[String] = List("paper_id","researcher_name","university_name", "country", "univ_similarity", "university_rank", "university_name", "country" )
 
   def joinAAMAS() = {
-    val hr :: researcherRows = CSVReader.open(new File("AAMAS_2013.csv")).all()
-    val hu :: universityRows = CSVReader.open(new File("universities_12-13.csv")).all()
-
+    val hr :: researcherRows = CSVReader.open(new File("csv/AAMAS_2013.csv")).all()
     val researchers = researcherRows.map(ls => Scientist(Integer.parseInt(ls(0)), ls(1), ls(2), Some(ls(3))))
-    val universities = universityRows.map(ls => University(ls(0), ls(1), ls(2)))
 
-    val resList = joinResultToStringList(join(researchers, universities))
+    joinAndSave(researchers, "AAMAS_test.csv")
+  }
 
-    val writer = CSVWriter.open(new File("resultAAMAS_rank.csv"))
-    writer.writeRow(hr ::: List("univ_similarity") ::: hu)
+  def joinAndSave(scientists: Seq[Scientist], filename: String) = {
+    val universities = getUniversities()
+    val resList = joinResultToStringList(join(scientists, universities))
+
+    val writer = CSVWriter.open(new File("csv/" ++ filename))
+    writer.writeRow(csvHeaders())
     writer.writeAll(resList)
     writer.close()
   }
+
 
   def join(scientists: Seq[Scientist], universities: Seq[University]): Seq[(Scientist, Option[(Double, University)])] = {
 
@@ -136,8 +115,6 @@ object Runner {
     def getResearcherElements(paper: nodes.Element): Elements = {
       paper.getElementsByAttributeValue("color", "#222222")
     }
-
-
 
     //val regex = new Regex("^([^\\(\\)]*)\\((.*)\\)$", "researcher", "uni")
     val regex = new Regex("^([^\\(\\)]*)\\((.*), ([^,]*)\\)$", "researcher", "uni", "country")
@@ -212,8 +189,7 @@ object Runner {
       writer.writeAll(tuples.map{case (t1, t2, t3, t4) => List(t1, t2, t3, t4)})
       writer.close()
     }
-    //save()
-
+    save()
   }
 
   def saveCsv(fileName: String, items: Seq[Seq[Any]]) = {
@@ -223,7 +199,7 @@ object Runner {
     writer.close()
   }
 
-  def saveStoc() = {
+  def getStoc(): Seq[Scientist] = {
     val address = "http://theory.stanford.edu/stoc2013/accepted.html"
     val stocDoc: nodes.Document = Jsoup.connect(address).get();
 
@@ -252,8 +228,8 @@ object Runner {
       println(title)
       println(name)
       println(uni)*/
-      (index, name, uni)
+      Scientist(index, name, uni)
     }
-    println(entries.toList)
+    entries
   }
 }
