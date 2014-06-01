@@ -14,10 +14,12 @@ object Runner {
     //saveAAMAS()
     //printUniversitySimilarities()
     //join()
-    saveStoc()
+    //saveStoc()
+    joinAAMAS()
   }
 
-  def join() = {
+  /*
+  def joinAAMASOld() = {
     val hr :: researcherRows = CSVReader.open(new File("AAMAS_2013.csv")).all()
     val hu :: universityRows = CSVReader.open(new File("universities_12-13.csv")).all()
 
@@ -44,6 +46,59 @@ object Runner {
     val writer = CSVWriter.open(new File("result.csv"))
     writer.writeRow(hr ::: List("univ_similarity") ::: hu)
     writer.writeAll(res)
+    writer.close()
+  }
+  */
+
+  def joinAAMAS() = {
+    val hr :: researcherRows = CSVReader.open(new File("AAMAS_2013.csv")).all()
+    val hu :: universityRows = CSVReader.open(new File("universities_12-13.csv")).all()
+
+    val researchers = researcherRows.map(ls => Scientist(Integer.parseInt(ls(0)), ls(1), ls(2), Some(ls(3))))
+    val universities = universityRows.map(ls => University(ls(0), ls(1), ls(2)))
+
+    val resList = joinResultToStringList(join(researchers, universities))
+
+    val writer = CSVWriter.open(new File("resultAAMAS_rank.csv"))
+    writer.writeRow(hr ::: List("univ_similarity") ::: hu)
+    writer.writeAll(resList)
+    writer.close()
+  }
+
+  def join(scientists: Seq[Scientist], universities: Seq[University]): Seq[(Scientist, Option[(Double, University)])] = {
+
+    val res = for(scientist <- scientists) yield {
+      val researcherUniversity = Utils.stripUniversities(scientist.uni)
+      val researcherCountry = scientist.country.map(Utils.stripCountries(_))
+
+      var best: Option[(Double, University)] = None
+      for (university <- universities) {
+        val universityName = Utils.stripUniversities(university.name)
+        val universityCountry = Utils.stripCountries(university.country)
+        val curScore = Levenshtein.heuristicWithAcronymMatcher(researcherUniversity, universityName)
+        val distance = Levenshtein.distance(researcherUniversity, universityName)
+        val potentialTuple = (curScore, university)
+        if ((curScore > Levenshtein.minSimilarity2 || distance <= Levenshtein.freeDiff) &&
+            researcherCountry.fold(true)(Utils.sameCaseInsensitive(_, universityCountry))) {
+          best = Some(best.fold(potentialTuple)(t => if(t._1 < curScore) potentialTuple else t))
+        }
+      }
+
+      (scientist, best)
+    }
+
+    res
+  }
+
+  def joinResultToStringList(res: Seq[(Scientist, Option[(Double, University)])]): Seq[List[String]] = {
+    res.map {case (scientist, scoreUniOption) =>
+
+      val secondPart = scoreUniOption match {
+        case None => List()
+        case Some((score, uni)) => score.toString() :: uni.toListWithRank
+      }
+      scientist.toList ::: secondPart
+    }
   }
 
   def printUniversitySimilarities() = {

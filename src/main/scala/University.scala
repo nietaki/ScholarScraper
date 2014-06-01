@@ -11,4 +11,12 @@ case class University(rankString: String, name: String, country: String) {
       }
     }
   }
+
+  def toList = {
+    List(rankString, name, country)
+  }
+
+  def toListWithRank = {
+    List[String](rank.toString(), name, country)
+  }
 }
